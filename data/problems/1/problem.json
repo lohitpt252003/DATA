@@ -1,0 +1,30 @@
+{
+    "title" : "Add",
+    "id" : 1,
+    "language_supported" : "c, cpp, py",
+    "author" : 1,
+    "tester" : 1,
+    "statement" : "Add the given two numbers",
+    "description" : "There is nothing to describe the problem\nAuthor has covered everything in the statment itself.",
+    "input_format" : "Two integers a and b",
+    "output_format" : "Print a + b in single line",
+    "time_limit" : "1s",
+    "space_limit" : "1MB",
+    "constraints" : {
+        "-100 <= a <= 100" : true,
+        "-100 <= b <= 100" : true
+    },
+    "sample_testcases" : [
+        {
+            "input" : "1 2",
+            "output" : "3",
+            "explanation" : "1 + 2 = 3"
+        },
+        {
+            "input" : "2 3",
+            "output" : "5",
+            "explanation" :"2 + 3 = 5"
+        }
+    ],
+    "tags" : ["input", "output", "basic"]
+}
