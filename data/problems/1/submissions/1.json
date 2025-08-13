@@ -4,7 +4,7 @@
     "expected_stdout": "1\r\n", 
     "stdout": "1\n", 
     "stderr": "", 
-    "testcase_status": True
+    "testcase_status": true
   },
   {
     "testcase": 2, 
@@ -12,6 +12,6 @@
     "expected_stdout": "2\r\n", 
     "stdout": "2\n\n", 
     "stderr": "", 
-    "testcase_status": True
+    "testcase_status": true
   }
 ]
