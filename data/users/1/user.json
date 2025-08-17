@@ -1,0 +1,17 @@
+{
+    "user_id": 1,
+    "username": "admin",
+    "name" : "Admin bhai",
+    "registered_on": "2025-06-04T10:00:00Z",
+    "stats" : {
+        "no_of_attempts" : 0,
+        "no_of_correct_attempts": 0,
+        "submission_ids" : [],
+        "problems" : {
+            "solved" : [],
+            "attempted" : [],
+            "unsolved" : []
+        },
+        "languages_used" : []
+    }
+}
