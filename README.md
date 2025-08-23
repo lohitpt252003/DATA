@@ -58,12 +58,12 @@ E:\NEW\DATA\
 │   └───users\
 │       ├───index.json
 │       ├───U1\
-│       │   ├───metadata.json
+│       │   ├───meta.json
 │   │   │   └───submissions\
 │   │   │       ├───S1.json
 │   │   │       └───S2.json
 │       └───U2\
-│           ├───metadata.json
+│           ├───meta.json
 │           └───submissions\
 │               ├───S1.json
 │               └───S2.json
