@@ -90,7 +90,7 @@ E:\NEW\DATA\
 
 - `index.json`: A JSON file that contains a list of all users and their metadata, such as username and name.
 - `U1/`, `U2/`, etc.: Each user has their own directory, named with a unique user ID (e.g., `U1`). **Here, `U` stands for "user" and the number is the `user_id`.**
-    - `metadata.json`: Contains metadata specific to the user.
+    - `meta.json`: Contains metadata specific to the user.
     - `submissions/`: A directory containing submissions made by this user.
 
 ## General Structure
