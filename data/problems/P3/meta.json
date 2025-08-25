@@ -1,0 +1,15 @@
+{
+  "id": "P3",
+  "title": "Multiply",
+  "timeLimit": 1000,
+  "memoryLimit": 256,
+  "difficulty": "Easy",
+  "tags": [
+    "easy",
+    "math"
+  ],
+  "authors": [
+    "Gemini"
+  ],
+  "number_of_submissions": 0
+}
