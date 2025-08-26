@@ -57,5 +57,16 @@
     "authors": [
       "Gemini"
     ]
+  },
+  "P6": {
+    "title": "Test Problem",
+    "difficulty": "Easy",
+    "tags": [
+      "testing",
+      "easy"
+    ],
+    "authors": [
+      "Gemini"
+    ]
   }
 }
