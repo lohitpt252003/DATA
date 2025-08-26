@@ -24,16 +24,5 @@
       "baz",
       "boss"
     ]
-  },
-  "P3": {
-    "title": "Test Problem",
-    "difficulty": "Easy",
-    "tags": [
-      "testing",
-      "easy"
-    ],
-    "authors": [
-      "Gemini"
-    ]
   }
 }
