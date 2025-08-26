@@ -24,49 +24,5 @@
       "baz",
       "boss"
     ]
-  },
-  "P3": {
-    "title": "Test Problem",
-    "difficulty": "Easy",
-    "tags": [
-      "testing",
-      "easy"
-    ],
-    "authors": [
-      "Gemini"
-    ]
-  },
-  "P4": {
-    "title": "Test Problem",
-    "difficulty": "Easy",
-    "tags": [
-      "testing",
-      "easy"
-    ],
-    "authors": [
-      "Gemini"
-    ]
-  },
-  "P5": {
-    "title": "Test Problem",
-    "difficulty": "Easy",
-    "tags": [
-      "testing",
-      "easy"
-    ],
-    "authors": [
-      "Gemini"
-    ]
-  },
-  "P6": {
-    "title": "Test Problem",
-    "difficulty": "Easy",
-    "tags": [
-      "testing",
-      "easy"
-    ],
-    "authors": [
-      "Gemini"
-    ]
   }
 }
