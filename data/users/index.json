@@ -1,4 +1,14 @@
 {
-  "U1": { "username": "boss", "Name": "Chris Gayle" },
-  "U2": { "username": "baz", "email": "Brendon McCullum" }
+  "U1": {
+    "username": "boss",
+    "Name": "Chris Gayle"
+  },
+  "U2": {
+    "username": "baz",
+    "email": "Brendon McCullum"
+  },
+  "U3": {
+    "username": "testuser",
+    "Name": "Test User"
+  }
 }
