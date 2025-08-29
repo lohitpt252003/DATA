@@ -3,6 +3,26 @@
   "user_id": "U1",
   "problem_id": "P1",
   "timestamp": "2025-08-29T10:48:53Z",
-  "status": "Pending",
-  "language": "python"
+  "status": "wrong_answer",
+  "language": "python",
+  "test_results": [
+    {
+      "test_case_number": 1,
+      "status": "wrong_answer",
+      "message": "Output mismatch",
+      "execution_time": 0.0,
+      "memory_usage": 7.6640625,
+      "actual_output": "Hello World\n",
+      "expected_output": "2"
+    },
+    {
+      "test_case_number": 2,
+      "status": "wrong_answer",
+      "message": "Output mismatch",
+      "execution_time": 0.01,
+      "memory_usage": 7.73046875,
+      "actual_output": "Hello World\n",
+      "expected_output": "4"
+    }
+  ]
 }
