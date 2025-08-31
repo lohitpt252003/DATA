@@ -3,6 +3,26 @@
   "user_id": "U1",
   "problem_id": "P1",
   "timestamp": "2025-08-31T18:00:26Z",
-  "status": "Pending",
-  "language": "c"
+  "status": "compilation_error",
+  "language": "c",
+  "test_results": [
+    {
+      "test_case_number": 1,
+      "status": "compilation_error",
+      "message": "Compilation Error: solution.c:1:1: error: unknown type name 'THis'\n    1 | THis is test\n      | ^~~~\nsolution.c:1:9: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'test'\n    1 | THis is test\n      |         ^~~~\n",
+      "execution_time": 0,
+      "memory_usage": 0,
+      "actual_output": "",
+      "expected_output": "2"
+    },
+    {
+      "test_case_number": 2,
+      "status": "compilation_error",
+      "message": "Compilation Error: solution.c:1:1: error: unknown type name 'THis'\n    1 | THis is test\n      | ^~~~\nsolution.c:1:9: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'test'\n    1 | THis is test\n      |         ^~~~\n",
+      "execution_time": 0,
+      "memory_usage": 0,
+      "actual_output": "",
+      "expected_output": "4"
+    }
+  ]
 }
