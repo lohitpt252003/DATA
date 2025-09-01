@@ -1,2 +1,1 @@
-a,b = map(int, input().split())
-print(abs(b-a))
+e132e12
