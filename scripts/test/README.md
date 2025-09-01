@@ -98,3 +98,71 @@ python -m scripts.test.test_index --problem_id <problem_id>
 ```bash
 python -m scripts.test.test_index --problem_id P1
 ```
+
+### `test_solution_md.py`
+
+Validates the `solution.md` file for a specific problem.
+
+**Usage:**
+
+```bash
+python -m scripts.test.test_solution_md <problem_id>
+```
+
+**Example:**
+
+```bash
+python -m scripts.test.test_solution_md P1
+```
+
+## Solution Test Runners
+
+These scripts run the provided solutions against the problem's test cases and report the results.
+
+### `run_py_solution.py`
+
+Runs the Python solution for a specific problem against its test cases.
+
+**Usage:**
+
+```bash
+python -m scripts.test.run_py_solution <problem_id>
+```
+
+**Example:**
+
+```bash
+python -m scripts.test.run_py_solution P1
+```
+
+### `run_c_solution.py`
+
+Compiles and runs the C solution for a specific problem against its test cases.
+
+**Usage:**
+
+```bash
+python -m scripts.test.run_c_solution <problem_id>
+```
+
+**Example:**
+
+```bash
+python -m scripts.test.run_c_solution P1
+```
+
+### `run_cpp_solution.py`
+
+Compiles and runs the C++ solution for a specific problem against its test cases.
+
+**Usage:**
+
+```bash
+python -m scripts.test.run_cpp_solution <problem_id>
+```
+
+**Example:**
+
+```bash
+python -m scripts.test.run_cpp_solution P1
+```

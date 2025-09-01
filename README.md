@@ -9,6 +9,7 @@ The `data` directory is organized into three main subdirectories:
 - `problems`: Contains information about the coding problems.
 - `submissions`: Contains user submissions for the problems.
 - `users`: Contains information about the users.
+- `solutions`: Contains official solutions for the problems.
 
 ## Directory Structure
 
@@ -62,11 +63,33 @@ E:\NEW\DATA\
 │   │   │   └───submissions\
 │   │   │       ├───S1.json
 │   │   │       └───S2.json
-│       └───U2\
-│           ├───meta.json
-│           └───submissions\
-│               ├───S1.json
-│               └───S2.json
+│   │   └───U2\
+│   │       ├───meta.json
+│   │       └───submissions\
+│   │           ├───S1.json
+│   │           └───S2.json
+├───solutions\
+│   ├───P1\
+│   │   ├───solution.c
+│   │   ├───solution.cpp
+│   │   ├───solution.md
+│   │   └───solution.py
+│   └───P2\
+│       ├───solution.c
+│       ├───solution.cpp
+│       ├───solution.md
+│       └───solution.py
+├───scripts\
+│   ├───main_validator.py
+│   └───test\
+│       ├───run_c_solution.py
+│       ├───run_cpp_solution.py
+│       ├───run_py_solution.py
+│       ├───test_index.py
+│       ├───test_md.py
+│       ├───test_meta.py
+│       ├───test_solution_md.py
+│       └───test_testcases.py
 ├───LICENSE
 └───README.md
 ```
@@ -94,6 +117,12 @@ E:\NEW\DATA\
     - `meta.json`: Contains metadata specific to the user.
     - `submissions/`: A directory containing submissions made by this user.
 
+### `solutions`
+
+- `P1/`, `P2/`, etc.: Each problem has a directory containing its official solutions.
+    - `solution.py`, `solution.cpp`, `solution.c`: The solution code in different languages.
+    - `solution.md`: An explanation of the solution approach.
+
 ## General Structure
 
 The data is stored in a hierarchical file system structure, with each directory representing an entity (e.g., a problem, a submission, a user) and JSON files within those directories storing metadata. This approach allows for a simple, human-readable database that can be easily managed and version-controlled.
@@ -101,3 +130,9 @@ The data is stored in a hierarchical file system structure, with each directory 
 The use of `index.json` files in the `problems` and `users` directories provides a quick way to get a list of all items without having to traverse the entire directory structure. The individual entity directories (e.g., `P1`, `S1`, `U1`) contain the specific data for that entity.
 
 This structure is designed to be easily extensible. For example, to add a new problem, you would simply create a new directory with a unique problem ID and add the necessary files.
+
+## Validation and Solution Scripts
+
+The `scripts/` directory contains a suite of Python scripts designed to validate the problem data and run official solutions against test cases. The main entry point is `main_validator.py`.
+
+For detailed instructions on how to use these scripts, please refer to the [README.md in the scripts directory](./scripts/README.md).

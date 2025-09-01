@@ -18,7 +18,11 @@ def main():
         ("meta.json", ["python", "-m", "scripts.test.test_meta", problem_id]),
         ("problem.md", ["python", "-m", "scripts.test.test_md", problem_id]),
         ("testcases", ["python", "-m", "scripts.test.test_testcases", problem_id]),
-        ("index.json", ["python", "-m", "scripts.test.test_index", "--problem_id", problem_id])
+        ("index.json", ["python", "-m", "scripts.test.test_index", "--problem_id", problem_id]),
+        ("solution.md", ["python", "-m", "scripts.test.test_solution_md", problem_id]),
+        ("Python Solution", ["python", "-m", "scripts.test.run_py_solution", problem_id]),
+        ("C Solution", ["python", "-m", "scripts.test.run_c_solution", problem_id]),
+        ("C++ Solution", ["python", "-m", "scripts.test.run_cpp_solution", problem_id])
     ]
 
     for test_name, test_command in tests_to_run:

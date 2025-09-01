@@ -5,7 +5,7 @@ This directory contains scripts for validating the problem data in this reposito
 
 ## Main Validator
 
-The `main_validator.py` script is the primary script for validating a problem. It runs a complete suite of tests for a given `problem_id` to ensure that the problem's data is well-formed and complete.
+The `main_validator.py` script is the primary script for validating a problem. It runs a complete suite of tests for a given `problem_id` to ensure that the problem's data is well-formed and complete, **including running the provided solutions against the problem's test cases**.
 
 ### Usage
 
