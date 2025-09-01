@@ -1,11 +1,10 @@
-
 import os
 import sys
 import argparse
 import subprocess
 
 def run_cpp_solution(problem_id):
-    solution_dir = os.path.join("solutions", problem_id)
+    solution_dir = os.path.join("data", "solutions", problem_id)
     solution_path = os.path.join(solution_dir, "solution.cpp")
     executable_path = os.path.abspath(os.path.join(solution_dir, "solution_cpp_executable.exe")) # Temporary executable name
     testcases_dir = os.path.join("data", "problems", problem_id, "testcases")

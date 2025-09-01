@@ -1,11 +1,10 @@
-
 import os
 import sys
 import argparse
 import subprocess
 
 def run_python_solution(problem_id):
-    solution_path = os.path.join("solutions", problem_id, "solution.py")
+    solution_path = os.path.join("data", "solutions", problem_id, "solution.py")
     testcases_dir = os.path.join("data", "problems", problem_id, "testcases")
 
     if not os.path.exists(solution_path):

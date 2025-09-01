@@ -1,4 +1,3 @@
-
 import os
 import sys
 import argparse
@@ -12,11 +11,11 @@ def validate_solution_md(solution_md_path):
         content = f.read()
 
     required_sections = [
-        r"## Problem Description",
-        r"## Simple Answer",
-        r"## Detailed Explanation",
-        r"### Python",
-        r"### C++",
+        r"## Problem Description", 
+        r"## Simple Answer", 
+        r"## Detailed Explanation", 
+        r"### Python", 
+        r"### C++", 
         r"### C"
     ]
 
@@ -42,7 +41,7 @@ def main(problem_id_arg=None):
         args = parser.parse_args()
         problem_id = args.problem_id
 
-    solution_md_path = os.path.join("solutions", problem_id, "solution.md")
+    solution_md_path = os.path.join("data", "solutions", problem_id, "solution.md")
 
     error = validate_solution_md(solution_md_path)
     if error:

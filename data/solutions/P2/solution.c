@@ -7,3 +7,4 @@ int main() {
     printf("%lld\n", labs(a - b)); // labs for long long absolute value
     return 0;
 }
+

@@ -35,7 +35,7 @@ The absolute difference between two numbers, `a` and `b`, is the non-negative di
 
 ### Constraints and Data Types
 
-Similar to Problem 1, `a` and `b` can range from -10<sup>9</sup> to 10<sup>9</sup>. Their difference `a - b` can range from -2 * 10<sup>9</sup> to 2 * 10<sup>9</sup>. Therefore, `long long` in C/C++ and Python's arbitrary-precision integers are necessary to prevent overflow before taking the absolute value.
+Similar to Problem 1, `a` and `b` can range from -10^9 to 10^9. Their difference `a - b` can range from -2 * 10^9 to 2 * 10^9. Therefore, `long long` in C/C++ and Python's arbitrary-precision integers are necessary to prevent overflow before taking the absolute value.
 
 ### Language-Specific Implementations
 

@@ -6,3 +6,4 @@ int main() {
     printf("%lld\n", a + b);
     return 0;
 }
+

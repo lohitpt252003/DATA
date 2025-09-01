@@ -56,10 +56,10 @@ E:\NEW\DATA\
 │   │   └───S4\
 │   │       ├───code.py
 │   │       └───meta.json
-│   └───users\
-│       ├───index.json
-│       ├───U1\
-│       │   ├───meta.json
+│   ├───users\
+│   │   ├───index.json
+│   │   ├───U1\
+│   │   │   ├───meta.json
 │   │   │   └───submissions\
 │   │   │       ├───S1.json
 │   │   │       └───S2.json
@@ -68,17 +68,17 @@ E:\NEW\DATA\
 │   │       └───submissions\
 │   │           ├───S1.json
 │   │           └───S2.json
-├───solutions\
-│   ├───P1\
-│   │   ├───solution.c
-│   │   ├───solution.cpp
-│   │   ├───solution.md
-│   │   └───solution.py
-│   └───P2\
-│       ├───solution.c
-│       ├───solution.cpp
-│       ├───solution.md
-│       └───solution.py
+│   └───solutions\
+│       ├───P1\
+│       │   ├───solution.c
+│   │   │   ├───solution.cpp
+│   │   │   ├───solution.md
+│   │   │   └───solution.py
+│       └───P2\
+│           ├───solution.c
+│           ├───solution.cpp
+│           ├───solution.md
+│           └───solution.py
 ├───scripts\
 │   ├───main_validator.py
 │   └───test\
