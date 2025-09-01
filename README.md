@@ -82,9 +82,10 @@ E:\NEW\DATA\
 
 ### `submissions`
 
+- `meta.json`: A JSON file that contains the total number of submissions.
 - `S1/`, `S2/`, etc.: Each submission has its own directory, named with a unique submission ID (e.g., `S1`). **Here, `S` stands for "submission" and the number is the `submission_id`.**
-    - `code.cpp`: The source code of the submission.
-    - `meta.json`: Contains metadata about the submission, such as the user who submitted it, the problem it's for, and the submission time.
+    - `code.c`, `code.cpp`, or `code.py`: The source code of the submission with the appropriate file extension.
+    - `meta.json`: Contains metadata about the submission, such as the user who submitted it, the problem it's for, the submission time, status, and detailed test results.
 
 ### `users`
 
