@@ -1,0 +1,28 @@
+{
+  "submission_id": "S4",
+  "user_id": "U1",
+  "problem_id": "P1",
+  "timestamp": "2025-09-01T21:31:22Z",
+  "status": "accepted",
+  "language": "python",
+  "test_results": [
+    {
+      "test_case_number": 1,
+      "status": "passed",
+      "message": "Test case passed",
+      "execution_time": 0.0,
+      "memory_usage": 7.87109375,
+      "actual_output": "2\n",
+      "expected_output": "2"
+    },
+    {
+      "test_case_number": 2,
+      "status": "passed",
+      "message": "Test case passed",
+      "execution_time": 0.0,
+      "memory_usage": 7.7890625,
+      "actual_output": "4\n",
+      "expected_output": "4"
+    }
+  ]
+}
