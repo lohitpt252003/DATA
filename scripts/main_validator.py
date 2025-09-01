@@ -1,0 +1,31 @@
+import argparse
+import sys
+import subprocess
+
+def main():
+    parser = argparse.ArgumentParser(description='Run all validation tests for a given problem_id.')
+    parser.add_argument('problem_id', help='The ID of the problem to validate (e.g., P1)')
+    args = parser.parse_args()
+
+    problem_id = args.problem_id
+    if not problem_id.startswith('P'):
+        print("Error: problem_id must be prefixed with 'P'.")
+        sys.exit(1)
+
+    print(f"--- Running all validations for {problem_id} ---")
+
+    tests_to_run = [
+        ("meta.json", ["python", "-m", "scripts.test.test_meta", problem_id]),
+        ("problem.md", ["python", "-m", "scripts.test.test_md", problem_id]),
+        ("testcases", ["python", "-m", "scripts.test.test_testcases", problem_id]),
+        ("index.json", ["python", "-m", "scripts.test.test_index", "--problem_id", problem_id])
+    ]
+
+    for test_name, test_command in tests_to_run:
+        print(f"\n--- Validating {test_name} ---")
+        subprocess.run(test_command, check=True)
+
+    print("\n--- Validation complete ---")
+
+if __name__ == "__main__":
+    main()
