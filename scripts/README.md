@@ -7,6 +7,8 @@ This directory contains scripts for validating the problem data in this reposito
 
 The `main_validator.py` script is the primary script for validating a problem. It runs a complete suite of tests for a given `problem_id` to ensure that the problem's data is well-formed and complete, **including running the provided solutions against the problem's test cases**.
 
+The validator will run the tests sequentially and will exit immediately if any test fails, printing a clear message indicating which test failed.
+
 ### Usage
 
 To run the main validator, execute the following command from the root of the `DATA` directory:
@@ -20,6 +22,10 @@ python -m scripts.main_validator <problem_id>
 ```bash
 python -m scripts.main_validator P1
 ```
+
+### Output
+
+The script will print the progress of the validation, indicating whether each test passed or failed. If a test fails, the script will print the error message from the test and exit. If all tests pass, it will print a success message.
 
 ## Individual Tests
 

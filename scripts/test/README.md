@@ -9,6 +9,8 @@ This directory contains a suite of Python scripts designed to validate the struc
 
 The `main_validator.py` script, located in the parent `scripts/` directory, is the main entry point for validating an entire problem directory. It runs all the individual test scripts for a given `problem_id`.
 
+The validator will run the tests sequentially and will exit immediately if any test fails, printing a clear message indicating which test failed.
+
 ### Usage
 
 From the `DATA` directory, run the following command:

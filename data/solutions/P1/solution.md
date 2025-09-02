@@ -1,5 +1,3 @@
-# Problem 1: Add - Solution Explanation
-
 ## Problem Description
 
 The problem asks us to read two integers, `a` and `b`, and print their sum.
@@ -37,7 +35,7 @@ print(a + b)
 
 #### C++ (`solution.cpp`)
 
-In C++, `long long` is used for `a` and `b` to prevent overflow. `std::cin` and `std::cout` are used for input/output. The `std::endl` flushes the output buffer and adds a newline.
+In C++, `long long` is used for `a` and `b` to prevent overflow. `std::cin` and `std.cout` are used for input/output. The `std::endl` flushes the output buffer and adds a newline.
 
 ```cpp
 #include <iostream>
@@ -60,7 +58,7 @@ In C, `long long` is also used for `a` and `b`. `scanf` with the `%lld` format s
 int main() {
     long long a, b;
     scanf("%lld %lld", &a, &b);
-    printf("%lld\n", a + b);
+    printf("%lld\n", a);
     return 0;
 }
 ```
