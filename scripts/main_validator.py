@@ -25,9 +25,19 @@ def main():
         ("C++ Solution", ["python", "-m", "scripts.test.run_cpp_solution", problem_id])
     ]
 
+    all_passed = True
     for test_name, test_command in tests_to_run:
         print(f"\n--- Validating {test_name} ---")
-        subprocess.run(test_command, check=True)
+        try:
+            subprocess.run(test_command, check=True)
+            print(f"--- {test_name} validation PASSED ---")
+        except subprocess.CalledProcessError:
+            print(f"--- {test_name} validation FAILED ---")
+            all_passed = False
+
+    if not all_passed:
+        print("\n--- Some validations failed. Exiting. ---")
+        sys.exit(1)
 
     print("\n--- Validation complete ---")
 
