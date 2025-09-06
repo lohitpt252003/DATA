@@ -1,0 +1,1 @@
+The input consists of two integers, A and B, on a single line.

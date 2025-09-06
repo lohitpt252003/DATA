@@ -1,0 +1,6 @@
+{
+  "user_id": "U1",
+  "username": "sample_user",
+  "email": "sample@example.com",
+  "solved_problems": ["P1", "P2"]
+}
