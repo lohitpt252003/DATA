@@ -129,7 +129,7 @@ The data is stored in a hierarchical file system structure, with each directory 
 
 The use of `index.json` files in the `problems` and `users` directories provides a quick way to get a list of all items without having to traverse the entire directory structure. The individual entity directories (e.g., `P1`, `S1`, `U1`) contain the specific data for that entity.
 
-This structure is designed to be easily extensible. For example, to add a new problem, you would simply create a new directory with a unique problem ID and add the necessary files.
+This structure is designed to be easily extensible. Problems are primarily added and managed manually. To add a new problem, you would create a new directory with a unique problem ID (e.g., `P3`) under `data/problems/` and populate it with the necessary `meta.json`, `problem.md`, and `testcases` files. This manual approach ensures direct control over problem data.
 
 ## Validation and Solution Scripts
 
