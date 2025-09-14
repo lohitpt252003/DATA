@@ -21,7 +21,7 @@ Read the two numbers, calculate their difference, and then take the absolute val
 
 ### Concept of Absolute Difference
 
-The absolute difference between two numbers, `a` and `b`, is the non-negative difference between them. It can be formally defined as `|a - b|`. This means if `a - b` is positive, the result is `a - b`. If `a - b` is negative, the result is `-(a - b)`, which is equivalent to `b - a`. Essentially, it's the distance between `a` and `b` on the number line, which is always a positive value.
+The absolute difference between two numbers, `a` and `b`, is the non-negative difference between them. It can be formally defined as $|a - b|$. This means if $a - b$ is positive, the result is $a - b$. If $a - b$ is negative, the result is $-(a - b)$, which is equivalent to $b - a$. Essentially, it's the distance between `a` and `b` on the number line, which is always a positive value.
 
 ### Approach
 
