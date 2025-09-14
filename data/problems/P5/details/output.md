@@ -1,1 +1,1 @@
-Print the sum of $num1$ and $num2$ as a string.
+Print the sum of $a$ and $b$.

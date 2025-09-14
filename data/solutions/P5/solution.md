@@ -7,7 +7,10 @@ The approach is to simulate manual addition, digit by digit, from right to left,
 ## Detailed Explanation
 To add two very large numbers, we simulate manual addition, digit by digit, from right to left, handling carries. This approach is necessary because standard integer types in most programming languages cannot hold numbers as large as $10^{1e5}$. Therefore, the numbers are typically processed as sequences of digits (e.g., strings or arrays of integers).
 
-We iterate from their least significant digits (rightmost) to their most significant digits (leftmost). We maintain a $carry$ variable. For each position, we add the corresponding digits from the two numbers (if they exist) and the $carry$ from the previous step. The sum's unit digit becomes part of the result, and the tens digit becomes the new $carry$. This process continues until all digits have been processed and there is no remaining carry. Finally, the result, which was built in reverse, is reversed to get the correct order.
+We iterate from their least significant digits (rightmost) to their most significant digits (leftmost). We maintain a $carry$ variable. For each position, we add the corresponding digits from the two numbers ($a$ and $b$) (if they exist) and the $carry$ from the previous step. The sum's unit digit becomes part of the result, and the tens digit becomes the new $carry$. This process continues until all digits have been processed and there is no remaining carry. Finally, the result, which was built in reverse, is reversed to get the correct order.
+
+### Input/Output Format
+The input consists of two lines, each containing a non-negative integer ($a$ and $b$). The output should be a single line containing their sum. Since the numbers can be very large, they are typically read and printed as strings.
 
 ### Constraints and Data Types
 The problem specifies that $a$ and $b$ are less than $10^{1e5}$. This means they can have up to $10^5$ digits. Standard integer types (like `int` or `long long` in C/C++) cannot store such large numbers, as they typically handle up to about 18-19 digits. Therefore, the numbers must be handled as strings or arrays of digits. Python's arbitrary-precision integers can handle these numbers directly, but the problem often implies implementing the addition logic manually.
