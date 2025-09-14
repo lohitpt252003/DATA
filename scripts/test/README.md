@@ -1,7 +1,7 @@
 
 # Problem Validation Scripts
 
-This directory contains a suite of Python scripts designed to validate the structure and content of problem data before it is added to the repository. It also contains a `utils` directory with helper functions for path resolution.
+This directory contains a suite of Python scripts designed to validate the structure and content of problem data before it is added to the repository. This includes ensuring correct LaTeX syntax for mathematical expressions within problem descriptions. It also contains a `utils` directory with helper functions for path resolution.
 
 **Important:** All commands must be run from the root of the `DATA` directory.
 
@@ -77,7 +77,7 @@ python -m scripts.test.test_output_md P1
 
 ### `test_constraints_md.py`
 
-Validates the `constraints.md` file for a specific problem, ensuring it's not empty.
+Validates the `constraints.md` file for a specific problem, ensuring it's not empty and uses correct LaTeX syntax for mathematical expressions.
 
 **Usage:**
 
@@ -93,7 +93,7 @@ python -m scripts.test.test_constraints_md P1
 
 ### `test_notes_md.py`
 
-Validates the `notes.md` file for a specific problem. This file is optional and can be empty or missing.
+Validates the `notes.md` file for a specific problem. This file is optional and can be empty or missing. If present, it should use correct LaTeX syntax for mathematical expressions (rendered with KaTeX).
 
 **Usage:**
 
@@ -279,4 +279,6 @@ python -m scripts.test.run_cpp_solution <problem_id>
 
 ```bash
 python -m scripts.test.run_cpp_solution P1
+```
+p_solution P1
 ```

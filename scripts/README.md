@@ -5,7 +5,7 @@ This directory contains scripts for validating the problem data in this reposito
 
 ## Main Validator
 
-The `main_validator.py` script is the primary script for validating a problem. It runs a complete suite of tests for a given `problem_id` to ensure that the problem's data is well-formed and complete. This includes validating individual markdown files (description, input, output, constraints, notes, header) within the problem's `details` directory, as well as running the provided solutions against both the main test cases and sample test cases.
+The `main_validator.py` script is the primary script for validating a problem. It runs a complete suite of tests for a given `problem_id` to ensure that the problem's data is well-formed and complete. This includes validating individual markdown files (description, input, output, constraints, notes, header) within the problem's `details` directory, ensuring correct LaTeX syntax for mathematical expressions (rendered with KaTeX), as well as running the provided solutions against both the main test cases and sample test cases.
 
 The validator will run the tests sequentially and will exit immediately if any test fails, printing a clear message indicating which test failed.
 

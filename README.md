@@ -21,73 +21,43 @@ E:\NEW\DATA\
 │   │   ├───index.json
 │   │   ├───P1\
 │   │   │   ├───meta.json
-│   │   │   ├───problem.md
+│   │   │   ├───details\
+│   │   │   │   ├───constraints.md
+│   │   │   │   ├───description.md
+│   │   │   │   ├───header.md
+│   │   │   │   ├───input.md
+│   │   │   │   ├───meta.json
+│   │   │   │   ├───notes.md
+│   │   │   │   ├───output.md
+│   │   │   │   └───samples\
+│   │   │   │       ├───1.in
+│   │   │   │       └───1.out
 │   │   │   ├───submissions\
-│   │   │   │   ├───S1.json
-│   │   │   │   └───S2.json
 │   │   │   └───testcases\
 │   │   │       ├───1.in
-│   │   │       ├───1.out
-│   │   │       ├───2.in
-│   │   │       └───2.out
-│   │   └───P2\
-│   │       ├───meta.json
-│   │       ├───problem.md
-│   │       ├───submissions\
-│   │       │   ├───S1.json
-│   │   │   │   └───S2.json
-│   │   │       └───testcases\
-│   │   │           ├───1.in
-│   │   │           ├───1.out
-│   │   │           ├───2.in
-│   │   │           ├───2.out
-│   │   │           ├───3.in
-│   │   │           └───3.out
-│   ├───submissions\
-│   │   ├───S1\
-│   │   │   ├───code.cpp
-│   │   │   └───meta.json
-│   │   ├───S2\
-│   │   │   ├───code.py
-│   │   │   └───meta.json
-│   │   ├───S3\
-│   │   │   ├───code.py
-│   │   │   └───meta.json
-│   │   └───S4\
-│   │       ├───code.py
-│   │       └───meta.json
-│   ├───users\
-│   │   ├───index.json
-│   │   ├───U1\
-│   │   │   ├───meta.json
-│   │   │   └───submissions\
-│   │   │       ├───S1.json
-│   │   │       └───S2.json
-│   │   └───U2\
-│   │       ├───meta.json
-│   │       └───submissions\
-│   │           ├───S1.json
-│   │           └───S2.json
-│   └───solutions\
-│       ├───P1\
-│       │   ├───solution.c
-│   │   │   ├───solution.cpp
-│   │   │   ├───solution.md
-│   │   │   └───solution.py
-│       └───P2\
-│           ├───solution.c
-│           ├───solution.cpp
-│           ├───solution.md
-│           └───solution.py
+│   │   │       └───1.out
+│   │   ├───P2\...
+│   │   ├───P3\...
+│   │   ├───P4\...
+│   │   └───P5\...
+│   ├───submissions\...
+│   ├───users\...
+│   └───solutions\...
 ├───scripts\
 │   ├───main_validator.py
+│   ├───README.md
 │   ├───test\
 │   │   ├───run_c_solution.py
 │   │   ├───run_cpp_solution.py
 │   │   ├───run_py_solution.py
+│   │   ├───test_constraints_md.py
+│   │   ├───test_description_md.py
+│   │   ├───test_header_md.py
 │   │   ├───test_index.py
-│   │   ├───test_md.py
+│   │   ├───test_input_md.py
 │   │   ├───test_meta.py
+│   │   ├───test_notes_md.py
+│   │   ├───test_output_md.py
 │   │   ├───test_problem_submissions_structure.py
 │   │   ├───test_solution_files_presence.py
 │   │   ├───test_solution_md.py
@@ -142,7 +112,7 @@ The data is stored in a hierarchical file system structure, with each directory 
 
 The use of `index.json` files in the `problems` and `users` directories provides a quick way to get a list of all items without having to traverse the entire directory structure. The individual entity directories (e.g., `P1`, `S1`, `U1`) contain the specific data for that entity.
 
-This structure is designed to be easily extensible. Problems are primarily added and managed manually. To add a new problem, you would create a new directory with a unique problem ID (e.g., `P3`) under `data/problems/` and populate it with the necessary `meta.json`, `problem.md`, and `testcases` files. This manual approach ensures direct control over problem data.
+This structure is designed to be easily extensible. Problems are primarily added and managed manually. To add a new problem, you would create a new directory with a unique problem ID (e.g., `P3`) under `data/problems/` and populate it with the necessary `meta.json`, `problem.md`, and `testcases` files. This manual approach ensures direct control over problem data. Mathematical expressions within problem descriptions and solutions are written using LaTeX syntax for rendering with KaTeX.
 
 ## Validation and Solution Scripts
 

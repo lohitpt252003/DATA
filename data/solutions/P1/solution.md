@@ -58,7 +58,8 @@ In C, `long long` is also used for $a$ and $b$. `scanf` with the `%lld` format s
 int main() {
     long long a, b;
     scanf("%lld %lld", &a, &b);
-    printf("%lld\n", a);
+    printf("%lld\n", a + b);
+
     return 0;
 }
 ```
