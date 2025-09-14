@@ -1,1 +1,1 @@
-Print the integer division of `a` by `b`.
+Print the integer division of $a$ by $b$.

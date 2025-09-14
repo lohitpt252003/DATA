@@ -1,1 +1,1 @@
-- First line: a, b (Two numbers)
+- First line: $a, b$ (Two numbers)

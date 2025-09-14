@@ -1,5 +1,5 @@
 ## Problem Description
-The problem asks us to perform integer division of two integers, `a` by `b`. We are guaranteed that `b` will not be zero.
+The problem asks us to perform integer division of two integers, $a$ by $b$. We are guaranteed that $b \neq 0$.
 
 ## Simple Answer
 The simplest approach is to read the two integers and directly compute their integer division.

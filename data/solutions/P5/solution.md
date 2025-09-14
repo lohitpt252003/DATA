@@ -5,7 +5,7 @@ The problem requires adding two very large non-negative integers, given as strin
 The approach is to simulate manual addition, digit by digit, from right to left, handling carries.
 
 ## Detailed Explanation
-To add two numbers represented as strings, we iterate from their least significant digits (rightmost) to their most significant digits (leftmost). We maintain a `carry` variable. For each position, we add the corresponding digits from `num1` and `num2` (if they exist) and the `carry` from the previous step. The sum's unit digit becomes part of the result, and the tens digit becomes the new `carry`. This process continues until all digits have been processed and there is no remaining carry. Finally, the result string, which was built in reverse, is reversed to get the correct order.
+To add two numbers represented as strings, we iterate from their least significant digits (rightmost) to their most significant digits (leftmost). We maintain a $carry$ variable. For each position, we add the corresponding digits from $num1$ and $num2$ (if they exist) and the $carry$ from the previous step. The sum's unit digit becomes part of the result, and the tens digit becomes the new $carry$. This process continues until all digits have been processed and there is no remaining carry. Finally, the result string, which was built in reverse, is reversed to get the correct order.
 
 ### Python
 Python's string manipulation and list operations make this straightforward. We can convert characters to integers, perform addition, and convert back to characters. The `//` operator for integer division and `%` for modulo are useful for carry and current digit calculation.
@@ -112,4 +112,4 @@ int main() {
 
     return 0;
 }
-```
+`````

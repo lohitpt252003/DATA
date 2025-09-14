@@ -1,1 +1,1 @@
-Print the product of `a` and `b`.
+Print the product of $a$ and $b$.

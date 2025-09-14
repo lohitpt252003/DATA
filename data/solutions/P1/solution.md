@@ -50,7 +50,7 @@ int main() {
 
 #### C (`solution.c`)
 
-In C, `long long` is also used for `a` and `b`. `scanf` with the `%lld` format specifier reads the input, and `printf` with `%lld` prints the sum, followed by a newline character `\n`.
+In C, `long long` is also used for $a$ and $b$. `scanf` with the `%lld` format specifier reads the input, and `printf` with `%lld` prints the sum, followed by a newline character `\n`.
 
 ```c
 #include <stdio.h>

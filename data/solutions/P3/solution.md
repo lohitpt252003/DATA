@@ -5,7 +5,7 @@ The problem asks us to multiply two integers, `a` and `b`. We can read the two i
 The simplest approach is to read the two integers and directly compute their product.
 
 ## Detailed Explanation
-The core of this problem is performing integer multiplication. Most programming languages provide a built-in multiplication operator (`*`) that handles this directly.
+The core of this problem is performing integer multiplication. Most programming languages provide a built-in multiplication operator ($*$) that handles this directly.
 
 ### Python
 In Python, we can read the two space-separated integers using `input().split()`, convert them to integers using `map(int, ...)`, and then print their product.
@@ -30,15 +30,18 @@ int main() {
 ```
 
 ### C
-In C, we can use `scanf` to read the two integers and `printf` to print their product. Ensure to include the `<stdio.h>` header.
+In C, we can use `scanf` to read the two integers and `printf` to print their product. It's important to use `long long` for `a`, `b`, and the result to handle products up to `10^18`. Use `%lld` format specifier for `long long`. Ensure to include the `<stdio.h>` header.
 
 ```c
 #include <stdio.h>
 
 int main() {
-    int a, b;
-    scanf("%d %d", &a, &b);
-    printf("%d\n", a * b);
+    long long a, b;
+    scanf("%lld %lld", &a, &b);
+    printf("%lld\n", a * b);
     return 0;
 }
 ```
+
+
+

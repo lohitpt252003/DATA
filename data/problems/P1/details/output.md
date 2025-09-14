@@ -1,1 +1,1 @@
-- One integer representing the sum of a and b
+- One integer representing the sum of $a$ and $b$.
