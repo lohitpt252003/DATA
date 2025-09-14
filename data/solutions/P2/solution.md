@@ -28,7 +28,7 @@ The absolute difference between two numbers, `a` and `b`, is the non-negative di
 
 ### Constraints and Data Types
 
-Similar to Problem 1, `a` and `b` are less than $10^{17}$. Their difference `a - b` could therefore be up to approximately $2 	imes 10^{17}$. Standard 64-bit integer types (like `long long` in C/C++) are necessary to prevent overflow before taking the absolute value. Python's arbitrary-precision integers are also suitable choices.
+Similar to Problem 1, `a` and `b` are less than $10^{17}$. Their difference `a - b` could therefore be up to approximately $2$ 	times $10^{17}$. Standard 64-bit integer types (like `long long` in C/C++) are necessary to prevent overflow before taking the absolute value. Python's arbitrary-precision integers are also suitable choices.
 
 ### Language-Specific Implementations
 
