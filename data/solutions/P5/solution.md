@@ -1,26 +1,31 @@
 ## Problem Description
-The problem requires adding two very large non-negative integers, given as strings, without using built-in large integer types.
+The problem requires adding two very large non-negative integers, $a$ and $b$.
 
 ## Simple Answer
 The approach is to simulate manual addition, digit by digit, from right to left, handling carries.
 
 ## Detailed Explanation
-To add two numbers represented as strings, we iterate from their least significant digits (rightmost) to their most significant digits (leftmost). We maintain a $carry$ variable. For each position, we add the corresponding digits from $num1$ and $num2$ (if they exist) and the $carry$ from the previous step. The sum's unit digit becomes part of the result, and the tens digit becomes the new $carry$. This process continues until all digits have been processed and there is no remaining carry. Finally, the result string, which was built in reverse, is reversed to get the correct order.
+To add two very large numbers, we simulate manual addition, digit by digit, from right to left, handling carries. This approach is necessary because standard integer types in most programming languages cannot hold numbers as large as $10^{1e5}$. Therefore, the numbers are typically processed as sequences of digits (e.g., strings or arrays of integers).
+
+We iterate from their least significant digits (rightmost) to their most significant digits (leftmost). We maintain a $carry$ variable. For each position, we add the corresponding digits from the two numbers (if they exist) and the $carry$ from the previous step. The sum's unit digit becomes part of the result, and the tens digit becomes the new $carry$. This process continues until all digits have been processed and there is no remaining carry. Finally, the result, which was built in reverse, is reversed to get the correct order.
+
+### Constraints and Data Types
+The problem specifies that $a$ and $b$ are less than $10^{1e5}$. This means they can have up to $10^5$ digits. Standard integer types (like `int` or `long long` in C/C++) cannot store such large numbers, as they typically handle up to about 18-19 digits. Therefore, the numbers must be handled as strings or arrays of digits. Python's arbitrary-precision integers can handle these numbers directly, but the problem often implies implementing the addition logic manually.
 
 ### Python
 Python's string manipulation and list operations make this straightforward. We can convert characters to integers, perform addition, and convert back to characters. The `//` operator for integer division and `%` for modulo are useful for carry and current digit calculation.
 
 ```python
-num1 = input()
-num2 = input()
+a = input()
+b = input()
 
-def addStrings(num1: str, num2: str) -> str:
+def addStrings(a: str, b: str) -> str:
     res = []
-    i, j = len(num1) - 1, len(num2) - 1
+    i, j = len(a) - 1, len(b) - 1
     carry = 0
     while i >= 0 or j >= 0 or carry:
-        n1 = int(num1[i]) if i >= 0 else 0
-        n2 = int(num2[j]) if j >= 0 else 0
+        n1 = int(a[i]) if i >= 0 else 0
+        n2 = int(b[j]) if j >= 0 else 0
         
         current_sum = n1 + n2 + carry
         carry = current_sum // 10
@@ -30,7 +35,7 @@ def addStrings(num1: str, num2: str) -> str:
         j -= 1
     return "".join(res[::-1])
 
-print(addStrings(num1, num2))
+print(addStrings(a, b))
 ```
 
 ### C++
@@ -41,12 +46,12 @@ In C++, we can use `std::string` to represent the numbers. Iterating from right 
 #include <string>
 #include <algorithm> // For std::reverse
 
-std::string addStrings(std::string num1, std::string num2) {
+std::string addStrings(std::string a, std::string b) {
     std::string res = "";
-    int i = num1.length() - 1, j = num2.length() - 1, carry = 0;
+    int i = a.length() - 1, j = b.length() - 1, carry = 0;
     while (i >= 0 || j >= 0 || carry) {
-        int n1 = (i >= 0) ? num1[i--] - '0' : 0;
-        int n2 = (j >= 0) ? num2[j--] - '0' : 0;
+        int n1 = (i >= 0) ? a[i--] - '0' : 0;
+        int n2 = (j >= 0) ? b[j--] - '0' : 0;
         int sum = n1 + n2 + carry;
         res += std::to_string(sum % 10);
         carry = sum / 10;
@@ -56,9 +61,9 @@ std::string addStrings(std::string num1, std::string num2) {
 }
 
 int main() {
-    std::string num1, num2;
-    std::cin >> num1 >> num2;
-    std::cout << addStrings(num1, num2) << std::endl;
+    std::string a, b;
+    std::cin >> a >> b;
+    std::cout << addStrings(a, b) << std::endl;
     return 0;
 }
 ```
@@ -84,19 +89,19 @@ void reverse(char* str) {
 }
 
 int main() {
-    char num1[100005], num2[100005];
-    scanf("%s", num1);
-    scanf("%s", num2);
+    char a[100005], b[100005];
+    scanf("%s", a);
+    scanf("%s", b);
 
     char result[100006]; // Max length + 1 for carry + null terminator
-    int i = strlen(num1) - 1;
-    int j = strlen(num2) - 1;
+    int i = strlen(a) - 1;
+    int j = strlen(b) - 1;
     int k = 0; // index for result
     int carry = 0;
 
     while (i >= 0 || j >= 0 || carry) {
-        int n1 = (i >= 0) ? (num1[i] - '0') : 0;
-        int n2 = (j >= 0) ? (num2[j] - '0') : 0;
+        int n1 = (i >= 0) ? (a[i] - '0') : 0;
+        int n2 = (j >= 0) ? (b[j] - '0') : 0;
 
         int sum = n1 + n2 + carry;
         result[k++] = (sum % 10) + '0';

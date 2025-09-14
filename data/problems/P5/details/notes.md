@@ -1,1 +1,1 @@
-This problem requires implementing addition similar to how it's done manually, digit by digit, with a carry. Pay attention to handling different lengths of numbers and the final carry.
+This problem involves handling very large numbers.
