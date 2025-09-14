@@ -20,7 +20,7 @@ To solve this problem, we need to perform a basic arithmetic operation: addition
 
 ### Constraints and Data Types
 
-The problem specifies that `a` and `b` can range from $-10^9$ to $10^9$. The sum `a + b` could therefore range from $-2 \times 10^9$ to $2 \times 10^9$. Standard 32-bit integer types (like `int` in C/C++ on many systems) might overflow for this range. Therefore, it is crucial to use data types that can accommodate values up to 2 * 10^9. `long long` in C/C++ and Python's arbitrary-precision integers are suitable choices.
+The problem specifies that `a` and `b` are less than $10^{17}$. The sum `a + b` could therefore be up to $2 \times (10^{17} - 1)$. Standard 64-bit integer types (like `long long` in C/C++) are necessary to prevent overflow for this range. Python's arbitrary-precision integers are also suitable choices.
 
 ### Language-Specific Implementations
 

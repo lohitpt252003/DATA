@@ -4,14 +4,7 @@
 
 The problem asks us to find the absolute difference between two integers, `a` and `b`.
 
-**Note on Problem Statement Discrepancy:**
 
-The provided problem statement for "Subtract" has some inconsistencies:
-- The "Output" section incorrectly states to print the "sum of a and b".
-- The "Example 1" and "Example 2" show outputs (`2` and `4`) that correspond to addition, not subtraction.
-- The "Explanation" correctly describes subtraction (e.g., `1 - 1 = 0`).
-
-Based on the problem title "Subtract" and the explicit mention of "absolute difference" in the description, the solutions below are implemented to calculate the absolute difference, disregarding the incorrect examples and output description.
 
 ## Simple Answer
 
@@ -35,7 +28,7 @@ The absolute difference between two numbers, `a` and `b`, is the non-negative di
 
 ### Constraints and Data Types
 
-Similar to Problem 1, $a$ and $b$ can range from $-10^9$ to $10^9$. Their difference $a - b$ can range from $-2$ times $10^9$ to $2$ 	times $10^9$. Therefore, `long long` in C/C++ and Python's arbitrary-precision integers are necessary to prevent overflow before taking the absolute value.
+Similar to Problem 1, `a` and `b` are less than $10^{17}$. Their difference `a - b` could therefore be up to approximately $2 	imes 10^{17}$. Standard 64-bit integer types (like `long long` in C/C++) are necessary to prevent overflow before taking the absolute value. Python's arbitrary-precision integers are also suitable choices.
 
 ### Language-Specific Implementations
 
