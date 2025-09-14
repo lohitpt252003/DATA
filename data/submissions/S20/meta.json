@@ -1,0 +1,40 @@
+{
+  "submission_id": "S20",
+  "user_id": "U1",
+  "problem_id": "P2",
+  "timestamp": "2025-09-13T22:09:58Z",
+  "status": "accepted",
+  "language": "c++",
+  "test_results": [
+    {
+      "test_case_number": 1,
+      "status": "passed",
+      "message": "Test case passed",
+      "execution_time": 0.0,
+      "memory_usage": 3.4375,
+      "actual_output": "0",
+      "expected_output": "0",
+      "input": "1 1\n"
+    },
+    {
+      "test_case_number": 2,
+      "status": "passed",
+      "message": "Test case passed",
+      "execution_time": 0.0,
+      "memory_usage": 3.33203125,
+      "actual_output": "0",
+      "expected_output": "0",
+      "input": "2 2\n"
+    },
+    {
+      "test_case_number": 3,
+      "status": "passed",
+      "message": "Test case passed",
+      "execution_time": 0.0,
+      "memory_usage": 3.203125,
+      "actual_output": "3",
+      "expected_output": "3",
+      "input": "-1 2"
+    }
+  ]
+}
