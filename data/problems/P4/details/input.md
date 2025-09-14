@@ -1,0 +1,1 @@
+The input will consist of a single line containing two space-separated integers, `a` and `b`.

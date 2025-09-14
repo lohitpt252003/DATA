@@ -24,5 +24,44 @@
       "baz",
       "boss"
     ]
+  },
+  "P3": {
+    "title": "Multiplication",
+    "difficulty": "Easy",
+    "tags": [
+      "easy",
+      "input",
+      "output",
+      "multiplication"
+    ],
+    "authors": [
+      "boss"
+    ]
+  },
+  "P4": {
+    "title": "Division",
+    "difficulty": "Easy",
+    "tags": [
+      "easy",
+      "input",
+      "output",
+      "division"
+    ],
+    "authors": [
+      "boss"
+    ]
+  },
+  "P5": {
+    "title": "Addition of Large Numbers",
+    "difficulty": "Medium",
+    "tags": [
+      "medium",
+      "string",
+      "addition",
+      "large number"
+    ],
+    "authors": [
+      "boss"
+    ]
   }
 }

@@ -1,0 +1,1 @@
+Given two integers, `a` and `b`, your task is to find their product.

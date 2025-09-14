@@ -1,0 +1,3 @@
+- `1 <= num1.length, num2.length <= 10^5`
+- `num1` and `num2` consist of only digits.
+- `num1` and `num2` do not contain any leading zeros except for the zero itself.
