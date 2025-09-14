@@ -5,7 +5,7 @@ This directory contains scripts for validating the problem data in this reposito
 
 ## Main Validator
 
-The `main_validator.py` script is the primary script for validating a problem. It runs a complete suite of tests for a given `problem_id` to ensure that the problem's data is well-formed and complete, **including running the provided solutions against the problem's test cases**.
+The `main_validator.py` script is the primary script for validating a problem. It runs a complete suite of tests for a given `problem_id` to ensure that the problem's data is well-formed and complete. This includes validating individual markdown files (description, input, output, constraints, notes, header) within the problem's `details` directory, as well as running the provided solutions against both the main test cases and sample test cases.
 
 The validator will run the tests sequentially and will exit immediately if any test fails, printing a clear message indicating which test failed.
 
@@ -25,10 +25,6 @@ python -m scripts.main_validator P1
 
 ### Output
 
-The script will print the progress of the validation, indicating whether each test passed or failed. If a test fails, the script will print the error message from the test and exit. If all tests pass, it will print a success message.
+The script will print the progress of the validation, indicating whether each test passed or failed. For solution tests, it will also display the input, the actual output from the solution, and the expected output for each test case (including samples). If a test fails, the script will print the error message from the test and exit. If all tests pass, it will print a success message.
 
-## Individual Tests
 
-For more granular testing, you can run individual validation scripts for specific components of the problem data. These scripts are located in the `test/` subdirectory.
-
-For detailed instructions on how to run the individual tests, please refer to the [README.md in the test directory](./test/README.md).

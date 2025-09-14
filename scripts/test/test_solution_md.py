@@ -41,7 +41,10 @@ def main(problem_id_arg=None):
         args = parser.parse_args()
         problem_id = args.problem_id
 
-    solution_md_path = os.path.join("data", "solutions", problem_id, "solution.md")
+    DATA_BASE_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
+    solution_md_path = os.path.join(DATA_BASE_PATH, "data", "solutions", problem_id, "solution.md")
+
+
 
     error = validate_solution_md(solution_md_path)
     if error:

@@ -29,7 +29,8 @@ def main(problem_id_arg=None):
         args = parser.parse_args()
         problem_id = args.problem_id
 
-    dir_path = os.path.join("data", "problems", problem_id, "testcases")
+    DATA_BASE_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
+    dir_path = os.path.join(DATA_BASE_PATH, "data", "problems", problem_id, "testcases")
 
     error = validate_testcases(dir_path)
     if error:

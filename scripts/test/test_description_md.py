@@ -7,20 +7,8 @@ def validate_problem_md(description):
     """
     Validates the problem.md description.
     """
-    required_sections = [
-        r"## Description",
-        r"## Input",
-        r"## Output",
-        r"## Constraints",
-        r"## Example 1",
-        r"### Input",
-        r"### Output",
-    ]
-
-    for section in required_sections:
-        if not re.search(section, description, re.MULTILINE):
-            return f"Missing required section in problem.md: {section}"
-
+    if not description.strip():
+        return "Description cannot be empty."
     return None
 
 def main(problem_id_arg=None):
@@ -32,7 +20,8 @@ def main(problem_id_arg=None):
         args = parser.parse_args()
         problem_id = args.problem_id
 
-    file_path = os.path.join("data", "problems", problem_id, "problem.md")
+    DATA_BASE_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
+    file_path = os.path.join(DATA_BASE_PATH, "data", "problems", problem_id, "details", "description.md")
 
     try:
         with open(file_path, 'r') as f:

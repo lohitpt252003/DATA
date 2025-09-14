@@ -1,29 +1,11 @@
 
 # Problem Validation Scripts
 
-This directory contains a suite of Python scripts designed to validate the structure and content of problem data before it is added to the repository.
+This directory contains a suite of Python scripts designed to validate the structure and content of problem data before it is added to the repository. It also contains a `utils` directory with helper functions for path resolution.
 
 **Important:** All commands must be run from the root of the `DATA` directory.
 
-## Main Validator
 
-The `main_validator.py` script, located in the parent `scripts/` directory, is the main entry point for validating an entire problem directory. It runs all the individual test scripts for a given `problem_id`.
-
-The validator will run the tests sequentially and will exit immediately if any test fails, printing a clear message indicating which test failed.
-
-### Usage
-
-From the `DATA` directory, run the following command:
-
-```bash
-python -m scripts.main_validator <problem_id>
-```
-
-**Example:**
-
-```bash
-python -m scripts.main_validator P1
-```
 
 ## Individual Test Scripts
 
@@ -45,20 +27,100 @@ python -m scripts.test.test_meta <problem_id>
 python -m scripts.test.test_meta P1
 ```
 
-### `test_md.py`
+### `test_description_md.py`
 
-Validates the `problem.md` file for a specific problem.
+Validates the `description.md` file for a specific problem, ensuring it's not empty.
 
 **Usage:**
 
 ```bash
-python -m scripts.test.test_md <problem_id>
+python -m scripts.test.test_description_md <problem_id>
 ```
 
 **Example:**
 
 ```bash
-python -m scripts.test.test_md P1
+python -m scripts.test.test_description_md P1
+```
+
+### `test_input_md.py`
+
+Validates the `input.md` file for a specific problem, ensuring it's not empty.
+
+**Usage:**
+
+```bash
+python -m scripts.test.test_input_md <problem_id>
+```
+
+**Example:**
+
+```bash
+python -m scripts.test.test_input_md P1
+```
+
+### `test_output_md.py`
+
+Validates the `output.md` file for a specific problem, ensuring it's not empty.
+
+**Usage:**
+
+```bash
+python -m scripts.test.test_output_md <problem_id>
+```
+
+**Example:**
+
+```bash
+python -m scripts.test.test_output_md P1
+```
+
+### `test_constraints_md.py`
+
+Validates the `constraints.md` file for a specific problem, ensuring it's not empty.
+
+**Usage:**
+
+```bash
+python -m scripts.test.test_constraints_md <problem_id>
+```
+
+**Example:**
+
+```bash
+python -m scripts.test.test_constraints_md P1
+```
+
+### `test_notes_md.py`
+
+Validates the `notes.md` file for a specific problem. This file is optional and can be empty or missing.
+
+**Usage:**
+
+```bash
+python -m scripts.test.test_notes_md <problem_id>
+```
+
+**Example:**
+
+```bash
+python -m scripts.test.test_notes_md P1
+```
+
+### `test_header_md.py`
+
+Validates the `header.md` file for a specific problem. This file is optional and can be empty or missing.
+
+**Usage:**
+
+```bash
+python -m scripts.test.test_header_md <problem_id>
+```
+
+**Example:**
+
+```bash
+python -m scripts.test.test_header_md P1
 ```
 
 ### `test_testcases.py`
@@ -117,9 +179,59 @@ python -m scripts.test.test_solution_md <problem_id>
 python -m scripts.test.test_solution_md P1
 ```
 
+## Individual Test Scripts
+
+### `test_problem_submissions_structure.py`
+
+Validates the structure and content of submission files within a problem's `submissions` directory.
+
+**Usage:**
+
+```bash
+python -m scripts.test.test_problem_submissions_structure <problem_id>
+```
+
+**Example:**
+
+```bash
+python -m scripts.test.test_problem_submissions_structure P1
+```
+
+### `test_solution_files_presence.py`
+
+Validates the presence of solution files (e.g., `solution.py`, `solution.cpp`, `solution.c`) for a specific problem.
+
+**Usage:**
+
+```bash
+python -m scripts.test.test_solution_files_presence <problem_id>
+```
+
+**Example:**
+
+```bash
+python -m scripts.test.test_solution_files_presence P1
+```
+
+### `test_user_structure.py`
+
+Validates the structure and content of user directories, including `meta.json` and submission files.
+
+**Usage:**
+
+```bash
+python -m scripts.test.test_user_structure [user_id]
+```
+
+**Example:**
+
+```bash
+python -m scripts.test.test_user_structure U1
+```
+
 ## Solution Test Runners
 
-These scripts run the provided solutions against the problem's test cases and report the results.
+These scripts run the provided solutions against the problem's test cases and report the results. They now also include sample test cases and provide detailed input, actual output, and expected output for each test.
 
 ### `run_py_solution.py`
 

@@ -35,14 +35,14 @@ E:\NEW\DATA\
 │   │       ├───problem.md
 │   │       ├───submissions\
 │   │       │   ├───S1.json
-│   │       │   └───S2.json
-│   │       └───testcases\
-│   │           ├───1.in
-│   │           ├───1.out
-│   │           ├───2.in
-│   │           ├───2.out
-│   │           ├───3.in
-│   │           └───3.out
+│   │   │   │   └───S2.json
+│   │   │       └───testcases\
+│   │   │           ├───1.in
+│   │   │           ├───1.out
+│   │   │           ├───2.in
+│   │   │           ├───2.out
+│   │   │           ├───3.in
+│   │   │           └───3.out
 │   ├───submissions\
 │   │   ├───S1\
 │   │   │   ├───code.cpp
@@ -81,25 +81,38 @@ E:\NEW\DATA\
 │           └───solution.py
 ├───scripts\
 │   ├───main_validator.py
-│   └───test\
-│       ├───run_c_solution.py
-│       ├───run_cpp_solution.py
-│       ├───run_py_solution.py
-│       ├───test_index.py
-│       ├───test_md.py
-│       ├───test_meta.py
-│       ├───test_solution_md.py
-│       └───test_testcases.py
+│   ├───test\
+│   │   ├───run_c_solution.py
+│   │   ├───run_cpp_solution.py
+│   │   ├───run_py_solution.py
+│   │   ├───test_index.py
+│   │   ├───test_md.py
+│   │   ├───test_meta.py
+│   │   ├───test_problem_submissions_structure.py
+│   │   ├───test_solution_files_presence.py
+│   │   ├───test_solution_md.py
+│   │   ├───test_testcases.py
+│   │   └───test_user_structure.py
+│   └───utils\
+│       └───data_utils.py
 ├───LICENSE
 └───README.md
 ```
+
 
 ### `problems`
 
 - `index.json`: A JSON file that contains a list of all problems and their metadata, such as title, difficulty, tags, and authors.
 - `P1/`, `P2/`, etc.: Each problem has its own directory, named with a unique problem ID (e.g., `P1`). **Here, `P` stands for "problem" and the number is the `problem_id`.**
     - `meta.json`: Contains metadata specific to the problem.
-    - `problem.md`: The problem description in Markdown format.
+    - `details/`: A directory containing detailed problem descriptions, split into multiple Markdown files.
+        - `description.md`: The main problem statement.
+        - `input.md`: Description of the input format.
+        - `output.md`: Description of the output format.
+        - `constraints.md`: Constraints for the problem.
+        - `notes.md`: Any additional notes or clarifications (optional).
+        - `header.md`: Additional header information (optional).
+        - `samples/`: A directory containing sample input and output files.
     - `submissions/`: A directory containing submissions for this problem.
     - `testcases/`: A directory containing test cases for this problem.
 
@@ -133,6 +146,6 @@ This structure is designed to be easily extensible. Problems are primarily added
 
 ## Validation and Solution Scripts
 
-The `scripts/` directory contains a suite of Python scripts designed to validate the problem data and run official solutions against test cases. The main entry point is `main_validator.py`.
+The `scripts/` directory contains a suite of Python scripts designed to validate the problem data and run official solutions against test cases. The main entry point is `main_validator.py`. These scripts now provide detailed input/output for each test case, including samples, to aid in debugging and understanding.
 
 For detailed instructions on how to use these scripts, please refer to the [README.md in the scripts directory](./scripts/README.md).

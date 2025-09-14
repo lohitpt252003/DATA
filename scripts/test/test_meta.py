@@ -22,7 +22,8 @@ def main(problem_id_arg=None):
         args = parser.parse_args()
         problem_id = args.problem_id
 
-    file_path = os.path.join("data", "problems", problem_id, "meta.json")
+    DATA_BASE_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
+    file_path = os.path.join(DATA_BASE_PATH, "data", "problems", problem_id, "meta.json")
 
     try:
         with open(file_path, 'r') as f:
