@@ -63,5 +63,18 @@
     "authors": [
       "boss"
     ]
+  },
+  "P6": {
+    "title": "Large Number Subtraction",
+    "difficulty": "Hard",
+    "tags": [
+      "hard",
+      "string",
+      "subtraction",
+      "large number"
+    ],
+    "authors": [
+      "Gemini"
+    ]
   }
 }
