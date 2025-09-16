@@ -1,0 +1,120 @@
+{
+  "submission_id": "S33",
+  "user_id": "U1",
+  "problem_id": "P1",
+  "timestamp": "2025-09-16T11:34:18Z",
+  "status": "accepted",
+  "language": "c",
+  "test_results": [
+    {
+      "test_case_number": 1,
+      "status": "passed",
+      "message": "Test case passed",
+      "execution_time": 0.0,
+      "memory_usage": 1.5390625,
+      "actual_output": "2",
+      "expected_output": "2",
+      "input": "1 1\n"
+    },
+    {
+      "test_case_number": 2,
+      "status": "passed",
+      "message": "Test case passed",
+      "execution_time": 0.0,
+      "memory_usage": 1.484375,
+      "actual_output": "4",
+      "expected_output": "4",
+      "input": "2 2\n"
+    },
+    {
+      "test_case_number": 3,
+      "status": "passed",
+      "message": "Test case passed",
+      "execution_time": 0.0,
+      "memory_usage": 1.484375,
+      "actual_output": "0",
+      "expected_output": "0",
+      "input": "0 0"
+    },
+    {
+      "test_case_number": 4,
+      "status": "passed",
+      "message": "Test case passed",
+      "execution_time": 0.0,
+      "memory_usage": 1.4375,
+      "actual_output": "12345",
+      "expected_output": "12345",
+      "input": "12345 0"
+    },
+    {
+      "test_case_number": 5,
+      "status": "passed",
+      "message": "Test case passed",
+      "execution_time": 0.0,
+      "memory_usage": 1.4296875,
+      "actual_output": "67890",
+      "expected_output": "67890",
+      "input": "0 67890"
+    },
+    {
+      "test_case_number": 6,
+      "status": "passed",
+      "message": "Test case passed",
+      "execution_time": 0.0,
+      "memory_usage": 1.43359375,
+      "actual_output": "-30",
+      "expected_output": "-30",
+      "input": "-10 -20"
+    },
+    {
+      "test_case_number": 7,
+      "status": "passed",
+      "message": "Test case passed",
+      "execution_time": 0.0,
+      "memory_usage": 1.5,
+      "actual_output": "20",
+      "expected_output": "20",
+      "input": "50 -30"
+    },
+    {
+      "test_case_number": 8,
+      "status": "passed",
+      "message": "Test case passed",
+      "execution_time": 0.0,
+      "memory_usage": 1.4375,
+      "actual_output": "-20",
+      "expected_output": "-20",
+      "input": "-50 30"
+    },
+    {
+      "test_case_number": 9,
+      "status": "passed",
+      "message": "Test case passed",
+      "execution_time": 0.0,
+      "memory_usage": 1.5234375,
+      "actual_output": "100000000000000000",
+      "expected_output": "100000000000000000",
+      "input": "99999999999999999 1"
+    },
+    {
+      "test_case_number": 10,
+      "status": "passed",
+      "message": "Test case passed",
+      "execution_time": 0.0,
+      "memory_usage": 1.5,
+      "actual_output": "-100000000000000000",
+      "expected_output": "-100000000000000000",
+      "input": "-99999999999999999 -1"
+    },
+    {
+      "test_case_number": 11,
+      "status": "passed",
+      "message": "Test case passed",
+      "execution_time": 0.0,
+      "memory_usage": 1.46875,
+      "actual_output": "0",
+      "expected_output": "0",
+      "input": "99999999999999999 -99999999999999999"
+    }
+  ]
+}
