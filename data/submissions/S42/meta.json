@@ -1,0 +1,90 @@
+{
+  "submission_id": "S42",
+  "user_id": "U1",
+  "problem_id": "P6",
+  "timestamp": "2025-09-16T12:54:34Z",
+  "status": "accepted",
+  "language": "python",
+  "test_results": [
+    {
+      "test_case_number": 1,
+      "status": "passed",
+      "message": "Test case passed",
+      "execution_time": 0.04,
+      "memory_usage": 7.73046875,
+      "actual_output": "5",
+      "expected_output": "5",
+      "input": "10\n5"
+    },
+    {
+      "test_case_number": 2,
+      "status": "passed",
+      "message": "Test case passed",
+      "execution_time": 0.06,
+      "memory_usage": 8.0,
+      "actual_output": "-5",
+      "expected_output": "-5",
+      "input": "5\n10"
+    },
+    {
+      "test_case_number": 3,
+      "status": "passed",
+      "message": "Test case passed",
+      "execution_time": 0.01,
+      "memory_usage": 7.828125,
+      "actual_output": "9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999",
+      "expected_output": "9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999",
+      "input": "10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000\n1"
+    },
+    {
+      "test_case_number": 4,
+      "status": "passed",
+      "message": "Test case passed",
+      "execution_time": 0.05,
+      "memory_usage": 7.8671875,
+      "actual_output": "12345",
+      "expected_output": "12345",
+      "input": "12345\n0"
+    },
+    {
+      "test_case_number": 5,
+      "status": "passed",
+      "message": "Test case passed",
+      "execution_time": 0.03,
+      "memory_usage": 7.74609375,
+      "actual_output": "0",
+      "expected_output": "0",
+      "input": "98765\n98765"
+    },
+    {
+      "test_case_number": 6,
+      "status": "passed",
+      "message": "Test case passed",
+      "execution_time": 0.01,
+      "memory_usage": 7.67578125,
+      "actual_output": "-99899",
+      "expected_output": "-99899",
+      "input": "100\n99999"
+    },
+    {
+      "test_case_number": 7,
+      "status": "passed",
+      "message": "Test case passed",
+      "execution_time": 0.01,
+      "memory_usage": 7.81640625,
+      "actual_output": "78",
+      "expected_output": "78",
+      "input": "000123\n000045"
+    },
+    {
+      "test_case_number": 8,
+      "status": "passed",
+      "message": "Test case passed",
+      "execution_time": 0.06,
+      "memory_usage": 7.59765625,
+      "actual_output": "975308642197530864219753086421",
+      "expected_output": "975308642197530864219753086421",
+      "input": "987654321098765432109876543210\n12345678901234567890123456789"
+    }
+  ]
+}
