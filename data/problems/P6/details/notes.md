@@ -1,0 +1,2 @@
+- The output is case-sensitive: use exactly "ODD" or "EVEN".
+- Note that 0 is considered EVEN.

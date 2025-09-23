@@ -63,5 +63,17 @@
     "authors": [
       "boss"
     ]
+  },
+  "P6": {
+    "title": "Odd or Even",
+    "difficulty": "Easy",
+    "tags": [
+      "easy",
+      "math",
+      "implementation"
+    ],
+    "authors": [
+      "Admin"
+    ]
   }
 }

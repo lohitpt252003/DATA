@@ -1,0 +1,4 @@
+- 7 → ODD
+- 8 → EVEN
+- 11 → ODD
+- 14 → EVEN
