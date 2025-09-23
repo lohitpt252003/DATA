@@ -1,0 +1,1 @@
+The input will be a single line containing three space-separated integers.

@@ -1,0 +1,10 @@
+{
+    "id": "P6",
+    "title": "Max of Three",
+    "difficulty": "Easy",
+    "tags": ["easy", "math"],
+    "timeLimit": 1,
+    "memoryLimit": 256,
+    "authors": ["Gemini"],
+    "number_of_submissions": 0
+}
