@@ -63,11 +63,5 @@
     "authors": [
       "boss"
     ]
-  },
-  "P6": {
-    "title": "Max of Three",
-    "difficulty": "Easy",
-    "tags": ["easy", "math"],
-    "authors": ["Gemini"]
   }
 }

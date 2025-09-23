@@ -1,1 +1,0 @@
-Print the largest of the three integers.
