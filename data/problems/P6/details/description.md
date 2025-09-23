@@ -1,1 +1,0 @@
-Given two large integers $a$ and $b$, you need to print their difference $a-b$. The numbers can be very large and may not fit into standard integer types.

@@ -1,2 +1,0 @@
-- The numbers can be positive, negative, or zero.
-- Handle leading zeros appropriately in the output (e.g., "0" instead of "-0").

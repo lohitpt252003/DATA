@@ -1,1 +1,0 @@
-- One integer representing the difference $a-b$.
