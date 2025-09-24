@@ -1,0 +1,85 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{listings}
+\usepackage{xcolor}
+
+% Code formatting style
+\lstset{
+  basicstyle=\ttfamily\small,
+  backgroundcolor=\color{gray!10},
+  frame=single,
+  breaklines=true,
+  showstringspaces=false
+}
+
+\begin{document}
+
+\section*{Solution: Odd or Even}
+
+\textbf{Approach:} \\
+We can solve this problem using either the modulo operator or bitwise operations.
+
+\begin{enumerate}
+    \item \textbf{Modulo Method:}  
+    Check $n \bmod 2$:
+    \begin{itemize}
+        \item If $n \bmod 2 = 0$, then $n$ is even.
+        \item Otherwise, $n$ is odd.
+    \end{itemize}
+
+    \item \textbf{Bitwise Method:}  
+    Observe that the least significant bit (LSB) of $n$ determines odd/even:
+    \begin{itemize}
+        \item If $(n \,\&\, 1ll) = 0$, then $n$ is even.
+        \item If $(n \,\&\, 1ll) = 1$, then $n$ is odd.
+    \end{itemize}
+\end{enumerate}
+
+\textbf{Python Implementation:}
+\begin{lstlisting}[language=Python]
+t = int(input())
+for _ in range(t):
+    n = int(input())
+    if n % 2 == 0:
+        print("EVEN")
+    else:
+        print("ODD")
+\end{lstlisting}
+
+\textbf{C++ Implementation (bitwise):}
+\begin{lstlisting}[language=C++]
+#include <iostream>
+using namespace std;
+
+int main() {
+    int t;
+    cin >> t;
+    while (t--) {
+        long long n;
+        cin >> n;
+        if (n & 1ll) cout << "ODD\n";
+        else cout << "EVEN\n";
+    }
+    return 0;
+}
+\end{lstlisting}
+
+\textbf{C Implementation (bitwise):}
+\begin{lstlisting}[language=C]
+#include <stdio.h>
+
+int main() {
+    int t;
+    scanf("%d", &t);
+    while (t--) {
+        long long n;
+        scanf("%lld", &n);
+        if (n & 1ll) printf("ODD\n");
+        else printf("EVEN\n");
+    }
+    return 0;
+}
+\end{lstlisting}
+
+\end{document}
