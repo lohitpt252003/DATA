@@ -1,13 +1,10 @@
-
 # Problem Data Validation Scripts
 
 This directory contains scripts for validating the problem data in this repository.
 
 ## Main Validator
 
-The `main_validator.py` script is the primary script for validating a problem. It runs a complete suite of tests for a given `problem_id` to ensure that the problem's data is well-formed and complete. This includes validating individual markdown files (description, input, output, constraints, notes, header) within the problem's `details` directory, ensuring correct LaTeX syntax for mathematical expressions (rendered with KaTeX), as well as running the provided solutions against both the main test cases and sample test cases.
-
-The validator will run the tests sequentially and will exit immediately if any test fails, printing a clear message indicating which test failed.
+The `main_validator.py` script is the primary script for validating a problem. It orchestrates the validation process by calling two specialized validators: the `problem_statement_validator.py` and the `solution_validator.py`.
 
 ### Usage
 
@@ -23,8 +20,28 @@ python -m scripts.main_validator <problem_id>
 python -m scripts.main_validator P1
 ```
 
-### Output
+This will run a complete suite of tests for the given `problem_id`, first validating the problem statement and then the solution.
 
-The script will print the progress of the validation, indicating whether each test passed or failed. For solution tests, it will also display the input, the actual output from the solution, and the expected output for each test case (including samples). If a test fails, the script will print the error message from the test and exit. If all tests pass, it will print a success message.
+## Specialized Validators
 
+The validation logic is now split into two main components, located in the `scripts/tests/` directory.
 
+### Problem Statement Validator
+
+-   **Script:** `scripts/tests/problem/problem_statement_validator.py`
+-   **Description:** This script runs all tests related to the problem's definition, including the `meta.json`, markdown files (`description.md`, `input.md`, etc.), test cases, and overall data structure.
+-   **Usage:**
+    ```bash
+    python -m scripts.tests.problem.problem_statement_validator <problem_id>
+    ```
+
+### Solution Validator
+
+-   **Script:** `scripts/tests/solution/solution_validator.py`
+-   **Description:** This script runs all tests related to the problem's official solution. It checks for the presence of solution files and runs the solution code against the test cases to verify its correctness.
+-   **Usage:**
+    ```bash
+    python -m scripts.tests.solution.solution_validator <problem_id>
+    ```
+
+For more details on the individual test scripts that these validators run, please see the [README.md in the tests directory](./tests/README.md).
