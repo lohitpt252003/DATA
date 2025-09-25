@@ -3,7 +3,7 @@
   "user_id": "U1",
   "problem_id": "P6",
   "timestamp": "2025-09-25T16:20:43Z",
-  "status": "Running... (Testcase 1)",
+  "status": "Running... (Testcase 2)",
   "language": "c++",
   "test_results": [
     {
@@ -15,6 +15,16 @@
       "actual_output": "",
       "expected_output": "EVEN\nODD\nEVEN\nEVEN\nODD",
       "input": "5\n0\n1\n2\n1000000000000000000\n999999999999999999\n"
+    },
+    {
+      "test_case_number": 2,
+      "status": "runtime_error",
+      "message": "Runtime Error: Runtime Error (Exit Code: 1)",
+      "execution_time": 0.0,
+      "memory_usage": 7.8671875,
+      "actual_output": "",
+      "expected_output": "ODD\nODD\nODD\nEVEN\nEVEN",
+      "input": "5\n88533109\n70991607\n423120913\n469786036\n598739634\n"
     }
   ]
 }
