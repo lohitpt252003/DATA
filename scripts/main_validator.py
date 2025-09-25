@@ -16,7 +16,8 @@ def main():
 
     validators_to_run = [
         ("Problem Statement", ["python", "-m", "scripts.tests.problem.problem_statement_validator", problem_id]),
-        ("Solution", ["python", "-m", "scripts.tests.solution.solution_validator", problem_id])
+        ("Solution", ["python", "-m", "scripts.tests.solution.solution_validator", problem_id]),
+        ("Model", ["python", "-m", "scripts.tests.model.model_validator"])
     ]
 
     for validator_name, validator_command in validators_to_run:

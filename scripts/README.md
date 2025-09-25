@@ -4,7 +4,7 @@ This directory contains scripts for validating the problem data in this reposito
 
 ## Main Validator
 
-The `main_validator.py` script is the primary script for validating a problem. It orchestrates the validation process by calling two specialized validators: the `problem_statement_validator.py` and the `solution_validator.py`.
+The `main_validator.py` script is the primary script for validating a problem. It orchestrates the validation process by calling three specialized validators: the `problem_statement_validator.py`, the `solution_validator.py`, and the `model_validator.py`.
 
 ### Usage
 
@@ -42,6 +42,15 @@ The validation logic is now split into two main components, located in the `scri
 -   **Usage:**
     ```bash
     python -m scripts.tests.solution.solution_validator <problem_id>
+    ```
+
+### Model Validator
+
+-   **Script:** `scripts/tests/model/model_validator.py`
+-   **Description:** This script runs tests to ensure the presence and basic structure of the Python model files in the `DATA/models` directory.
+-   **Usage:**
+    ```bash
+    python -m scripts.tests.model.model_validator
     ```
 
 For more details on the individual test scripts that these validators run, please see the [README.md in the tests directory](./tests/README.md).

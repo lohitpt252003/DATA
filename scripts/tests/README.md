@@ -49,3 +49,17 @@ To run an individual solution test (e.g., `run_py_solution.py`):
 ```bash
 python -m scripts.tests.solution.run_py_solution P1
 ```
+
+## Model Tests (`model/`)
+
+These scripts validate the presence and basic structure of the Python model files in the `DATA/models` directory.
+
+-   `test_model_files_presence.py`: Checks for the presence of expected model files (e.g., `problem.py`, `user.py`).
+
+### Usage Example
+
+To run the model files presence test:
+
+```bash
+python -m scripts.tests.model.test_model_files_presence
+```
