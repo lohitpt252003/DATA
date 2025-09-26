@@ -3,7 +3,7 @@
         "id": "C1",
         "name": "Number Theory - Divisibility Contest",
         "description": "The first-ever contest on AnnaForces. And will be haing the problems related to Divisibility",
-        "problems": ["P1", "P2", "P6"],
+        "problems": ["P6", "P7", "P8", "P9"],
         "startTime": "2025-10-01T00:00:00Z",
         "endTime": "2025-10-07T23:59:59Z",
         "authors": ["Admin"]

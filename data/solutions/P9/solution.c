@@ -21,11 +21,13 @@ int main() {
         }
         qsort(divisors, count, sizeof(int), compare);
         for (int i = 0; i < count; ++i) {
-            printf("%d%c", divisors[i], i == count - 1 ? '\0' : ' ');
+            printf("%d", divisors[i]);
+            if (i < count - 1) {
+                printf(" ");
+            }
         }
         printf("\n");
         free(divisors);
     }
     return 0;
 }
-

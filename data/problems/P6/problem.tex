@@ -1,39 +1,64 @@
-\documentclass[12pt]{article}
-\usepackage{amsmath}
-\usepackage{amssymb}
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{tcolorbox}
+\usepackage{verbatim}
+\geometry{margin=1in}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\textbf{ANNAFORCES}}
+\rhead{Problem Statement}
+\cfoot{\thepage}
 
+% ----- Metadata macros -----
+\newcommand{\ProblemTitle}[1]{\begin{center}\\LARGE\\bfseries #1\\end{center}\\vspace{6pt}}
+\newcommand{\Difficulty}[1]{\noindent\\textbf{Difficulty:} #1\\\\
+\newcommand{\Tags}[1]{\noindent\\textbf{Tags:} #1\\\\
+\newcommand{\Authors}[1]{\noindent\\textbf{Authors:} #1\\\\
+\newcommand{\Statement}[1]{\vspace{6pt}\\begin{tcolorbox}[colback=white,colframe=black!60,boxrule=0.5pt]\noindent #1\\end{tcolorbox}\\vspace{8pt}}
+\newcommand{\InputFormat}[1]{\noindent\\textbf{Input Format:} #1\\\\
+\newcommand{\OutputFormat}[1]{\noindent\\textbf{Output Format:} #1\\\\
+\newcommand{\Constraints}[1]{\noindent\\textbf{Constraints:} #1\\\\
+
+% ------------------------------
 \begin{document}
 
-\section*{Problem: Odd or Even}
+% --- Fill metadata here ---
+\ProblemTitle{Odd or Even (P6)}
+\Difficulty{Easy}
+\Tags{easy, math, implementation}
+\Authors{Admin}
 
-\textbf{Description:} \\
-The task is to determine whether a given number is odd or even for multiple test cases.  
-If the number is divisible by $2$, it is \texttt{EVEN}; otherwise, it is \texttt{ODD}.
+\Statement{
+Given an integer, you need to determine whether it is ODD or EVEN.
+You are provided with multiple test cases, and for each test case, you must print "ODD" if the number is odd and "EVEN" if the number is even.
+}
 
-\textbf{Input:}
-\begin{itemize}
-    \item The first line contains an integer $t$ $(1 \leq t \leq 10^5)$, the number of test cases.
-    \item Each of the next $t$ lines contains an integer $n$ $(0 \leq n \leq 10^{18})$.
-\end{itemize}
+\InputFormat{The first line contains a single integer $t$ — the number of test cases.
+Each of the next $t$ lines contains a single integer $n$.}
+\OutputFormat{For each test case, print "ODD" if $n$ is odd, otherwise print "EVEN".}
+\Constraints{$1 \leq t \leq 10^5$, $0 \leq n \leq 10^{18}$.}
 
-\textbf{Output:} \\
-For each test case, print \texttt{EVEN} if $n$ is divisible by $2$, otherwise print \texttt{ODD}.
-
-\textbf{Sample Input:}
-\begin{verbatim}
+\noindent\\textbf{Sample Input 1:}
+\\begin{verbatim}
 4
 2
 3
 10
 15
-\end{verbatim}
-
-\textbf{Sample Output:}
-\begin{verbatim}
+\\end{verbatim}
+\\noindent\\textbf{Sample Output 1:}
+\\begin{verbatim}
 EVEN
 ODD
 EVEN
 ODD
-\end{verbatim}
+\\end{verbatim}
 
 \end{document}

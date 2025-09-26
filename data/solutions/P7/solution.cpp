@@ -42,9 +42,9 @@ int main() {
         auto k_factors = get_prime_factorization(k);
         std::vector<long long> primes;
         std::vector<int> target_powers;
-        for (auto const& [p, a] : k_factors) {
-            primes.push_back(p);
-            target_powers.push_back(a);
+        for (std::map<long long, int>::const_iterator it = k_factors.begin(); it != k_factors.end(); ++it) {
+            primes.push_back(it->first);
+            target_powers.push_back(it->second);
         }
 
         std::set<std::vector<int>> dp;
@@ -64,7 +64,8 @@ int main() {
             }
 
             std::set<std::vector<int>> new_dp = dp;
-            for (const auto& powers_v : dp) {
+            for (std::set<std::vector<int>>::const_iterator it = dp.begin(); it != dp.end(); ++it) {
+                const std::vector<int>& powers_v = *it;
                 std::vector<int> new_powers;
                 for (size_t i = 0; i < primes.size(); ++i) {
                     new_powers.push_back(std::min(powers_v[i] + g_powers[i], target_powers[i]));

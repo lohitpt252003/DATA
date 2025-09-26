@@ -86,7 +86,7 @@
       "dp"
     ],
     "authors": [
-      "Gemini"
+      "Admin"
     ]
   },
   "P8": {
@@ -98,7 +98,19 @@
       "modulo"
     ],
     "authors": [
-      "Gemini"
+      "Admin"
+    ]
+  },
+  "P9": {
+    "title": "Find Divisors",
+    "difficulty": "Easy",
+    "tags": [
+      "easy",
+      "math",
+      "number theory"
+    ],
+    "authors": [
+      "Admin"
     ]
   }
 }
