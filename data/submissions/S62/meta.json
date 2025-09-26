@@ -3,7 +3,18 @@
   "user_id": "U1",
   "problem_id": "P1",
   "timestamp": "2025-09-26T19:50:45Z",
-  "status": "Running",
+  "status": "Running... (Testcase 1)",
   "language": "python",
-  "test_results": []
+  "test_results": [
+    {
+      "test_case_number": 1,
+      "status": "wrong_answer",
+      "message": "Output mismatch",
+      "execution_time": 0.01,
+      "memory_usage": 7.82421875,
+      "actual_output": "",
+      "expected_output": "2",
+      "input": "1 1\n"
+    }
+  ]
 }
