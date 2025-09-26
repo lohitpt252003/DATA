@@ -1,14 +1,14 @@
 {
-  "id": "U1",
-  "username": "boss",
-  "name": "Chris Gayle",
-  "email": "boss@example.com",
-  "joined": "2025-08-23",
-  "bio": "Competitive programmer and developer",
-  "number_of_submissions": 54,
-  "attempted": {},
-  "solved": {
-    "P1": "2025-09-27T01:19:25.703609"
-  },
-  "not_solved": {}
+    "id": "U1",
+    "username": "boss",
+    "name": "Chris Gayle",
+    "email": "boss@example.com",
+    "joined": "2025-08-23",
+    "bio": "Competitive programmer and developer",
+    "number_of_submissions": 55,
+    "attempted": {},
+    "solved": {
+        "P1": "2025-09-27T01:19:25.703609"
+    },
+    "not_solved": {}
 }
