@@ -3,7 +3,7 @@
   "user_id": "U6",
   "problem_id": "P9",
   "timestamp": "2025-09-26T16:22:49Z",
-  "status": "Running... (Testcase 15)",
+  "status": "Running... (Testcase 16)",
   "language": "python",
   "test_results": [
     {
@@ -155,6 +155,16 @@
       "actual_output": "1, 2, 3, 6",
       "expected_output": "YES",
       "input": "6\n2 2 2 2 2 2\n"
+    },
+    {
+      "test_case_number": 16,
+      "status": "wrong_answer",
+      "message": "Output mismatch",
+      "execution_time": 0.0,
+      "memory_usage": 3.4453125,
+      "actual_output": "1, 7",
+      "expected_output": "NO",
+      "input": "7\n1 2 3 1 2 3 1\n"
     }
   ]
 }
