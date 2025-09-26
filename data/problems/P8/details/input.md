@@ -1,0 +1,2 @@
+- The first line contains an integer `n` — the size of the array.
+- The second line contains `n` integers `arr[1], arr[2], …, arr[n]`.

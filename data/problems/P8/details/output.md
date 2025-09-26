@@ -1,0 +1,2 @@
+- Print `YES` if the partition satisfies the condition.
+- Print `NO` otherwise.

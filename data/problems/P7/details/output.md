@@ -1,0 +1,2 @@
+- Print `YES` if a valid subset exists.
+- Print `NO` otherwise.

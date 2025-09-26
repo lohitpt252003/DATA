@@ -1,0 +1,2 @@
+- $3 \leq n \leq 10^5$
+- $1 \leq arr[i] \leq 10^9$

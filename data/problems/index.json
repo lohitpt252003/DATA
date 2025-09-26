@@ -75,5 +75,30 @@
     "authors": [
       "Admin"
     ]
+  },
+  "P7": {
+    "title": "Divisible Subset Product",
+    "difficulty": "Medium",
+    "tags": [
+      "medium",
+      "math",
+      "number theory",
+      "dp"
+    ],
+    "authors": [
+      "Gemini"
+    ]
+  },
+  "P8": {
+    "title": "Three Segments",
+    "difficulty": "Easy",
+    "tags": [
+      "easy",
+      "math",
+      "modulo"
+    ],
+    "authors": [
+      "Gemini"
+    ]
   }
 }

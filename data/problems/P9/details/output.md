@@ -1,0 +1,1 @@
+- Print all divisors of `n` in ascending order, separated by spaces.

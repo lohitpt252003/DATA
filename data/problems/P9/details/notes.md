@@ -1,0 +1,1 @@
+- The output should be a single line of space-separated integers.

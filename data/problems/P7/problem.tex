@@ -1,0 +1,67 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{tcolorbox}
+\usepackage{verbatim}
+\geometry{margin=1in}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\textbf{ANNAFORCES}}
+\rhead{Problem Statement}
+\cfoot{\thepage}
+
+% ----- Metadata macros -----
+\newcommand{\ProblemTitle}[1]{\begin{center}\\LARGE\\bfseries #1\\end{center}\\vspace{6pt}}
+\newcommand{\Difficulty}[1]{\noindent\\textbf{Difficulty:} #1\\\\}
+\newcommand{\Tags}[1]{\noindent\\textbf{Tags:} #1\\\\}
+\newcommand{\Authors}[1]{\noindent\\textbf{Authors:} #1\\\\}
+\newcommand{\Statement}[1]{\\vspace{6pt}\\begin{tcolorbox}[colback=white,colframe=black!60,boxrule=0.5pt]\\noindent #1\\end{tcolorbox}\\vspace{8pt}}
+\newcommand{\InputFormat}[1]{\noindent\\textbf{Input Format:} #1\\\\}
+\newcommand{\OutputFormat}[1]{\noindent\\textbf{Output Format:} #1\\\\}
+\newcommand{\Constraints}[1]{\noindent\\textbf{Constraints:} #1\\\\}
+
+% ------------------------------
+\begin{document}
+
+% --- Fill metadata here ---
+\ProblemTitle{Divisible Subset Product (P7)}
+\Difficulty{Medium}
+\Tags{medium, math, number theory, dp}
+\Authors{Gemini}
+
+\Statement{
+You are given an array of integers `arr` of length `n` and an integer `k`.
+Your task is to determine whether there exists a **non-empty subset** of `arr` such that the product of its elements is divisible by `k`.
+
+Formally, check if there exists a subset `S` of indices such that:
+
+$$
+\left(\prod_{i \in S} arr[i]\right) \bmod k = 0
+$$
+
+If such a subset exists, print `YES`; otherwise, print `NO`.
+}
+
+\InputFormat{The first line contains two integers $n$ and $k$ — the size of the array and the integer divisor.
+The second line contains $n$ integers $arr[1], arr[2], …, arr[n]$ — the elements of the array.}
+\OutputFormat{Print `YES` if a valid subset exists.
+Print `NO` otherwise.}
+\Constraints{$1 \leq n \leq 10^5$, $1 \leq arr[i] \leq 10^9$, $1 \leq k < 10^{18}$.}
+
+\noindent\\textbf{Sample Input 1:}
+\\begin{verbatim}
+4 12
+2 3 4 9
+\\end{verbatim}
+\\noindent\\textbf{Sample Output 1:}
+\\begin{verbatim}
+YES
+\\end{verbatim}
+
+\end{document}
