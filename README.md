@@ -102,7 +102,7 @@ E:\NEW\DATA\
 
 -   `index.json`: A JSON file that contains a list of all users and their metadata, such as username, name, and email.
 -   `U1/`, `U2/`, etc.: Each user has their own directory, named with a unique user ID (e.g., `U1`). **Here, `U` stands for "user" and the number is the `user_id`.**
-    -   `meta.json`: Contains metadata specific to the user (e.g., `id`, `username`, `name`, `email`, `bio`, `joined`, `number_of_submissions`).
+    -   `meta.json`: Contains metadata specific to the user (e.g., `id`, `username`, `name`, `email`, `bio`, `joined`, `number_of_submissions`, `attempted`, `solved`, `not_solved`). `attempted`, `solved`, and `not_solved` are dictionaries storing problem IDs as keys and timestamps as values, representing the problems the user has attempted, successfully solved, or attempted but not yet solved, respectively.
     -   `submissions/`: A directory containing references to submissions made by this user.
         -   `S1.json`, `S2.json`, etc.: JSON files, each referencing a submission ID and its status for this user.
 
