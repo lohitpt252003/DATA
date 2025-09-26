@@ -1,17 +1,17 @@
 {
-  "id": "U1",
-  "username": "boss",
-  "name": "Chris Gayle",
-  "email": "boss@example.com",
-  "joined": "2025-08-23",
-  "bio": "Competitive programmer and developer",
-  "number_of_submissions": 63,
-  "attempted": {},
-  "solved": {
-    "P1": "2025-09-27T01:44:12.411421"
-  },
-  "not_solved": {
-    "P2": "2025-09-27T01:49:22.860126",
-    "P7": "2025-09-27T01:54:48.936179"
-  }
+    "id": "U1",
+    "username": "boss",
+    "name": "Chris Gayle",
+    "email": "boss@example.com",
+    "joined": "2025-08-23",
+    "bio": "Competitive programmer and developer",
+    "number_of_submissions": 64,
+    "attempted": {},
+    "solved": {
+        "P1": "2025-09-27T01:44:12.411421"
+    },
+    "not_solved": {
+        "P2": "2025-09-27T01:49:22.860126",
+        "P7": "2025-09-27T01:54:48.936179"
+    }
 }
