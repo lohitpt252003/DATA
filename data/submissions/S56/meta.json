@@ -3,7 +3,7 @@
   "user_id": "U1",
   "problem_id": "P8",
   "timestamp": "2025-09-26T10:48:07Z",
-  "status": "Running... (Testcase 8)",
+  "status": "Running... (Testcase 9)",
   "language": "python",
   "test_results": [
     {
@@ -85,6 +85,16 @@
       "actual_output": "YES",
       "expected_output": "YES",
       "input": "43\n49 32 16 58 85 39 52 31 25 43 78 27 83 19 71 55 76 20 4 39 32 34 81 35 100 66 32 75 93 13 35 6 47 99 72 49 36 34 40 18 53 51 64\n"
+    },
+    {
+      "test_case_number": 9,
+      "status": "passed",
+      "message": "Test case passed",
+      "execution_time": 0.04,
+      "memory_usage": 8.0703125,
+      "actual_output": "NO",
+      "expected_output": "NO",
+      "input": "10\n7 66 28 69 15 17 15 29 89 65\n"
     }
   ]
 }
