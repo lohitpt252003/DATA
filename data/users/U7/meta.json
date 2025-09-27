@@ -1,9 +1,12 @@
 {
-    "id": "U7",
-    "username": "sujal",
-    "name": "Sujal Kumar",
-    "email": "sujalsahani1903@gmail.com",
-    "joined": "2025-09-26",
-    "bio": "",
-    "number_of_submissions": 4
+  "id": "U7",
+  "username": "sujal",
+  "name": "Sujal Kumar",
+  "email": "sujalsahani1903@gmail.com",
+  "joined": "2025-09-26",
+  "bio": "",
+  "number_of_submissions": 4,
+  "contests": {
+    "C2": "2025-09-27T10:04:59.405474"
+  }
 }
