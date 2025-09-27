@@ -3,7 +3,7 @@
   "user_id": "U6",
   "problem_id": "P9",
   "timestamp": "2025-09-27T05:31:14Z",
-  "status": "Queued",
+  "status": "Running",
   "language": "c++",
   "test_results": []
 }
