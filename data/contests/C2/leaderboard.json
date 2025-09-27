@@ -1,0 +1,18 @@
+{
+  "last_updated": "2025-09-27T18:08:38.958145",
+  "standings": [
+    {
+      "user_id": "U1",
+      "total_score": 0,
+      "total_penalty": 0,
+      "problems": {
+        "P10": {
+          "status": "not_solved",
+          "score": 0,
+          "attempts": 1,
+          "time_taken": "00:00:00"
+        }
+      }
+    }
+  ]
+}
