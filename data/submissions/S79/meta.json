@@ -3,7 +3,7 @@
   "user_id": "U1",
   "problem_id": "P10",
   "timestamp": "2025-09-27T12:34:00Z",
-  "status": "Running... (Testcase 30)",
+  "status": "runtime_error",
   "language": "c++",
   "test_results": [
     {
