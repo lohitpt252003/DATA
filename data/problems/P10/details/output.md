@@ -1,1 +1,1 @@
-Print "YES" if the binary number is divisible by k, otherwise "NO".
+Print the value of `binary_string % k`. If k is 0, print -1.
