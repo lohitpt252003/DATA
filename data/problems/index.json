@@ -112,5 +112,17 @@
     "authors": [
       "Admin"
     ]
+  },
+  "P10": {
+    "title": "Binary Divisibility",
+    "difficulty": "Easy",
+    "tags": [
+      "easy",
+      "math",
+      "binary"
+    ],
+    "authors": [
+      "Admin"
+    ]
   }
 }
