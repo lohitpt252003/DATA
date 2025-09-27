@@ -1,8 +1,8 @@
 {
     "id": "P10",
-    "contest_id": "C2",
-    "title": "Add",
+    "title": "Binary Divisibility",
     "timeLimit": 1000,
     "memoryLimit": 256,
-    "number_of_submissions": 25
+    "number_of_submissions": 0,
+    "contest_id": "C2"
 }

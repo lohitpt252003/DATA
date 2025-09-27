@@ -112,17 +112,5 @@
     "authors": [
       "Admin"
     ]
-  },
-  "P10": {
-    "title": "Add",
-    "difficulty": "Easy",
-    "tags": [
-      "easy",
-      "input",
-      "output"
-    ],
-    "authors": [
-      "Admin"
-    ]
   }
 }

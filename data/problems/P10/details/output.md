@@ -1,1 +1,1 @@
-- One integer representing the sum of $a$ and $b$.
+Print "YES" if the binary number is divisible by k, otherwise "NO".
