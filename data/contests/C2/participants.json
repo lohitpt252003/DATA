@@ -1,0 +1,20 @@
+{
+  "participants": [
+    {
+      "user_id": "U1",
+      "registration_time": "2025-09-27T15:33:25.150740"
+    },
+    {
+      "user_id": "U6",
+      "registration_time": "2025-09-27T10:03:46.167499"
+    },
+    {
+      "user_id": "U5",
+      "registration_time": "2025-09-27T10:03:55.266072"
+    },
+    {
+      "user_id": "U7",
+      "registration_time": "2025-09-27T10:05:00.467206"
+    }
+  ]
+}
