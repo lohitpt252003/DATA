@@ -5,5 +5,8 @@
   "email": "thevinchi007@gmail.com",
   "joined": "2025-09-25",
   "bio": "",
-  "number_of_submissions": 0
+  "number_of_submissions": 0,
+  "contests": {
+    "C2": "2025-09-27T10:03:52.466720"
+  }
 }
