@@ -72,7 +72,7 @@ E:\NEW\DATA\
 
 -   `index.json`: A JSON file that contains a list of all problems and their metadata, such as title, difficulty, tags, and authors.
 -   `P1/`, `P2/`, etc.: Each problem has its own directory, named with a unique problem ID (e.g., `P1`). **Here, `P` stands for "problem" and the number is the `problem_id`.**
-    -   `meta.json`: Contains metadata specific to the problem (e.g., `id`, `title`, `timeLimit`, `memoryLimit`, `number_of_submissions`, `has_pdf_statement`, `has_pdf_solution`).
+    -   `meta.json`: Contains metadata specific to the problem (e.g., `id`, `title`, `timeLimit`, `memoryLimit`, `number_of_submissions`, `has_pdf_statement`, `has_pdf_solution`, `contest_id`). `contest_id` is the ID of the contest this problem belongs to, if any.
     -   `problem.tex`: The LaTeX source file for the problem statement.
     -   `details/`: A directory containing detailed problem descriptions, split into multiple Markdown files.
         -   `description.md`: The main problem statement.
@@ -167,6 +167,46 @@ This structure is designed to be easily extensible. Problems are primarily added
     -   `solution.md`: Markdown explanation of the solution approach.
     -   `solution.tex`: LaTeX source for the solution explanation.
     -   `solution.pdf`: Compiled PDF of the solution (if `has_pdf_solution` is true).
+
+#### `data/contests/`
+
+-   `index.json`: Contains metadata for all contests.
+-   `C<contest_id>/` (e.g., `C1/`):
+    -   `meta.json`: Contest-specific metadata (ID, name, start/end times, problems, authors).
+    -   `description.md`: Markdown description of the contest.
+    -   `theory.md`: Markdown explanation of the theory behind the contest problems.
+    -   `participants.json`: Stores a list of users registered for the contest.
+        ```json
+        {
+          "participants": [
+            {
+              "user_id": "U1",
+              "registration_time": "2025-10-01T10:00:00Z"
+            }
+          ]
+        }
+        ```
+    -   `leaderboard.json`: Stores the current standings of the contest.
+        ```json
+        {
+          "last_updated": "2025-10-01T12:30:00Z",
+          "standings": [
+            {
+              "user_id": "U1",
+              "total_score": 200,
+              "total_penalty": 10,
+              "problems": {
+                "P1": {
+                  "status": "solved",
+                  "score": 100,
+                  "attempts": 1,
+                  "time_taken": "00:15:00"
+                }
+              }
+            }
+          ]
+        }
+        ```
 
 ## Validation and Solution Scripts
 

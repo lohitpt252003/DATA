@@ -1,5 +1,6 @@
 {
     "id": "P7",
+    "contest_id": "C1",
     "title": "Divisible Subset Product",
     "timeLimit": 2000,
     "memoryLimit": 256,

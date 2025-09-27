@@ -1,5 +1,6 @@
 {
     "id": "P9",
+    "contest_id": "C1",
     "title": "Find Divisors",
     "timeLimit": 1000,
     "memoryLimit": 256,

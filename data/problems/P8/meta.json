@@ -1,5 +1,6 @@
 {
     "id": "P8",
+    "contest_id": "C1",
     "title": "Three Segments",
     "timeLimit": 2000,
     "memoryLimit": 256,

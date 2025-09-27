@@ -1,5 +1,6 @@
 {
     "id": "P6",
+    "contest_id": "C1",
     "title": "Odd or Even",
     "timeLimit": 2000,
     "memoryLimit": 256,

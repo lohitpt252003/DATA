@@ -1,9 +1,9 @@
 {
-    "id": "C1",
-    "name": "Number Theory - Divisibility Practice Contest",
+    "id": "C2",
+    "name": "Number Theory - Divisibility Contest",
     "description": "The first-ever contest on AnnaForces. And will be haing the problems related to Divisibility",
-    "problems": ["P6", "P7", "P8", "P9"],
-    "startTime": "2025-09-25T00:00:00Z",
+    "problems": [],
+    "startTime": "2025-09-28T00:00:00Z",
     "endTime": "2025-10-07T23:59:59Z",
     "authors": ["Admin"]
 }
