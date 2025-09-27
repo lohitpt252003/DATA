@@ -1,0 +1,1 @@
+t = int(input())\nfor _ in range(t):\n    n = int(input())\n    if n % 2 == 0:\n        print("EVEN")\n    else:\n        print("ODD")
