@@ -3,7 +3,7 @@
   "user_id": "U6",
   "problem_id": "P8",
   "timestamp": "2025-09-27T05:28:08Z",
-  "status": "Running... (Testcase 23)",
+  "status": "Running... (Testcase 24)",
   "language": "c++",
   "test_results": [
     {
@@ -235,6 +235,16 @@
       "actual_output": "Warning",
       "expected_output": "NO",
       "input": "19\n31 48 34 33 48 24 20 26 11 13 18 9 31 35 7 40 11 12 6\n"
+    },
+    {
+      "test_case_number": 24,
+      "status": "wrong_answer",
+      "message": "Output mismatch",
+      "execution_time": 0.0,
+      "memory_usage": 3.27734375,
+      "actual_output": "Warning",
+      "expected_output": "NO",
+      "input": "6\n17 23 37 25 32 38\n"
     }
   ]
 }
