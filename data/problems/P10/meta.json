@@ -1,7 +1,7 @@
 {
     "id": "P10",
     "title": "Binary Divisibility",
-    "timeLimit": 1000,
+    "timeLimit": 2000,
     "memoryLimit": 256,
     "number_of_submissions": 0,
     "contest_id": "C2"
