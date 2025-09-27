@@ -1,9 +1,12 @@
 {
-    "id": "U6",
-    "username": "Karishma",
-    "name": "Karishma Singh",
-    "email": "karishma05cs@gmail.com",
-    "joined": "2025-09-25",
-    "bio": "",
-    "number_of_submissions": 7
+  "id": "U6",
+  "username": "Karishma",
+  "name": "Karishma Singh",
+  "email": "karishma05cs@gmail.com",
+  "joined": "2025-09-25",
+  "bio": "",
+  "number_of_submissions": 7,
+  "contests": {
+    "C2": "2025-09-27T10:03:45.668086"
+  }
 }
