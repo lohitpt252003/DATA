@@ -1,1 +1,0 @@
-Print a single integer, the sum of A and B.

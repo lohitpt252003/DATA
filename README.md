@@ -22,14 +22,43 @@ E:\NEW\DATA\
 │   ├───users\...
 │   └───solutions\...
 ├───models\
-│   ├───problems\
-│   │   └───problem.py
-│   ├───solutions\
-│   │   └───solution.py
-│   ├───submissions\
-│   │   └───submission.py
-│   └───users\
-│       └───user.py
+│   ├───problem\
+│   │   ├───details\
+│   │   │   ├───samples\
+│   │   │   │   ├───sample1\
+│   │   │   │   │   ├───description.md
+│   │   │   │   │   ├───input.md
+│   │   │   │   │   └───output.md
+│   │   │   │   └───sample2\
+│   │   │   │       ├───description.md
+│   │   │   │       ├───input.md
+│   │   │   │       └───output.md
+│   │   │   ├───constraints.md
+│   │   │   ├───description.md
+│   │   │   ├───header.md
+│   │   │   ├───input.md
+│   │   │   ├───notes.md
+│   │   │   └───output.md
+│   │   ├───testcases\
+│   │   │   ├───1.in
+│   │   │   └───1.out
+│   │   ├───meta.json
+│   │   ├───problem.tex
+│   │   └───README.md
+│   ├───solution\
+│   │   ├───solution.c
+│   │   ├───solution.cpp
+│   │   ├───solution.md
+│   │   ├───solution.pdf.placeholder
+│   │   ├───solution.py
+│   │   ├───solution.tex
+│   │   └───README.md
+│   └───contest\
+│       ├───contest.md
+│       ├───meta.json
+│       ├───participants.json
+│       ├───README.md
+│       └───theory.md
 ├───scripts\
 │   ├───main_validator.py
 │   ├───README.md
@@ -67,6 +96,14 @@ E:\NEW\DATA\
 └───README.md
 ```
 
+
+### `models`
+
+The `models` directory contains templates for creating new problems, solutions, and contests. These templates provide a starting point for problem setters and contest creators to ensure consistency across the platform.
+
+-   `problem`: Contains a template for a new problem.
+-   `solution`: Contains a template for a new solution.
+-   `contest`: Contains a template for a new contest.
 
 ### `problems`
 

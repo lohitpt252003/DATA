@@ -1,0 +1,1 @@
+Provide the corresponding output for the second sample case here.

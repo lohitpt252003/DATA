@@ -1,0 +1,1 @@
+Provide the input for the second sample case here.

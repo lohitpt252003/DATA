@@ -1,1 +1,0 @@
-Explanation for sample 1: 1 + 2 = 3.

@@ -1,0 +1,1 @@
+This is a sample description for the second sample case. Explain the logic for this specific sample.

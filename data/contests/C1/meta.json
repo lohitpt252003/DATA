@@ -5,5 +5,6 @@
     "problems": ["P6", "P7", "P8", "P9"],
     "startTime": "2025-09-25T00:00:00Z",
     "endTime": "2025-10-07T23:59:59Z",
-    "authors": ["Admin"]
+    "authors": ["Admin"],
+    "is_practice": true
 }

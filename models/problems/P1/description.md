@@ -1,1 +1,0 @@
-This is a sample problem description. It explains what the problem is about.
