@@ -1,4 +1,5 @@
 import os
+import argparse
 
 def validate_contest_markdown_files(contest_id, base_path="."):
     contest_path = os.path.join(base_path, "data", "contests", contest_id)
@@ -31,15 +32,15 @@ def validate_contest_markdown_files(contest_id, base_path="."):
     return True, []
 
 if __name__ == "__main__":
-    import sys
-    if len(sys.argv) > 1:
-        contest_id = sys.argv[1]
-        success, messages = validate_contest_markdown_files(contest_id, base_path=".") # Changed base_path to "."
-        if success:
-            print(f"Contest {contest_id} markdown files are valid.")
-        else:
-            print(f"Contest {contest_id} markdown files have errors:")
-            for msg in messages:
-                print(f"- {msg}")
+    parser = argparse.ArgumentParser(description='Validate contest markdown files.')
+    parser.add_argument('--contest_id', required=True, help='The ID of the contest to validate (e.g., C1)')
+    args = parser.parse_args()
+
+    success, messages = validate_contest_markdown_files(args.contest_id, base_path="..")
+    if success:
+        print(f"Contest {args.contest_id} markdown files are valid.")
     else:
-        print("Usage: python test_contest_markdown_files.py <contest_id>")
+        print(f"Contest {args.contest_id} markdown files have errors:")
+        for msg in messages:
+            print(f"- {msg}")
+        sys.exit(1)

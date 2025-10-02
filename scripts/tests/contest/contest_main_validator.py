@@ -1,5 +1,6 @@
 import sys
 import os
+import argparse
 
 # Import individual validators
 from scripts.tests.contest.test_contest_meta import validate_contest_meta
@@ -29,15 +30,15 @@ def validate_contest_structure(contest_id, base_path="."):
     return True, []
 
 if __name__ == "__main__":
-    if len(sys.argv) > 1:
-        contest_id = sys.argv[1]
-        success, messages = validate_contest_structure(contest_id, base_path=".") # Changed base_path to "."
-        if success:
-            print(f"Contest {contest_id} structure is valid.")
-        else:
-            print(f"Contest {contest_id} structure has errors:")
-            for msg in messages:
-                print(f"- {msg}")
-            sys.exit(1) # <--- Add this line to exit with a non-zero status code on error
+    parser = argparse.ArgumentParser(description='Run all contest validation tests for a given contest_id.')
+    parser.add_argument('--contest_id', required=True, help='The ID of the contest to validate (e.g., C1)')
+    args = parser.parse_args()
+
+    success, messages = validate_contest_structure(args.contest_id, base_path="..")
+    if success:
+        print(f"Contest {args.contest_id} structure is valid.")
     else:
-        print("Usage: python contest_main_validator.py <contest_id>")
+        print(f"Contest {args.contest_id} structure has errors:")
+        for msg in messages:
+            print(f"- {msg}")
+        sys.exit(1)

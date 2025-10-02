@@ -38,7 +38,7 @@ The validation logic is now split into several main components, located in the `
 -   **Description:** This script runs all tests related to the problem's definition, including the `meta.json` (validating fields, data types, and values), markdown files (`description.md`, `input.md`, etc.), test cases, and overall data structure.
 -   **Usage:**
     ```bash
-    python -m scripts.tests.test_problem_structure <problem_id>
+    python -m scripts.tests.test_problem_structure --problem_id <problem_id>
     ```
 
 ### Solution Files Presence Validator
@@ -47,7 +47,7 @@ The validation logic is now split into several main components, located in the `
 -   **Description:** This script runs all tests related to the problem's official solution. It checks for the presence of solution files and runs the solution code against the test cases to verify its correctness, including checking for time limits.
 -   **Usage:**
     ```bash
-    python -m scripts.tests.test_solution_files_presence <problem_id>
+    python -m scripts.tests.test_solution_files_presence --problem_id <problem_id>
     ```
 
 ### Model Validator
@@ -65,7 +65,7 @@ The validation logic is now split into several main components, located in the `
 -   **Description:** This is the main validator for contests. It orchestrates the validation process by calling specialized validators for contest metadata, markdown files, and participants.json.
 -   **Usage:**
     ```bash
-    python -m scripts.tests.contest.contest_main_validator <contest_id>
+    python -m scripts.tests.contest.contest_main_validator --contest_id <contest_id>
     ```
 
 For more details on the individual test scripts that these validators run, please see the [README.md in the tests directory](./tests/README.md).

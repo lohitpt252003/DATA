@@ -33,7 +33,7 @@ def main():
             sys.exit(1)
         print(f"--- Running all validations for Contest {item_id} ---")
         validators_to_run = [
-            ("Contest Structure", ["python", "-m", "scripts.tests.contest.contest_main_validator", item_id])
+            ("Contest Structure", ["python", "-m", "scripts.tests.contest.contest_main_validator", "--contest_id", item_id])
         ]
 
     for validator_name, validator_command in validators_to_run:

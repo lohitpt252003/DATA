@@ -1,6 +1,7 @@
 import os
 import json
 from datetime import datetime
+import argparse
 
 def validate_contest_meta(contest_id, base_path="."):
     contest_path = os.path.join(base_path, "data", "contests", contest_id)
@@ -62,15 +63,15 @@ def validate_contest_meta(contest_id, base_path="."):
     return True, []
 
 if __name__ == "__main__":
-    import sys
-    if len(sys.argv) > 1:
-        contest_id = sys.argv[1]
-        success, messages = validate_contest_meta(contest_id, base_path=".") # Changed base_path to "."
-        if success:
-            print(f"Contest {contest_id} meta.json is valid.")
-        else:
-            print(f"Contest {contest_id} meta.json has errors:")
-            for msg in messages:
-                print(f"- {msg}")
+    parser = argparse.ArgumentParser(description='Validate contest meta.json.')
+    parser.add_argument('--contest_id', required=True, help='The ID of the contest to validate (e.g., C1)')
+    args = parser.parse_args()
+
+    success, messages = validate_contest_meta(args.contest_id, base_path="..")
+    if success:
+        print(f"Contest {args.contest_id} meta.json is valid.")
     else:
-        print("Usage: python test_contest_meta.py <contest_id>")
+        print(f"Contest {args.contest_id} meta.json has errors:")
+        for msg in messages:
+            print(f"- {msg}")
+        sys.exit(1)
