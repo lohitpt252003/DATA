@@ -1,65 +1,70 @@
-# Individual Test Scripts
+# Specialized Validation Scripts
 
-This directory contains the individual test scripts that are orchestrated by the validators in the parent directory. The tests are now organized into two subdirectories: `problem` and `solution`.
+This directory contains specialized Python scripts for validating different aspects of the problem and contest data. These scripts are typically called by `main_validator.py` but can also be run individually for specific testing.
 
-**Important:** All commands must be run from the root of the `DATA` directory.
+## Usage
 
-## Problem Statement Tests (`problem/`)
+To run any of these scripts, execute them from the root of the `DATA` directory using `python -m <module_path>`.
 
-These scripts validate the structure and content of the problem statement files.
+### Problem Structure Validator
 
--   `test_meta.py`: Validates `meta.json`, including fields, data types, and values.
--   `test_description_md.py`: Validates `description.md`.
--   `test_input_md.py`: Validates `input.md`.
--   `test_output_md.py`: Validates `output.md`.
--   `test_constraints_md.py`: Validates `constraints.md`.
--   `test_notes_md.py`: Validates `notes.md`.
--   `test_header_md.py`: Validates `header.md`.
--   `test_testcases.py`: Validates the `testcases` directory.
--   `test_index.py`: Validates the main `index.json` file.
--   `test_problem_submissions_structure.py`: Validates the submission structure within a problem.
--   `test_user_structure.py`: Validates the overall user data structure.
--   `test_pdf_statement_presence.py`: Checks for `statement.pdf` if `has_pdf_statement` is true in `meta.json`.
--   `test_problem_tex.py`: Checks for the presence and correct section structure of `problem.tex`.
+-   **Script:** `test_problem_structure.py`
+-   **Description:** Validates the overall structure and content of a problem, including `meta.json`, markdown files, and test cases.
+-   **Usage:**
+    ```bash
+    python -m scripts.tests.test_problem_structure <problem_id>
+    ```
 
-### Usage Example
+### Solution Files Presence Validator
 
-To run an individual problem test (e.g., `test_meta.py`):
+-   **Script:** `test_solution_files_presence.py`
+-   **Description:** Checks for the existence of expected solution files (e.g., `.py`, `.cpp`, `.c`, `.md`) for a given problem.
+-   **Usage:**
+    ```bash
+    python -m scripts.tests.test_solution_files_presence <problem_id>
+    ```
 
-```bash
-python -m scripts.tests.problem.test_meta P1
-```
+### Model Files Presence Validator
 
-## Solution Tests (`solution/`)
+-   **Script:** `test_model_files_presence.py`
+-   **Description:** Ensures that the necessary Python model files are present in the `DATA/models` directory.
+-   **Usage:**
+    ```bash
+    python -m scripts.tests.test_model_files_presence
+    ```
 
-These scripts validate and run the official solutions for a problem.
+### Contest Main Validator
 
--   `test_solution_md.py`: Validates `solution.md`.
--   `test_solution_files_presence.py`: Checks for the existence of solution code files.
--   `run_py_solution.py`: Runs the Python solution against test cases, checking for correctness and time limits.
--   `run_c_solution.py`: Compiles and runs the C solution against test cases, checking for correctness and time limits.
--   `run_cpp_solution.py`: Compiles and runs the C++ solution against test cases, checking for correctness and time limits.
--   `test_pdf_solution_presence.py`: Checks for `solution.pdf` if `has_pdf_solution` is true in `meta.json`.
--   `test_solution_tex.py`: Checks for the presence and correct section structure of `solution.tex`.
+-   **Script:** `contest/contest_main_validator.py`
+-   **Description:** This is the main validator for contests. It orchestrates the validation process by calling specialized validators for contest metadata, markdown files, and participants.json.
+-   **Usage:**
+    ```bash
+    python -m scripts.tests.contest.contest_main_validator <contest_id>
+    ```
 
-### Usage Example
+### Contest Meta Validator
 
-To run an individual solution test (e.g., `run_py_solution.py`):
+-   **Script:** `contest/test_contest_meta.py`
+-   **Description:** Validates the `meta.json` file of a contest, checking for required fields, data types, and logical consistency (e.g., `startTime` before `endTime`).
+-   **Usage:**
+    ```bash
+    python -m scripts.tests.contest.test_contest_meta <contest_id>
+    ```
 
-```bash
-python -m scripts.tests.solution.run_py_solution P1
-```
+### Contest Markdown Files Validator
 
-## Model Tests (`model/`)
+-   **Script:** `contest/test_contest_markdown_files.py`
+-   **Description:** Validates the presence and non-emptiness of `contest.md` and `theory.md` files for a contest.
+-   **Usage:**
+    ```bash
+    python -m scripts.tests.contest.test_contest_markdown_files <contest_id>
+    ```
 
-These scripts validate the presence and basic structure of the Python model files in the `DATA/models` directory.
+### Contest Participants Validator
 
--   `test_model_files_presence.py`: Checks for the presence of expected model files (e.g., `problem.py`, `user.py`).
-
-### Usage Example
-
-To run the model files presence test:
-
-```bash
-python -m scripts.tests.model.test_model_files_presence
-```
+-   **Script:** `contest/test_contest_participants.py`
+-   **Description:** Validates the `participants.json` file of a contest, ensuring it is a valid JSON file.
+-   **Usage:**
+    ```bash
+    python -m scripts.tests.contest.test_contest_participants <contest_id>
+    ```
