@@ -8,10 +8,28 @@ def validate_meta_json(meta_data):
     """
     Validates the meta.json data.
     """
-    required_fields = ["id", "title", "timeLimit", "memoryLimit", "number_of_submissions"]
+    required_fields = ["id", "title", "timeLimit", "memoryLimit", "number_of_submissions", "difficulty", "tags", "authors"]
     for field in required_fields:
         if field not in meta_data:
             return f"Missing required field in meta.json: {field}"
+
+    if not isinstance(meta_data["id"], str):
+        return "Field 'id' should be a string."
+    if not isinstance(meta_data["title"], str):
+        return "Field 'title' should be a string."
+    if not isinstance(meta_data["timeLimit"], int):
+        return "Field 'timeLimit' should be an integer."
+    if not isinstance(meta_data["memoryLimit"], int):
+        return "Field 'memoryLimit' should be an integer."
+    if not isinstance(meta_data["number_of_submissions"], int):
+        return "Field 'number_of_submissions' should be an integer."
+    if meta_data["difficulty"] not in ["Easy", "Medium", "Hard"]:
+        return "Field 'difficulty' should be one of 'Easy', 'Medium', or 'Hard'."
+    if not isinstance(meta_data["tags"], list):
+        return "Field 'tags' should be a list."
+    if not isinstance(meta_data["authors"], list):
+        return "Field 'authors' should be a list."
+
     return None
 
 def main(problem_id_arg=None):

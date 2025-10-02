@@ -4,6 +4,10 @@ import argparse
 import subprocess
 from scripts.utils.data_utils import get_problem_path, get_solution_path
 
+import json
+import subprocess
+from scripts.utils.data_utils import get_problem_path, get_solution_path
+
 def run_python_solution(problem_id):
     solution_path = os.path.join(get_solution_path(problem_id), "solution.py")
     problem_path = get_problem_path(problem_id)
@@ -13,6 +17,14 @@ def run_python_solution(problem_id):
     if not os.path.exists(solution_path):
         print(f"Error: Python solution not found at {solution_path}")
         return
+
+    try:
+        with open(os.path.join(problem_path, 'meta.json'), 'r') as f:
+            meta_data = json.load(f)
+            time_limit = meta_data.get("timeLimit", 1000) / 1000  # Convert to seconds
+    except FileNotFoundError:
+        print(f"Warning: meta.json not found for {problem_id}. Using default time limit of 1 second.")
+        time_limit = 1
 
     def _run_tests(test_dir, test_type):
         if not os.path.isdir(test_dir):
@@ -43,9 +55,13 @@ def run_python_solution(problem_id):
                         stdin=f_in,
                         capture_output=True,
                         text=True,
-                        check=True
+                        check=True,
+                        timeout=time_limit
                     )
                     actual_output = process.stdout.strip()
+                except subprocess.TimeoutExpired:
+                    print(f"{test_type} {test_case_number}: Time Limit Exceeded")
+                    continue
                 except subprocess.CalledProcessError as e:
                     print(f"{test_type} {test_case_number}: Runtime Error")
                     print(f"Stderr: {e.stderr.strip()}")

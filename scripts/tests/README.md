@@ -8,7 +8,7 @@ This directory contains the individual test scripts that are orchestrated by the
 
 These scripts validate the structure and content of the problem statement files.
 
--   `test_meta.py`: Validates `meta.json`.
+-   `test_meta.py`: Validates `meta.json`, including fields, data types, and values.
 -   `test_description_md.py`: Validates `description.md`.
 -   `test_input_md.py`: Validates `input.md`.
 -   `test_output_md.py`: Validates `output.md`.
@@ -36,9 +36,9 @@ These scripts validate and run the official solutions for a problem.
 
 -   `test_solution_md.py`: Validates `solution.md`.
 -   `test_solution_files_presence.py`: Checks for the existence of solution code files.
--   `run_py_solution.py`: Runs the Python solution against test cases.
--   `run_c_solution.py`: Compiles and runs the C solution against test cases.
--   `run_cpp_solution.py`: Compiles and runs the C++ solution against test cases.
+-   `run_py_solution.py`: Runs the Python solution against test cases, checking for correctness and time limits.
+-   `run_c_solution.py`: Compiles and runs the C solution against test cases, checking for correctness and time limits.
+-   `run_cpp_solution.py`: Compiles and runs the C++ solution against test cases, checking for correctness and time limits.
 -   `test_pdf_solution_presence.py`: Checks for `solution.pdf` if `has_pdf_solution` is true in `meta.json`.
 -   `test_solution_tex.py`: Checks for the presence and correct section structure of `solution.tex`.
 

@@ -29,7 +29,7 @@ The validation logic is now split into two main components, located in the `scri
 ### Problem Statement Validator
 
 -   **Script:** `scripts/tests/problem/problem_statement_validator.py`
--   **Description:** This script runs all tests related to the problem's definition, including the `meta.json`, markdown files (`description.md`, `input.md`, etc.), test cases, and overall data structure.
+-   **Description:** This script runs all tests related to the problem's definition, including the `meta.json` (validating fields, data types, and values), markdown files (`description.md`, `input.md`, etc.), test cases, and overall data structure.
 -   **Usage:**
     ```bash
     python -m scripts.tests.problem.problem_statement_validator <problem_id>
@@ -38,7 +38,7 @@ The validation logic is now split into two main components, located in the `scri
 ### Solution Validator
 
 -   **Script:** `scripts/tests/solution/solution_validator.py`
--   **Description:** This script runs all tests related to the problem's official solution. It checks for the presence of solution files and runs the solution code against the test cases to verify its correctness.
+-   **Description:** This script runs all tests related to the problem's official solution. It checks for the presence of solution files and runs the solution code against the test cases to verify its correctness, including checking for time limits.
 -   **Usage:**
     ```bash
     python -m scripts.tests.solution.solution_validator <problem_id>
