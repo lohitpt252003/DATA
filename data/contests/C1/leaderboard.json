@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-02T13:31:12.361448",
+  "last_updated": "2025-10-02T13:32:05.365094",
   "standings": [
     {
       "user_id": "U1",
@@ -9,7 +9,7 @@
         "P6": {
           "status": "not_solved",
           "score": 0,
-          "attempts": 3,
+          "attempts": 4,
           "time_taken": "00:00:00"
         },
         "P7": {
