@@ -1,23 +1,23 @@
 {
-    "id": "U1",
-    "username": "boss",
-    "name": "Chris Gayle",
-    "email": "boss@example.com",
-    "joined": "2025-08-23",
-    "bio": "Competitive programmer and developer",
-    "number_of_submissions": 71,
-    "attempted": {},
-    "solved": {
-        "P1": "2025-09-27T01:44:12.411421",
-        "P7": "2025-10-01T08:52:46.028410",
-        "P10": "2025-10-02T05:56:54.814880"
-    },
-    "not_solved": {
-        "P2": "2025-09-27T01:49:22.860126",
-        "P6": "2025-09-27T13:30:47.549400"
-    },
-    "contests": {
-        "C1": "2025-09-27T11:56:30.128303",
-        "C2": "2025-09-27T15:33:26.675870"
-    }
+  "id": "U1",
+  "username": "boss",
+  "name": "Chris Gayle",
+  "email": "boss@example.com",
+  "joined": "2025-08-23",
+  "bio": "Competitive programmer and developer",
+  "number_of_submissions": 71,
+  "attempted": {},
+  "solved": {
+    "P1": "2025-09-27T01:44:12.411421",
+    "P7": "2025-10-01T08:52:46.028410",
+    "P10": "2025-10-02T05:56:54.814880"
+  },
+  "not_solved": {
+    "P2": "2025-09-27T01:49:22.860126",
+    "P6": "2025-10-02T13:29:50.325098"
+  },
+  "contests": {
+    "C1": "2025-09-27T11:56:30.128303",
+    "C2": "2025-09-27T15:33:26.675870"
+  }
 }
