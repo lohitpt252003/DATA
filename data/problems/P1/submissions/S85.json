@@ -1,7 +1,6 @@
 {
   "submission_id": "S85",
   "user_id": "U1",
-  "problem_id": "P1",
   "timestamp": "2025-10-02T09:02:26Z",
-  "status": "Running... (Testcase 11)"
+  "status": "runtime_error"
 }
