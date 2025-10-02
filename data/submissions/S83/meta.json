@@ -3,7 +3,18 @@
   "user_id": "U1",
   "problem_id": "P6",
   "timestamp": "2025-10-02T08:00:40Z",
-  "status": "Running",
+  "status": "Running... (Testcase 1)",
   "language": "python",
-  "test_results": []
+  "test_results": [
+    {
+      "test_case_number": 1,
+      "status": "wrong_answer",
+      "message": "Output mismatch",
+      "execution_time": 0.05,
+      "memory_usage": 8.04296875,
+      "actual_output": "NO\nODD\nNO\nNO\nODD",
+      "expected_output": "EVEN\nODD\nEVEN\nEVEN\nODD",
+      "input": "5\n0\n1\n2\n1000000000000000000\n999999999999999999\n"
+    }
+  ]
 }
