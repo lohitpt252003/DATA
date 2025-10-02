@@ -36,7 +36,7 @@ if __name__ == "__main__":
     parser.add_argument('--contest_id', required=True, help='The ID of the contest to validate (e.g., C1)')
     args = parser.parse_args()
 
-    success, messages = validate_contest_markdown_files(args.contest_id, base_path="..")
+    success, messages = validate_contest_markdown_files(args.contest_id, base_path="..") # Changed base_path to ".."
     if success:
         print(f"Contest {args.contest_id} markdown files are valid.")
     else:

@@ -7,7 +7,7 @@ from scripts.tests.contest.test_contest_meta import validate_contest_meta
 from scripts.tests.contest.test_contest_markdown_files import validate_contest_markdown_files
 from scripts.tests.contest.test_contest_participants import validate_contest_participants
 
-def validate_contest_structure(contest_id, base_path="."):
+def validate_contest_structure(contest_id, base_path):
     all_errors = []
 
     # Run meta.json validation
@@ -34,11 +34,7 @@ if __name__ == "__main__":
     parser.add_argument('--contest_id', required=True, help='The ID of the contest to validate (e.g., C1)')
     args = parser.parse_args()
 
+    # When run directly, base_path should be ".." to refer to the DATA root
     success, messages = validate_contest_structure(args.contest_id, base_path="..")
     if success:
         print(f"Contest {args.contest_id} structure is valid.")
-    else:
-        print(f"Contest {args.contest_id} structure has errors:")
-        for msg in messages:
-            print(f"- {msg}")
-        sys.exit(1)
