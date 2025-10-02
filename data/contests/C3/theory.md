@@ -1,6 +1,6 @@
 # Theory Behind the `Number Theory - gcd, lcm, prime numbers, sieve algo, modular arithmetic` contest 🧠
 
-The `Number Theory - gcd, lcm, prime numbers, sieve algo, modular arithmetic` contest focuses on several key areas of number theory:
+The `Number Theory - GCD, LCM, Prime numbers, Sieve algorithm, Modular arithmetic` contest focuses on several key areas of number theory:
 
 *   **Greatest Common Divisor (GCD) and Least Common Multiple (LCM):** Understanding algorithms like Euclidean algorithm for GCD, and the relationship between GCD and LCM.
 *   **Prime Numbers:** Properties of prime numbers, primality testing, and factorization.
