@@ -3,7 +3,7 @@
   "user_id": "U1",
   "problem_id": "P6",
   "timestamp": "2025-10-02T08:01:31Z",
-  "status": "Running... (Testcase 1)",
+  "status": "Running... (Testcase 2)",
   "language": "python",
   "test_results": [
     {
@@ -15,6 +15,16 @@
       "actual_output": "EVEN\nODD\nEVEN\nEVEN\nODD",
       "expected_output": "EVEN\nODD\nEVEN\nEVEN\nODD",
       "input": "5\n0\n1\n2\n1000000000000000000\n999999999999999999\n"
+    },
+    {
+      "test_case_number": 2,
+      "status": "passed",
+      "message": "Test case passed",
+      "execution_time": 0.01,
+      "memory_usage": 8.046875,
+      "actual_output": "ODD\nODD\nODD\nEVEN\nEVEN",
+      "expected_output": "ODD\nODD\nODD\nEVEN\nEVEN",
+      "input": "5\n88533109\n70991607\n423120913\n469786036\n598739634\n"
     }
   ]
 }
