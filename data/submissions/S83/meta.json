@@ -3,7 +3,7 @@
   "user_id": "U1",
   "problem_id": "P6",
   "timestamp": "2025-10-02T08:00:40Z",
-  "status": "Queued",
+  "status": "Running",
   "language": "python",
   "test_results": []
 }
