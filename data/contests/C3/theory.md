@@ -1,4 +1,4 @@
-# Theory Behind the `Number Theory - gcd, lcm, prime numbers, sieve algo, modular arithmetic` contest 🧠
+# Theory Behind the `Number Theory - GCD, LCM, Prime numbers, Sieve algo, Modular arithmetic` contest 🧠
 
 The `Number Theory - GCD, LCM, Prime numbers, Sieve algorithm, Modular arithmetic` contest focuses on several key areas of number theory:
 

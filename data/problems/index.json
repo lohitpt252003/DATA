@@ -124,5 +124,17 @@
     "authors": [
       "Admin"
     ]
+  },
+  "P11": {
+    "title": "A recursive Algorithm",
+    "difficulty": "Easy",
+    "tags": [
+      "math",
+      "recursion"
+    ],
+    "authors": [
+      "Lohit",
+      "Sriramchandher"
+    ]
   }
 }

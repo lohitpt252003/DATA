@@ -1,0 +1,1 @@
+The input consists of two space-separated positive integers, A and B.
