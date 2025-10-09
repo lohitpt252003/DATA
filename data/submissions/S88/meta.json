@@ -3,7 +3,7 @@
   "user_id": "U1",
   "problem_id": "P11",
   "timestamp": "2025-10-09T05:15:17Z",
-  "status": "Running... (Testcase 9)",
+  "status": "Running... (Testcase 10)",
   "language": "python",
   "test_results": [
     {
@@ -95,6 +95,16 @@
       "actual_output": "",
       "expected_output": "25000",
       "input": "50000 25000\n"
+    },
+    {
+      "test_case_number": 10,
+      "status": "runtime_error",
+      "message": "Runtime Error: Runtime Error (Exit Code: 1)",
+      "execution_time": 0.01,
+      "memory_usage": 7.7265625,
+      "actual_output": "",
+      "expected_output": "3",
+      "input": "44349 35742\n"
     }
   ]
 }
