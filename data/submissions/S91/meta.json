@@ -3,7 +3,7 @@
   "user_id": "U1",
   "problem_id": "P11",
   "timestamp": "2025-10-09T05:36:59Z",
-  "status": "Running... (Testcase 1)",
+  "status": "Running... (Testcase 2)",
   "language": "python",
   "test_results": [
     {
@@ -15,6 +15,16 @@
       "actual_output": "",
       "expected_output": "2",
       "input": "5698 4838\n"
+    },
+    {
+      "test_case_number": 2,
+      "status": "runtime_error",
+      "message": "Runtime Error: File \"/sandbox/temp/solution.py\", line 8\n    print(gcd(a, b))\nIndentationError: unexpected indent\nCommand exited with non-zero status 1",
+      "execution_time": 0.05,
+      "memory_usage": 7.90234375,
+      "actual_output": "",
+      "expected_output": "3",
+      "input": "46926 42591\n"
     }
   ]
 }
