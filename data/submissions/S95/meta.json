@@ -3,7 +3,7 @@
   "user_id": "U1",
   "problem_id": "P11",
   "timestamp": "2025-10-09T06:26:42Z",
-  "status": "Running... (Testcase 10)",
+  "status": "accepted",
   "language": "python",
   "test_results": [
     {
