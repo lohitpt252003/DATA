@@ -1,21 +1,21 @@
 {
-  "id": "U5",
-  "username": "Vinchi",
-  "name": "Priyanshi",
-  "email": "thevinchi007@gmail.com",
-  "joined": "2025-09-25",
-  "bio": "",
-  "number_of_submissions": 8,
-  "contests": {
-    "C2": "2025-09-27T10:03:59.872316",
-    "C1": "2025-09-27T10:05:17.770319",
-    "C3": "2025-10-07T11:32:13.929722"
-  },
-  "attempted": {},
-  "solved": {
-    "P1": "2025-10-09T11:50:41.145505"
-  },
-  "not_solved": {
-    "P2": "2025-10-09T11:51:37.829620"
-  }
+    "id": "U5",
+    "username": "Vinchi",
+    "name": "Priyanshi",
+    "email": "thevinchi007@gmail.com",
+    "joined": "2025-09-25",
+    "bio": "",
+    "number_of_submissions": 9,
+    "contests": {
+        "C2": "2025-09-27T10:03:59.872316",
+        "C1": "2025-09-27T10:05:17.770319",
+        "C3": "2025-10-07T11:32:13.929722"
+    },
+    "attempted": {},
+    "solved": {
+        "P1": "2025-10-09T11:50:41.145505"
+    },
+    "not_solved": {
+        "P2": "2025-10-09T11:51:37.829620"
+    }
 }
