@@ -3,7 +3,7 @@
   "user_id": "U5",
   "problem_id": "P1",
   "timestamp": "2025-10-09T11:41:51Z",
-  "status": "Running... (Testcase 10)",
+  "status": "Running... (Testcase 11)",
   "language": "c++",
   "test_results": [
     {
@@ -105,6 +105,16 @@
       "actual_output": "100000000000000000",
       "expected_output": "99999999999999998",
       "input": "99999999999999999 1"
+    },
+    {
+      "test_case_number": 11,
+      "status": "wrong_answer",
+      "message": "Output mismatch",
+      "execution_time": 0.0,
+      "memory_usage": 3.30859375,
+      "actual_output": "-100000000000000000",
+      "expected_output": "99999999999999998",
+      "input": "-1 -99999999999999999"
     }
   ]
 }
