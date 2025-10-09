@@ -3,7 +3,7 @@
   "user_id": "U5",
   "problem_id": "P1",
   "timestamp": "2025-10-09T11:40:42Z",
-  "status": "runtime_error",
+  "status": "Running... (Testcase 1)",
   "language": "python",
   "test_results": [
     {
@@ -11,110 +11,10 @@
       "status": "runtime_error",
       "message": "Runtime Error: Runtime Error (Exit Code: 1)",
       "execution_time": 0.01,
-      "memory_usage": 7.88671875,
+      "memory_usage": 7.95703125,
       "actual_output": "",
-      "expected_output": "2",
+      "expected_output": "0",
       "input": "1 1\n"
-    },
-    {
-      "test_case_number": 2,
-      "status": "runtime_error",
-      "message": "Runtime Error: Runtime Error (Exit Code: 1)",
-      "execution_time": 0.05,
-      "memory_usage": 7.8515625,
-      "actual_output": "",
-      "expected_output": "4",
-      "input": "2 2\n"
-    },
-    {
-      "test_case_number": 3,
-      "status": "runtime_error",
-      "message": "Runtime Error: Runtime Error (Exit Code: 1)",
-      "execution_time": 0.05,
-      "memory_usage": 7.953125,
-      "actual_output": "",
-      "expected_output": "0",
-      "input": "0 0"
-    },
-    {
-      "test_case_number": 4,
-      "status": "runtime_error",
-      "message": "Runtime Error: Runtime Error (Exit Code: 1)",
-      "execution_time": 0.01,
-      "memory_usage": 7.84765625,
-      "actual_output": "",
-      "expected_output": "12345",
-      "input": "12345 0"
-    },
-    {
-      "test_case_number": 5,
-      "status": "runtime_error",
-      "message": "Runtime Error: Runtime Error (Exit Code: 1)",
-      "execution_time": 0.05,
-      "memory_usage": 7.8671875,
-      "actual_output": "",
-      "expected_output": "67890",
-      "input": "0 67890"
-    },
-    {
-      "test_case_number": 6,
-      "status": "runtime_error",
-      "message": "Runtime Error: Runtime Error (Exit Code: 1)",
-      "execution_time": 0.05,
-      "memory_usage": 7.859375,
-      "actual_output": "",
-      "expected_output": "-30",
-      "input": "-10 -20"
-    },
-    {
-      "test_case_number": 7,
-      "status": "runtime_error",
-      "message": "Runtime Error: Runtime Error (Exit Code: 1)",
-      "execution_time": 0.04,
-      "memory_usage": 8.04296875,
-      "actual_output": "",
-      "expected_output": "20",
-      "input": "50 -30"
-    },
-    {
-      "test_case_number": 8,
-      "status": "runtime_error",
-      "message": "Runtime Error: Runtime Error (Exit Code: 1)",
-      "execution_time": 0.01,
-      "memory_usage": 7.87109375,
-      "actual_output": "",
-      "expected_output": "-20",
-      "input": "-50 30"
-    },
-    {
-      "test_case_number": 9,
-      "status": "runtime_error",
-      "message": "Runtime Error: Runtime Error (Exit Code: 1)",
-      "execution_time": 0.01,
-      "memory_usage": 8.03515625,
-      "actual_output": "",
-      "expected_output": "100000000000000000",
-      "input": "99999999999999999 1"
-    },
-    {
-      "test_case_number": 10,
-      "status": "runtime_error",
-      "message": "Runtime Error: Runtime Error (Exit Code: 1)",
-      "execution_time": 0.0,
-      "memory_usage": 8.01171875,
-      "actual_output": "",
-      "expected_output": "-100000000000000000",
-      "input": "-99999999999999999 -1"
-    },
-    {
-      "test_case_number": 11,
-      "status": "runtime_error",
-      "message": "Runtime Error: Runtime Error (Exit Code: 1)",
-      "execution_time": 0.06,
-      "memory_usage": 7.92578125,
-      "actual_output": "",
-      "expected_output": "0",
-      "input": "99999999999999999 -99999999999999999"
     }
   ]
 }
