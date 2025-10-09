@@ -3,7 +3,7 @@
   "user_id": "U1",
   "problem_id": "P11",
   "timestamp": "2025-10-09T05:22:45Z",
-  "status": "Running... (Testcase 8)",
+  "status": "Running... (Testcase 9)",
   "language": "python",
   "test_results": [
     {
@@ -85,6 +85,16 @@
       "actual_output": "",
       "expected_output": "50",
       "input": "100 50\n"
+    },
+    {
+      "test_case_number": 9,
+      "status": "runtime_error",
+      "message": "Runtime Error: File \"/sandbox/temp/solution.py\", line 1\n    def gcd(a, b):\\n    while b:\\n        a, b = b, a % b\\n    return a\\n\\ntry:\\n    a, b = map(int, input().split())\\n    print(gcd(a, b))\\nexcept (ValueError, IndexError):\\n    pass\n                   ^\nSyntaxError: unexpected character after line continuation character\nCommand exited with non-zero status 1",
+      "execution_time": 0.01,
+      "memory_usage": 7.7734375,
+      "actual_output": "",
+      "expected_output": "25000",
+      "input": "50000 25000\n"
     }
   ]
 }
