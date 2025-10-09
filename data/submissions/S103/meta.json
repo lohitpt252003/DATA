@@ -3,7 +3,7 @@
   "user_id": "U5",
   "problem_id": "P4",
   "timestamp": "2025-10-09T12:01:54Z",
-  "status": "Running... (Testcase 3)",
+  "status": "Running... (Testcase 4)",
   "language": "c++",
   "test_results": [
     {
@@ -35,6 +35,16 @@
       "actual_output": "-3",
       "expected_output": "-3",
       "input": "15 -4"
+    },
+    {
+      "test_case_number": 4,
+      "status": "passed",
+      "message": "Test case passed",
+      "execution_time": 0.0,
+      "memory_usage": 3.4375,
+      "actual_output": "10",
+      "expected_output": "10",
+      "input": "100 10"
     }
   ]
 }
