@@ -3,7 +3,7 @@
   "user_id": "U1",
   "problem_id": "P11",
   "timestamp": "2025-10-09T05:40:12Z",
-  "status": "Running... (Testcase 6)",
+  "status": "Running... (Testcase 7)",
   "language": "python",
   "test_results": [
     {
@@ -65,6 +65,16 @@
       "actual_output": "2",
       "expected_output": "2",
       "input": "48266 6718\n"
+    },
+    {
+      "test_case_number": 7,
+      "status": "passed",
+      "message": "Test case passed",
+      "execution_time": 0.05,
+      "memory_usage": 8.171875,
+      "actual_output": "2",
+      "expected_output": "2",
+      "input": "36782 13032\n"
     }
   ]
 }
