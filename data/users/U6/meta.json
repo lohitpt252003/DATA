@@ -1,18 +1,18 @@
 {
-  "id": "U6",
-  "username": "Karishma",
-  "name": "Karishma Singh",
-  "email": "karishma05cs@gmail.com",
-  "joined": "2025-09-25",
-  "bio": "",
-  "number_of_submissions": 8,
-  "contests": {
-    "C2": "2025-09-27T10:03:47.567277",
-    "C3": "2025-10-10T16:51:55.575050"
-  },
-  "attempted": {},
-  "solved": {
-    "P11": "2025-10-10T17:03:06.372634"
-  },
-  "not_solved": {}
+    "id": "U6",
+    "username": "Karishma",
+    "name": "Karishma Singh",
+    "email": "karishma05cs@gmail.com",
+    "joined": "2025-09-25",
+    "bio": "",
+    "number_of_submissions": 9,
+    "contests": {
+        "C2": "2025-09-27T10:03:47.567277",
+        "C3": "2025-10-10T16:51:55.575050"
+    },
+    "attempted": {},
+    "solved": {
+        "P11": "2025-10-10T17:03:06.372634"
+    },
+    "not_solved": {}
 }
