@@ -1,1 +1,0 @@
-import sys\nstdin_content = sys.stdin.read()\nprint(f"stdin_content: '{stdin_content}'")\ntry:\n    a, b = map(int, stdin_content.split())\n    print(abs(a - b))\nexcept Exception as e:\n    print(f"Error: {e}")\n

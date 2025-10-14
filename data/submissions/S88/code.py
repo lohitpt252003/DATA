@@ -1,1 +1,0 @@
-def gcd(a, b):\n    while b:\n        a, b = b, a % b\n    return a\n\ntry:\n    a, b = map(int, input().split())\n    print(gcd(a, b))\nexcept (ValueError, IndexError):\n    pass
