@@ -133,13 +133,13 @@ The `models` directory contains templates for creating new problems, solutions, 
 -   `meta.json`: A JSON file that contains the total number of submissions.
 -   `S1/`, `S2/`, etc.: Each submission has its own directory, named with a unique submission ID (e.g., `S1`). **Here, `S` stands for "submission" and the number is the `submission_id`.**
     -   `code.c`, `code.cpp`, or `code.py`: The source code of the submission with the appropriate file extension.
-    -   `meta.json`: Contains metadata about the submission, such as the user who submitted it, the problem it's for, the submission time, status (e.g., "Queued", "Running... (Testcase 1)", "Accepted"), and detailed test results.
+    -   `meta.json`: Contains metadata about the submission, such as the `username` of the user who submitted it, the problem it's for, the submission time, status (e.g., "Queued", "Running... (Testcase 1)", "Accepted"), and detailed test results.
 
 ### `users`
 
 -   `index.json`: A JSON file that contains a list of all users and their metadata, such as username, name, and email.
--   `U1/`, `U2/`, etc.: Each user has their own directory, named with a unique user ID (e.g., `U1`). **Here, `U` stands for "user" and the number is the `user_id`.**
-    -   `meta.json`: Contains metadata specific to the user (e.g., `id`, `username`, `name`, `email`, `bio`, `joined`, `number_of_submissions`, `attempted`, `solved`, `not_solved`). `attempted`, `solved`, and `not_solved` are dictionaries storing problem IDs as keys and timestamps as values, representing the problems the user has attempted, successfully solved, or attempted but not yet solved, respectively.
+-   `<username>/`: Each user has its own directory, named with their unique `username` (e.g., `testuser/`).
+    -   `meta.json`: Contains metadata specific to the user (e.g., `username`, `name`, `email`, `bio`, `joined`, `number_of_submissions`, `attempted`, `solved`, `not_solved`). `attempted`, `solved`, and `not_solved` are dictionaries storing problem IDs as keys and timestamps as values, representing the problems the user has attempted, successfully solved, or attempted but not yet solved, respectively.
     -   `submissions/`: A directory containing references to submissions made by this user.
         -   `S1.json`, `S2.json`, etc.: JSON files, each referencing a submission ID and its status for this user.
 
@@ -217,7 +217,7 @@ This structure is designed to be easily extensible. Problems are primarily added
         {
           "participants": [
             {
-              "user_id": "U1",
+              "username": "testuser",
               "registration_time": "2025-10-01T10:00:00Z"
             }
           ]
@@ -229,7 +229,7 @@ This structure is designed to be easily extensible. Problems are primarily added
           "last_updated": "2025-10-01T12:30:00Z",
           "standings": [
             {
-              "user_id": "U1",
+              "username": "testuser",
               "total_score": 200,
               "total_penalty": 10,
               "problems": {
