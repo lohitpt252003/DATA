@@ -19,7 +19,7 @@ python -m scripts.main_validator --contest_id <contest_id>
 **Examples:**
 
 ```bash
-python -m scripts.main_validator --problem_id P1
+python -m scripts.main_validator --problem_id C0A
 python -m scripts.main_validator --contest_id C1
 ```
 
@@ -35,7 +35,7 @@ The validation logic is now split into several main components, located in the `
 ### Problem Structure Validator
 
 -   **Script:** `scripts/tests/test_problem_structure.py`
--   **Description:** This script runs all tests related to the problem's definition, including the `meta.json` (validating fields, data types, and values), markdown files (`description.md`, `input.md`, etc.), test cases, and overall data structure.
+-   **Description:** This script runs all tests related to the problem's definition, including the `meta.json` (validating fields, data types, and values), `problem.md` (combining description, input/output, constraints, and notes), test cases, and overall data structure.
 -   **Usage:**
     ```bash
     python -m scripts.tests.test_problem_structure --problem_id <problem_id>
@@ -53,7 +53,7 @@ The validation logic is now split into several main components, located in the `
 ### Model Validator
 
 -   **Script:** `scripts/tests/test_model_files_presence.py`
--   **Description:** This script runs tests to ensure the presence and basic structure of the Python model files in the `DATA/models` directory.
+-   **Description:** This script runs tests to ensure the presence and basic structure of the Python blueprint files in the `DATA/blueprint` directory.
 -   **Usage:**
     ```bash
     python -m scripts.tests.test_model_files_presence

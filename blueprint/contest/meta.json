@@ -5,6 +5,5 @@
     "startTime": "2025-10-01T00:00:00Z",
     "endTime": "2025-10-07T23:59:59Z",
     "problems": ["<problem_id_1>", "<problem_id_2>"],
-    "authors": ["author1", "author2"],
-    "is_practice": true
+    "authors": ["author1", "author2"]
 }

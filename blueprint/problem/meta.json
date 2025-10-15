@@ -3,7 +3,6 @@
     "title": "Problem Title",
     "timeLimit": 1000,
     "memoryLimit": 256,
-    "contest_id": "C_id",
     "tags": ["tag1", "tag2"],
     "authors": ["author1", "author2"],
     "difficulty": "Easy | Medium | Hard"

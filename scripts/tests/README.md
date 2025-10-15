@@ -9,28 +9,28 @@ To run any of these scripts, execute them from the root of the `DATA` directory 
 ### Problem Structure Validator
 
 -   **Script:** `test_problem_structure.py`
--   **Description:** Validates the overall structure and content of a problem, including `meta.json`, markdown files, and test cases.
+-   **Description:** Validates the overall structure and content of a problem, including `meta.json`, `problem.md`, and test cases.
 -   **Usage:**
     ```bash
-    python -m scripts.tests.problem.problem_statement_validator --problem_id <problem_id>
+    python -m scripts.tests.problem.problem_statement_validator --problem_id C0A
     ```
 
 ### Solution Files Presence Validator
 
 -   **Script:** `test_solution_files_presence.py`
--   **Description:** Checks for the existence of expected solution files (e.g., `.py`, `.cpp`, `.c`, `.md`) for a given problem.
+-   **Description:** Checks for the existence of expected solution files (e.g., `.py`, `.cpp`, `.c`, `.md`) for a given problem (with ID format `C<contest_id><problem_letter>`).
 -   **Usage:**
     ```bash
-    python -m scripts.tests.solution.solution_validator --problem_id <problem_id>
+    python -m scripts.tests.solution.solution_validator --problem_id C0A
     ```
 
 ### Model Files Presence Validator
 
--   **Script:** `test_model_files_presence.py`
--   **Description:** Ensures that the necessary Python model files are present in the `DATA/models` directory.
+-   **Script:** `test_blueprint_files_presence.py`
+-   **Description:** Ensures that the necessary Python blueprint files are present in the `DATA/blueprint` directory.
 -   **Usage:**
     ```bash
-    python -m scripts.tests.model.model_validator
+    python -m scripts.tests.test_blueprint_files_presence
     ```
 
 ### Contest Main Validator
@@ -54,7 +54,7 @@ To run any of these scripts, execute them from the root of the `DATA` directory 
 ### Contest Markdown Files Validator
 
 -   **Script:** `contest/test_contest_markdown_files.py`
--   **Description:** Validates the presence and non-emptiness of `contest.md` and `theory.md` files for a contest.
+-   **Description:** Validates the presence and non-emptiness of `contest_details.md` file for a contest.
 -   **Usage:**
     ```bash
     python -m scripts.tests.contest.test_contest_markdown_files --contest_id <contest_id>
