@@ -1,1 +1,0 @@
-Print a single integer which is the result of the recursive function.

@@ -1,1 +1,0 @@
-Print the sum of $a$ and $b$.

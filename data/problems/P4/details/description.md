@@ -1,1 +1,0 @@
-Given two integers, $a$ and $b$, your task is to find the integer division of $a$ by $b$. Assume $b \neq 0$.

@@ -1,1 +1,0 @@
-This is a basic multiplication problem. Pay attention to integer overflow if using languages with fixed-size integers, though for the given constraints, standard integer types should suffice.

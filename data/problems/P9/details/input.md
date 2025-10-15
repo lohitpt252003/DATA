@@ -1,1 +1,0 @@
-- A single integer `n`.

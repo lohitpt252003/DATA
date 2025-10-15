@@ -1,1 +1,0 @@
-This is a basic integer division problem. Be mindful of how different programming languages handle integer division, especially with negative numbers.

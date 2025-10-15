@@ -1,1 +1,0 @@
-This is a sample problem description. The problem statement should be clear, concise, and unambiguous. It should describe the task that the user needs to solve. You can use LaTeX for mathematical formulas, like $a^2 + b^2 = c^2$.

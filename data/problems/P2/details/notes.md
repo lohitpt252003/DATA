@@ -1,1 +1,0 @@
-- It is clear that 1 - 1 = 0 and 2 - 2 = 0

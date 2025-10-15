@@ -1,1 +1,0 @@
-- For each test case, print "ODD" if $n$ is odd, otherwise print "EVEN".

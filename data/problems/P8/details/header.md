@@ -1,1 +1,0 @@
-Problem 8: Three Segments

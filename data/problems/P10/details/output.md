@@ -1,1 +1,0 @@
-Print the value of `binary_string % k`. If k is 0, print -1.

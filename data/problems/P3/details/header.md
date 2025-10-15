@@ -1,1 +1,0 @@
-# Problem P3: Multiplication

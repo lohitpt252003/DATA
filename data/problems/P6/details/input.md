@@ -1,2 +1,0 @@
-- The first line contains a single integer $t$ — the number of test cases.
-- Each of the next $t$ lines contains a single integer $n$.

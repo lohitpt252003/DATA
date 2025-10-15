@@ -1,3 +1,0 @@
-- 2 is even → "EVEN"
-- 5 is odd → "ODD"
-- 0 is even → "EVEN"

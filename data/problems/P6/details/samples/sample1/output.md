@@ -1,3 +1,0 @@
-EVEN
-ODD
-EVEN

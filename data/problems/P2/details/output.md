@@ -1,1 +1,0 @@
-- One integer representing the absolute difference of $a$ and $b$.

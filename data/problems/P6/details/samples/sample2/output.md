@@ -1,4 +1,0 @@
-ODD 
-EVEN 
-ODD 
-EVEN 

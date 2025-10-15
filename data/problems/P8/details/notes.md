@@ -1,2 +1,0 @@
-- The three segments must be contiguous and cover the entire array.
-- Each segment must be non-empty.

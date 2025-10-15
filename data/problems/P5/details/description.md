@@ -1,1 +1,0 @@
-Given two non-negative integers, $a$ and $b$, return their sum. The numbers can be very large.
