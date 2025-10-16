@@ -52,8 +52,7 @@ The `blueprint` directory contains templates for creating new problems, solution
         - `C0A/`, `C0B/`, etc.: Each problem has its own directory, named with a unique problem ID in the format `C<contest_id><problem_letter>` (e.g., `C0A`, `C1C`, `C1000F`). If there are more than 26 problems in a contest, the problem letters will continue as `AA`, `AB`, etc. (e.g., `C1AA`, `C1AB`).
             - `meta.json`: Contains metadata specific to the problem (e.g., `id`, `title`, `timeLimit`, `memoryLimit`, `number_of_submissions`, `contest_id`).
             - ... (other problem files like `details/`, `testcases/`, etc.)
-    - `description.md`: Markdown description of the contest.
-    - `theory.md`: Markdown explanation of the theory behind the contest problems.
+    -   `contest.md`: A Markdown file containing the contest description, rules, and theory.
     - `participants.json`: Stores a list of users registered for the contest.
     - `leaderboard.json`: Stores the current standings of the contest.
 
