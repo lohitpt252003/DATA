@@ -7,8 +7,9 @@ def validate_contest_markdown_files(contest_id, base_path="."):
 
     contest_md_file = os.path.join(contest_path, "contest.md")
     theory_md_file = os.path.join(contest_path, "theory.md")
+    rules_md_file = os.path.join(contest_path, "rules.md")
 
-    # Validate contest.md and theory.md are not empty
+    # Validate contest.md, theory.md and rules.md are not empty
     try:
         with open(contest_md_file, 'r', encoding='utf-8') as f:
             if not f.read().strip():
@@ -26,6 +27,15 @@ def validate_contest_markdown_files(contest_id, base_path="."):
         errors.append(f"Missing theory.md for contest {contest_id}")
     except Exception as e:
         errors.append(f"Error reading theory.md for contest {contest_id}: {e}")
+
+    try:
+        with open(rules_md_file, 'r', encoding='utf-8') as f:
+            if not f.read().strip():
+                errors.append(f"rules.md for contest {contest_id} is empty")
+    except FileNotFoundError:
+        errors.append(f"Missing rules.md for contest {contest_id}")
+    except Exception as e:
+        errors.append(f"Error reading rules.md for contest {contest_id}: {e}")
 
     if errors:
         return False, errors
