@@ -1,0 +1,9 @@
+{
+    "id": "C1",
+    "name": "Prime Numbers Contest",
+    "description": "A brief description of the contest.",
+    "startTime": "2025-10-01T00:00:00Z",
+    "endTime": "2025-10-07T23:59:59Z",
+    "problems": [],
+    "authors": ["Lohit", "Sriramchandher"]
+}
