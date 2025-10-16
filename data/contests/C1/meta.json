@@ -4,6 +4,6 @@
     "description": "A brief description of the contest.",
     "startTime": "2025-10-01T00:00:00Z",
     "endTime": "2025-10-07T23:59:59Z",
-    "problems": [],
+    "problems": ["C1A"],
     "authors": ["Lohit", "Sriramchandher"]
 }

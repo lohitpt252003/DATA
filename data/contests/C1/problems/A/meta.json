@@ -1,0 +1,9 @@
+{
+    "id": "C1A",
+    "title": "Prime or not",
+    "timeLimit": 1000,
+    "memoryLimit": 256,
+    "tags": ["math", "prime"],
+    "authors": ["Lohit", "Sriramchandher"],
+    "difficulty": "Easy"
+}

@@ -49,7 +49,7 @@ The `blueprint` directory contains templates for creating new problems, solution
 - `C0/`, `C1/`, etc.: Each contest has its own directory, named with a unique contest ID (e.g., `C0`).
     - `meta.json`: Contains metadata specific to the contest (e.g., `id`, `name`, `startTime`, `endTime`, `problems`, `authors`).
     - `problems/`: A directory containing the problems for this contest.
-        - `C0A/`, `C0B/`, etc.: Each problem has its own directory, named with a unique problem ID in the format `C<contest_id><problem_letter>` (e.g., `C0A`, `C1C`, `C1000F`). If there are more than 26 problems in a contest, the problem letters will continue as `AA`, `AB`, etc. (e.g., `C1AA`, `C1AB`).
+        - `A/`, `B/`, etc.: Each problem has its own directory within the contest's `problems` directory, named with a problem letter (e.g., `A`, `B`, `C`). If there are more than 26 problems, the folder names will continue as `AA`, `AB`, etc. The `id` field in the problem's `meta.json` file should be in the format `C<contest_id><problem_letter>` (e.g., `C1A`, `C1AA`).
             - `meta.json`: Contains metadata specific to the problem (e.g., `id`, `title`, `timeLimit`, `memoryLimit`, `number_of_submissions`, `contest_id`).
             - ... (other problem files like `details/`, `testcases/`, etc.)
     -   `contest.md`: A Markdown file containing the contest description, rules, and theory.
@@ -78,7 +78,7 @@ The `blueprint` directory contains templates for creating new problems, solution
 
 ## General Structure
 
-The data is stored in a hierarchical file system structure. Problems are now organized within their respective contests. The problem ID format is `C<contest_id><problem_letter>` (e.g., `C0A`, `C1C`, `C1000F`). If there are more than 26 problems in a contest, the problem letters will continue as `AA`, `AB`, etc. (e.g., `C1AA`, `C1AB`).
+The data is stored in a hierarchical file system structure. Problems are now organized within their respective contests. The problem folder is named with a letter (e.g., `A`, `B`, `C`). If there are more than 26 problems, the folder names will continue as `AA`, `AB`, etc. The problem `id` in the `meta.json` file is in the format `C<contest_id><problem_letter>` (e.g., `C1A`, `C1AA`).
 
 ## Validation and Solution Scripts
 
