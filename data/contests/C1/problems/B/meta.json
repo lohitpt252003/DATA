@@ -1,0 +1,9 @@
+{
+    "id": "C1B",
+    "title": "T-prime or not",
+    "timeLimit": 1000,
+    "memoryLimit": 256,
+    "tags": ["math", "prime", "t-prime"],
+    "authors": ["Lohit", "Sriramchandher"],
+    "difficulty": "Medium"
+}
