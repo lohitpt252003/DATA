@@ -69,3 +69,16 @@ The validation logic is now split into several main components, located in the `
     ```
 
 For more details on the individual test scripts that these validators run, please see the [README.md in the tests directory](./tests/README.md).
+
+## Problem-Specific Validator (`validator.py`)
+
+In addition to the validation scripts in this directory, each problem has its own `validator.py` script located in the problem's directory (e.g., `data/contests/C1/problems/A/validator.py`).
+
+This script acts as a **custom judge** for the problem. Its role is to:
+
+1.  Take a user's output file and the correct output file as command-line arguments.
+2.  Compare the two files to determine if the user's output is correct.
+3.  Handle cases where multiple correct answers are possible.
+4.  Print a verdict, such as "Accepted" or "Wrong Answer".
+
+This problem-specific validator is used by the judging system to grade submissions.
