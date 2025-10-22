@@ -3,7 +3,7 @@
   "username": "testuser",
   "problem_id": "C1A",
   "timestamp": "2025-10-22T21:59:13Z",
-  "status": "Judging",
+  "status": "accepted",
   "language": "python",
   "test_results": []
 }
