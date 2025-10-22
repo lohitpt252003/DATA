@@ -1,31 +1,26 @@
 import sys
-import argparse
 
-def main():
-    parser = argparse.ArgumentParser(description='Validate the output of a user\'s submission.')
-    parser.add_argument('user_output_file', help='The path to the user\'s output file.')
-    parser.add_argument('correct_output_file', help='The path to the correct output file.')
-    args = parser.parse_args()
+def is_prime(n):
+    if n <= 1:
+        return False
+    for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+            return False
+    return True
 
-    try:
-        with open(args.user_output_file, 'r', encoding='utf-8') as f:
-            user_output = f.read().strip()
-    except FileNotFoundError:
-        print("Wrong Answer: User output file not found.")
-        sys.exit(1)
+if __name__ == '__main__':
+    user_output = sys.argv[1]
+    input_file = sys.argv[2]
 
-    try:
-        with open(args.correct_output_file, 'r', encoding='utf-8') as f:
-            correct_output = f.read().strip()
-    except FileNotFoundError:
-        print("Internal Error: Correct output file not found.")
-        sys.exit(1)
+    with open(input_file, 'r') as f:
+        n = int(f.read().strip())
 
-    # Case-insensitive comparison
-    if user_output.lower() == correct_output.lower():
+    if is_prime(n):
+        correct_output = "Prime"
+    else:
+        correct_output = "Not Prime"
+
+    if user_output.strip().lower() == correct_output.lower():
         print("Accepted")
     else:
         print("Wrong Answer")
-
-if __name__ == "__main__":
-    main()
