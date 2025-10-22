@@ -33,20 +33,35 @@ def main():
     db = client[DB_NAME]
     contests_collection = db["contests"]
 
-    parser = argparse.ArgumentParser(description='Add a new contest to the database.')
+    parser = argparse.ArgumentParser(description='Add a new contest to the database from its meta.json file.')
     parser.add_argument('--id', required=True, help='The contest ID.')
-    parser.add_argument('--name', required=True, help='The name of the contest.')
-    parser.add_argument('--authors', nargs='+', required=True, help='A list of authors.')
-    parser.add_argument('--problems', nargs='+', help='A list of problem IDs for the contest.')
     args = parser.parse_args()
 
     if not is_valid_contest_id(args.id):
         print("Invalid contest ID format. It must be in the format C<number> (e.g., C1, C100).")
         return
 
+    # Construct path to meta.json
+    meta_file_path = os.path.join(os.path.dirname(__file__), '..', '..', 'data', 'contests', args.id, 'meta.json')
+
+    if not os.path.isfile(meta_file_path):
+        print(f"Error: meta.json file not found at '{meta_file_path}'.")
+        return
+
+    # Read and parse meta.json
+    try:
+        with open(meta_file_path, 'r') as f:
+            meta_data = json.load(f)
+    except json.JSONDecodeError:
+        print(f"Error: Could not decode meta.json at '{meta_file_path}'.")
+        return
+    except Exception as e:
+        print(f"Error reading meta.json: {e}")
+        return
+
     # Validate problems if provided
-    if args.problems:
-        for problem_id in args.problems:
+    if meta_data.get('problems'):
+        for problem_id in meta_data['problems']:
             if not is_valid_problem_id(problem_id):
                 print(f"Error: Invalid problem ID format for '{problem_id}'. It must be in the format C<contest_id><problem_letter> (e.g., C1A, C100AA).")
                 return
@@ -76,9 +91,9 @@ def main():
             # Optionally, read and validate meta.json content if needed
             try:
                 with open(meta_file_path, 'r') as f:
-                    meta_data = json.load(f)
-                    if meta_data.get("id") != problem_id:
-                        print(f"Error: Problem ID in meta.json ('{meta_data.get("id")}') does not match expected ID ('{problem_id}') for problem at '{meta_file_path}'.")
+                    problem_meta_data = json.load(f)
+                    if problem_meta_data.get("id") != problem_id:
+                        print(f"Error: Problem ID in meta.json ('{problem_meta_data.get("id")}') does not match expected ID ('{problem_id}') for problem at '{meta_file_path}'.")
                         return
             except json.JSONDecodeError:
                 print(f"Error: Could not decode meta.json for '{problem_id}' at '{meta_file_path}'.")
@@ -92,17 +107,17 @@ def main():
 
     contest_document = {
         "id": args.id,
-        "name": args.name,
-        "authors": args.authors,
+        "name": meta_data.get("name"),
+        "authors": meta_data.get("authors", []),
         "startTime": startTime.isoformat() + "Z",
         "endTime": endTime.isoformat() + "Z",
-        "problems": args.problems if args.problems else [],
+        "problems": meta_data.get("problems", []),
         "participants": []
     }
 
     try:
         contests_collection.insert_one(contest_document)
-        print(f"Contest '{args.name}' added successfully.")
+        print(f"Contest '{meta_data.get('name')}' added successfully from meta.json.")
     except Exception as e:
         print(f"An error occurred: {e}")
     finally:

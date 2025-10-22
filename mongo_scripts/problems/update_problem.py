@@ -28,35 +28,43 @@ def main():
     db = client[DB_NAME]
     problems_collection = db["problems"]
 
-    parser = argparse.ArgumentParser(description='Update a problem in the database.')
+    parser = argparse.ArgumentParser(description='Update a problem in the database from its meta.json file.')
     parser.add_argument('--id', required=True, help='The problem ID.')
-    parser.add_argument('--title', help='The new title of the problem.')
-    parser.add_argument('--difficulty', help='The new difficulty of the problem.')
-    parser.add_argument('--tags', nargs='+', help='The new list of tags.')
-    parser.add_argument('--authors', nargs='+', help='The new list of authors.')
-    parser.add_argument('--description', help='The new problem description.')
-    
     args = parser.parse_args()
 
     if not is_valid_problem_id(args.id):
         print("Invalid problem ID format. It must be in the format C<contest_id><problem_letter> (e.g., C1A, C100AA).")
         return
 
-    update_fields = {}
-    if args.title:
-        update_fields['title'] = args.title
-    if args.difficulty:
-        update_fields['difficulty'] = args.difficulty
-    if args.tags:
-        update_fields['tags'] = args.tags
-    if args.authors:
-        update_fields['authors'] = args.authors
-    if args.description:
-        update_fields['description'] = args.description
+    # Extract contest_id and problem_letter
+    match = re.match(r'^(C\d+)([A-Z]+)$', args.id)
+    contest_id = match.group(1)
+    problem_letter = match.group(2)
 
-    if not update_fields:
-        print("No fields to update.")
+    # Construct path to meta.json
+    meta_file_path = os.path.join(os.path.dirname(__file__), '..', '..', 'data', 'contests', contest_id, 'problems', problem_letter, 'meta.json')
+
+    if not os.path.isfile(meta_file_path):
+        print(f"Error: meta.json file not found at '{meta_file_path}'.")
         return
+
+    # Read and parse meta.json
+    try:
+        with open(meta_file_path, 'r') as f:
+            meta_data = json.load(f)
+    except json.JSONDecodeError:
+        print(f"Error: Could not decode meta.json at '{meta_file_path}'.")
+        return
+    except Exception as e:
+        print(f"Error reading meta.json: {e}")
+        return
+
+    update_fields = {
+        "title": meta_data.get("title"),
+        "difficulty": meta_data.get("difficulty"),
+        "tags": meta_data.get("tags", []),
+        "authors": meta_data.get("authors", []),
+    }
 
     try:
         result = problems_collection.update_one(
@@ -64,7 +72,7 @@ def main():
             {"$set": update_fields}
         )
         if result.matched_count > 0:
-            print(f"Problem with id '{args.id}' updated successfully.")
+            print(f"Problem with id '{args.id}' updated successfully from meta.json.")
         else:
             print(f"Problem with id '{args.id}' not found.")
     except Exception as e:
