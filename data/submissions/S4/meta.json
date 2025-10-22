@@ -1,0 +1,9 @@
+{
+  "submission_id": "S4",
+  "username": "testuser",
+  "problem_id": "C1A",
+  "timestamp": "2025-10-22T21:39:47Z",
+  "status": "accepted",
+  "language": "n = int(input()); print(\"Prime\" if all(n % i != 0 for i in range(2, int(n**0.5) + 1)) and n  else \"Not Prime\")",
+  "test_results": []
+}
