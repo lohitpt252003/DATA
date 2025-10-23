@@ -4,6 +4,107 @@
   "username": "testuser",
   "language": "python",
   "status": "accepted",
-  "timestamp": "2025-10-23T13:48:15Z",
-  "test_cases": []
+  "timestamp": "2025-10-23T14:11:46Z",
+  "test_cases": [
+    {
+      "status": "passed",
+      "stdin": "0"
+    },
+    {
+      "status": "passed",
+      "stdin": "9678141757"
+    },
+    {
+      "status": "passed",
+      "stdin": "1437322043"
+    },
+    {
+      "status": "passed",
+      "stdin": "6426055171"
+    },
+    {
+      "status": "passed",
+      "stdin": "2826240236"
+    },
+    {
+      "status": "passed",
+      "stdin": "6966883686"
+    },
+    {
+      "status": "passed",
+      "stdin": "2552179528"
+    },
+    {
+      "status": "passed",
+      "stdin": "8357185728"
+    },
+    {
+      "status": "passed",
+      "stdin": "6756257058"
+    },
+    {
+      "status": "passed",
+      "stdin": "6251220985"
+    },
+    {
+      "status": "passed",
+      "stdin": "6420543790"
+    },
+    {
+      "status": "passed",
+      "stdin": "1"
+    },
+    {
+      "status": "passed",
+      "stdin": "4808033750"
+    },
+    {
+      "status": "passed",
+      "stdin": "9999999881"
+    },
+    {
+      "status": "passed",
+      "stdin": "9999999001"
+    },
+    {
+      "status": "passed",
+      "stdin": "9999999241"
+    },
+    {
+      "status": "passed",
+      "stdin": "9999999089"
+    },
+    {
+      "status": "passed",
+      "stdin": "9999999703"
+    },
+    {
+      "status": "passed",
+      "stdin": "2"
+    },
+    {
+      "status": "passed",
+      "stdin": "10000000000"
+    },
+    {
+      "status": "passed",
+      "stdin": "3856582987"
+    },
+    {
+      "status": "passed",
+      "stdin": "1420044149"
+    },
+    {
+      "status": "passed",
+      "stdin": "2339822171"
+    },
+    {
+      "status": "passed",
+      "stdin": "4096914163"
+    },
+    {
+      "status": "passed",
+      "stdin": "4475216353"
+    }
+  ]
 }
