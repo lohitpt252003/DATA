@@ -1,0 +1,260 @@
+{
+    "submission_id": "68fd3e0d661192d740c46da3",
+    "problem_id": "C1A",
+    "username": "testuser",
+    "language": "python",
+    "status": "runtime_error",
+    "timestamp": 1761426957.8679297,
+    "test_results": [
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.828125,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dfdf\nNameError: name 'dfdf' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.03,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dfdf\nNameError: name 'dfdf' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.77734375,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dfdf\nNameError: name 'dfdf' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.05,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dfdf\nNameError: name 'dfdf' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.703125,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dfdf\nNameError: name 'dfdf' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.04,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dfdf\nNameError: name 'dfdf' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.6171875,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dfdf\nNameError: name 'dfdf' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.03,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dfdf\nNameError: name 'dfdf' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.609375,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dfdf\nNameError: name 'dfdf' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.03,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dfdf\nNameError: name 'dfdf' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.83984375,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dfdf\nNameError: name 'dfdf' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.03,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dfdf\nNameError: name 'dfdf' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.7890625,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dfdf\nNameError: name 'dfdf' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.05,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dfdf\nNameError: name 'dfdf' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.55078125,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dfdf\nNameError: name 'dfdf' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.02,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dfdf\nNameError: name 'dfdf' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.59375,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dfdf\nNameError: name 'dfdf' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.04,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dfdf\nNameError: name 'dfdf' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.83984375,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dfdf\nNameError: name 'dfdf' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.06,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dfdf\nNameError: name 'dfdf' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.890625,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dfdf\nNameError: name 'dfdf' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.05,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dfdf\nNameError: name 'dfdf' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.76953125,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dfdf\nNameError: name 'dfdf' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.03,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dfdf\nNameError: name 'dfdf' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.5546875,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dfdf\nNameError: name 'dfdf' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.03,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dfdf\nNameError: name 'dfdf' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.87109375,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dfdf\nNameError: name 'dfdf' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.03,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dfdf\nNameError: name 'dfdf' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.66015625,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dfdf\nNameError: name 'dfdf' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.01,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dfdf\nNameError: name 'dfdf' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.5078125,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dfdf\nNameError: name 'dfdf' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.07,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dfdf\nNameError: name 'dfdf' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.5859375,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dfdf\nNameError: name 'dfdf' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.02,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dfdf\nNameError: name 'dfdf' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.61328125,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dfdf\nNameError: name 'dfdf' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.0,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dfdf\nNameError: name 'dfdf' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.890625,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dfdf\nNameError: name 'dfdf' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.04,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dfdf\nNameError: name 'dfdf' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.83984375,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dfdf\nNameError: name 'dfdf' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.01,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dfdf\nNameError: name 'dfdf' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.71484375,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dfdf\nNameError: name 'dfdf' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.05,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dfdf\nNameError: name 'dfdf' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.84375,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dfdf\nNameError: name 'dfdf' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.07,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dfdf\nNameError: name 'dfdf' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.78125,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dfdf\nNameError: name 'dfdf' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.04,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dfdf\nNameError: name 'dfdf' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.80078125,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dfdf\nNameError: name 'dfdf' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.01,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dfdf\nNameError: name 'dfdf' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.83984375,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dfdf\nNameError: name 'dfdf' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.02,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dfdf\nNameError: name 'dfdf' is not defined\nCommand exited with non-zero status 1"
+        }
+    ]
+}
