@@ -1,0 +1,260 @@
+{
+    "submission_id": "68fd193cf3c4bb34610ff770",
+    "problem_id": "C1A",
+    "username": "testuser",
+    "language": "c",
+    "status": "wrong_answer",
+    "timestamp": 1761417532.3150702,
+    "test_results": [
+        {
+            "err": "",
+            "memorytaken": 1.359375,
+            "stderr": "",
+            "stdout": "Hello, C1A!\n",
+            "success": true,
+            "timetaken": 0.0,
+            "status": "wrong_answer",
+            "message": "Output mismatch"
+        },
+        {
+            "err": "",
+            "memorytaken": 1.2890625,
+            "stderr": "",
+            "stdout": "Hello, C1A!\n",
+            "success": true,
+            "timetaken": 0.0,
+            "status": "wrong_answer",
+            "message": "Output mismatch"
+        },
+        {
+            "err": "",
+            "memorytaken": 1.359375,
+            "stderr": "",
+            "stdout": "Hello, C1A!\n",
+            "success": true,
+            "timetaken": 0.0,
+            "status": "wrong_answer",
+            "message": "Output mismatch"
+        },
+        {
+            "err": "",
+            "memorytaken": 1.28125,
+            "stderr": "",
+            "stdout": "Hello, C1A!\n",
+            "success": true,
+            "timetaken": 0.0,
+            "status": "wrong_answer",
+            "message": "Output mismatch"
+        },
+        {
+            "err": "",
+            "memorytaken": 1.28125,
+            "stderr": "",
+            "stdout": "Hello, C1A!\n",
+            "success": true,
+            "timetaken": 0.0,
+            "status": "wrong_answer",
+            "message": "Output mismatch"
+        },
+        {
+            "err": "",
+            "memorytaken": 1.296875,
+            "stderr": "",
+            "stdout": "Hello, C1A!\n",
+            "success": true,
+            "timetaken": 0.0,
+            "status": "wrong_answer",
+            "message": "Output mismatch"
+        },
+        {
+            "err": "",
+            "memorytaken": 1.35546875,
+            "stderr": "",
+            "stdout": "Hello, C1A!\n",
+            "success": true,
+            "timetaken": 0.0,
+            "status": "wrong_answer",
+            "message": "Output mismatch"
+        },
+        {
+            "err": "",
+            "memorytaken": 1.28515625,
+            "stderr": "",
+            "stdout": "Hello, C1A!\n",
+            "success": true,
+            "timetaken": 0.0,
+            "status": "wrong_answer",
+            "message": "Output mismatch"
+        },
+        {
+            "err": "",
+            "memorytaken": 1.40234375,
+            "stderr": "",
+            "stdout": "Hello, C1A!\n",
+            "success": true,
+            "timetaken": 0.0,
+            "status": "wrong_answer",
+            "message": "Output mismatch"
+        },
+        {
+            "err": "",
+            "memorytaken": 1.28515625,
+            "stderr": "",
+            "stdout": "Hello, C1A!\n",
+            "success": true,
+            "timetaken": 0.0,
+            "status": "wrong_answer",
+            "message": "Output mismatch"
+        },
+        {
+            "err": "",
+            "memorytaken": 1.2890625,
+            "stderr": "",
+            "stdout": "Hello, C1A!\n",
+            "success": true,
+            "timetaken": 0.0,
+            "status": "wrong_answer",
+            "message": "Output mismatch"
+        },
+        {
+            "err": "",
+            "memorytaken": 1.34765625,
+            "stderr": "",
+            "stdout": "Hello, C1A!\n",
+            "success": true,
+            "timetaken": 0.0,
+            "status": "wrong_answer",
+            "message": "Output mismatch"
+        },
+        {
+            "err": "",
+            "memorytaken": 1.35546875,
+            "stderr": "",
+            "stdout": "Hello, C1A!\n",
+            "success": true,
+            "timetaken": 0.0,
+            "status": "wrong_answer",
+            "message": "Output mismatch"
+        },
+        {
+            "err": "",
+            "memorytaken": 1.2890625,
+            "stderr": "",
+            "stdout": "Hello, C1A!\n",
+            "success": true,
+            "timetaken": 0.0,
+            "status": "wrong_answer",
+            "message": "Output mismatch"
+        },
+        {
+            "err": "",
+            "memorytaken": 1.41796875,
+            "stderr": "",
+            "stdout": "Hello, C1A!\n",
+            "success": true,
+            "timetaken": 0.0,
+            "status": "wrong_answer",
+            "message": "Output mismatch"
+        },
+        {
+            "err": "",
+            "memorytaken": 1.28125,
+            "stderr": "",
+            "stdout": "Hello, C1A!\n",
+            "success": true,
+            "timetaken": 0.0,
+            "status": "wrong_answer",
+            "message": "Output mismatch"
+        },
+        {
+            "err": "",
+            "memorytaken": 1.28125,
+            "stderr": "",
+            "stdout": "Hello, C1A!\n",
+            "success": true,
+            "timetaken": 0.0,
+            "status": "wrong_answer",
+            "message": "Output mismatch"
+        },
+        {
+            "err": "",
+            "memorytaken": 1.27734375,
+            "stderr": "",
+            "stdout": "Hello, C1A!\n",
+            "success": true,
+            "timetaken": 0.0,
+            "status": "wrong_answer",
+            "message": "Output mismatch"
+        },
+        {
+            "err": "",
+            "memorytaken": 1.27734375,
+            "stderr": "",
+            "stdout": "Hello, C1A!\n",
+            "success": true,
+            "timetaken": 0.0,
+            "status": "wrong_answer",
+            "message": "Output mismatch"
+        },
+        {
+            "err": "",
+            "memorytaken": 1.28515625,
+            "stderr": "",
+            "stdout": "Hello, C1A!\n",
+            "success": true,
+            "timetaken": 0.0,
+            "status": "wrong_answer",
+            "message": "Output mismatch"
+        },
+        {
+            "err": "",
+            "memorytaken": 1.296875,
+            "stderr": "",
+            "stdout": "Hello, C1A!\n",
+            "success": true,
+            "timetaken": 0.0,
+            "status": "wrong_answer",
+            "message": "Output mismatch"
+        },
+        {
+            "err": "",
+            "memorytaken": 1.3515625,
+            "stderr": "",
+            "stdout": "Hello, C1A!\n",
+            "success": true,
+            "timetaken": 0.0,
+            "status": "wrong_answer",
+            "message": "Output mismatch"
+        },
+        {
+            "err": "",
+            "memorytaken": 1.2890625,
+            "stderr": "",
+            "stdout": "Hello, C1A!\n",
+            "success": true,
+            "timetaken": 0.0,
+            "status": "wrong_answer",
+            "message": "Output mismatch"
+        },
+        {
+            "err": "",
+            "memorytaken": 1.35546875,
+            "stderr": "",
+            "stdout": "Hello, C1A!\n",
+            "success": true,
+            "timetaken": 0.0,
+            "status": "wrong_answer",
+            "message": "Output mismatch"
+        },
+        {
+            "err": "",
+            "memorytaken": 1.41796875,
+            "stderr": "",
+            "stdout": "Hello, C1A!\n",
+            "success": true,
+            "timetaken": 0.0,
+            "status": "wrong_answer",
+            "message": "Output mismatch"
+        }
+    ]
+}
