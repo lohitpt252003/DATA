@@ -1,0 +1,260 @@
+{
+    "submission_id": "68fd3d80661192d740c46da2",
+    "problem_id": "C1A",
+    "username": "testuser",
+    "language": "python",
+    "status": "runtime_error",
+    "timestamp": 1761426816.1047766,
+    "test_results": [
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.79296875,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    eger\nNameError: name 'eger' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.05,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    eger\nNameError: name 'eger' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.6171875,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    eger\nNameError: name 'eger' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.03,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    eger\nNameError: name 'eger' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.796875,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    eger\nNameError: name 'eger' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.03,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    eger\nNameError: name 'eger' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.60546875,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    eger\nNameError: name 'eger' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.09,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    eger\nNameError: name 'eger' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.70703125,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    eger\nNameError: name 'eger' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.04,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    eger\nNameError: name 'eger' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.7578125,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    eger\nNameError: name 'eger' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.05,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    eger\nNameError: name 'eger' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.68359375,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    eger\nNameError: name 'eger' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.06,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    eger\nNameError: name 'eger' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.87890625,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    eger\nNameError: name 'eger' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.05,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    eger\nNameError: name 'eger' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.7890625,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    eger\nNameError: name 'eger' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.03,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    eger\nNameError: name 'eger' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.74609375,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    eger\nNameError: name 'eger' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.03,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    eger\nNameError: name 'eger' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.6640625,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    eger\nNameError: name 'eger' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.07,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    eger\nNameError: name 'eger' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.65234375,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    eger\nNameError: name 'eger' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.09,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    eger\nNameError: name 'eger' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.5078125,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    eger\nNameError: name 'eger' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.07,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    eger\nNameError: name 'eger' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.7734375,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    eger\nNameError: name 'eger' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.03,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    eger\nNameError: name 'eger' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.66015625,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    eger\nNameError: name 'eger' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.03,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    eger\nNameError: name 'eger' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.6640625,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    eger\nNameError: name 'eger' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.06,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    eger\nNameError: name 'eger' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.75390625,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    eger\nNameError: name 'eger' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.02,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    eger\nNameError: name 'eger' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.8359375,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    eger\nNameError: name 'eger' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.05,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    eger\nNameError: name 'eger' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.8515625,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    eger\nNameError: name 'eger' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.1,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    eger\nNameError: name 'eger' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.72265625,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    eger\nNameError: name 'eger' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.01,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    eger\nNameError: name 'eger' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.78515625,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    eger\nNameError: name 'eger' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.02,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    eger\nNameError: name 'eger' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.78125,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    eger\nNameError: name 'eger' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.03,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    eger\nNameError: name 'eger' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.89453125,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    eger\nNameError: name 'eger' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.02,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    eger\nNameError: name 'eger' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.70703125,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    eger\nNameError: name 'eger' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.02,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    eger\nNameError: name 'eger' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.83984375,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    eger\nNameError: name 'eger' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.05,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    eger\nNameError: name 'eger' is not defined\nCommand exited with non-zero status 1"
+        }
+    ]
+}
