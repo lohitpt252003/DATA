@@ -1,0 +1,9 @@
+{
+    "id": "C2C",
+    "title": "LCM Challenge",
+    "timeLimit": 1000,
+    "memoryLimit": 256,
+    "tags": ["math", "number-theory", "lcm", "bruteforce-optimization"],
+    "authors": ["Sriramchandher", "Lohit"],
+    "difficulty": "Easy"
+}

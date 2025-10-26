@@ -1,0 +1,9 @@
+{
+	"id": "C2B",
+	"title": "Prime Generator",
+	"timeLimit": 3000,
+	"memoryLimit": 1536,
+	"tags": ["math", "number-theory", "sieve", "primes", "segmented-sieve"],
+	"authors": ["Lohit","Sriramchandher"],
+	"difficulty": "Medium"
+}

@@ -83,3 +83,17 @@ The data is stored in a hierarchical file system structure. Problems are now org
 ## Validation and Solution Scripts
 
 The `scripts/` directory contains validation scripts. For detailed instructions, refer to the [README.md in the scripts directory](./scripts/README.md).
+
+### Problem-Specific Validator (`validator.py`)
+
+Each problem now has its own `validator.py` script located in the problem's directory (e.g., `data/contests/C1/problems/A/validator.py`). This script acts as a **custom judge** for the problem.
+
+Its role is to:
+
+1.  Take a user's output (as a string) and the path to the input file as command-line arguments.
+2.  Compare the user's output with the correct answer (which it derives from the input).
+3.  Print a verdict, such as "Accepted" or "Wrong Answer".
+
+### Test Cases
+
+Test cases for each problem are now stored as `.in` files (e.g., `1.in`, `2.in`). The `judge_service` will run the user's code with the content of these `.in` files and then use the problem's `validator.py` to determine the correctness of the output.

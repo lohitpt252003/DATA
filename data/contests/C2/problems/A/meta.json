@@ -1,0 +1,9 @@
+{
+	"id": "C2A",
+	"title": "Counting Divisors",
+	"timeLimit": 1000,
+	"memoryLimit": 512,
+	"tags": ["math", "number-theory", "sieve", "divisors"],
+	"authors": ["Lohit","Sriramchandher"],
+	"difficulty": "Easy"
+}

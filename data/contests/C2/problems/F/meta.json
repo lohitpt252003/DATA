@@ -1,0 +1,9 @@
+{
+    "id": "C2F",
+    "title": "GCD of Pairwise LCMs",
+    "timeLimit": 3000,
+    "memoryLimit": 256,
+    "tags": ["math", "number-theory", "sieve", "factorization"],
+    "authors": ["Sriramchandher","Lohit"],
+    "difficulty": "Hard"
+}

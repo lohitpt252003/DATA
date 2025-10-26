@@ -1,0 +1,9 @@
+{
+    "id": "C2D",
+    "title": "Product of Three Numbers",
+    "timeLimit": 1000,
+    "memoryLimit": 256,
+    "tags": ["math", "number-theory", "factorization"],
+    "authors": ["Sriramchandher","Lohit"],
+    "difficulty": "Easy"
+}

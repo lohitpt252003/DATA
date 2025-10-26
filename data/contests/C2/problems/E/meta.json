@@ -1,0 +1,9 @@
+{
+    "id": "C2E",
+    "title": "Maximum Pair GCD",
+    "timeLimit": 1000,
+    "memoryLimit": 256,
+    "tags": ["math", "number-theory", "gcd"],
+    "authors": ["Sriramchandher","Lohit"],
+    "difficulty": "Tricky"
+}
