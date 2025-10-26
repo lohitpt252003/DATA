@@ -1,0 +1,260 @@
+{
+    "submission_id": "68fdef790e94418fdb43443e",
+    "problem_id": "C1A",
+    "username": "testuser",
+    "language": "python",
+    "status": "runtime_error",
+    "timestamp": 1761472377.1095157,
+    "test_results": [
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.734375,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dgse\nNameError: name 'dgse' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.03,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dgse\nNameError: name 'dgse' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.5078125,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dgse\nNameError: name 'dgse' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.01,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dgse\nNameError: name 'dgse' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.68359375,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dgse\nNameError: name 'dgse' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.0,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dgse\nNameError: name 'dgse' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.80859375,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dgse\nNameError: name 'dgse' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.03,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dgse\nNameError: name 'dgse' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.828125,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dgse\nNameError: name 'dgse' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.0,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dgse\nNameError: name 'dgse' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.77734375,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dgse\nNameError: name 'dgse' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.02,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dgse\nNameError: name 'dgse' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.59375,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dgse\nNameError: name 'dgse' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.01,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dgse\nNameError: name 'dgse' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.66796875,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dgse\nNameError: name 'dgse' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.0,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dgse\nNameError: name 'dgse' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.80078125,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dgse\nNameError: name 'dgse' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.0,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dgse\nNameError: name 'dgse' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.80078125,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dgse\nNameError: name 'dgse' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.02,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dgse\nNameError: name 'dgse' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.65234375,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dgse\nNameError: name 'dgse' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.0,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dgse\nNameError: name 'dgse' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.6171875,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dgse\nNameError: name 'dgse' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.02,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dgse\nNameError: name 'dgse' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.546875,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dgse\nNameError: name 'dgse' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.01,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dgse\nNameError: name 'dgse' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.71484375,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dgse\nNameError: name 'dgse' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.0,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dgse\nNameError: name 'dgse' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.65234375,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dgse\nNameError: name 'dgse' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.0,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dgse\nNameError: name 'dgse' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.734375,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dgse\nNameError: name 'dgse' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.0,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dgse\nNameError: name 'dgse' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.7421875,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dgse\nNameError: name 'dgse' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.0,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dgse\nNameError: name 'dgse' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.8515625,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dgse\nNameError: name 'dgse' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.0,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dgse\nNameError: name 'dgse' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.5078125,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dgse\nNameError: name 'dgse' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.0,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dgse\nNameError: name 'dgse' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.6171875,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dgse\nNameError: name 'dgse' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.02,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dgse\nNameError: name 'dgse' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.65625,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dgse\nNameError: name 'dgse' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.0,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dgse\nNameError: name 'dgse' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.81640625,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dgse\nNameError: name 'dgse' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.02,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dgse\nNameError: name 'dgse' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.8984375,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dgse\nNameError: name 'dgse' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.01,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dgse\nNameError: name 'dgse' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.84765625,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dgse\nNameError: name 'dgse' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.01,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dgse\nNameError: name 'dgse' is not defined\nCommand exited with non-zero status 1"
+        },
+        {
+            "err": "Runtime Error (Exit Code: 1)",
+            "memorytaken": 7.8125,
+            "stderr": "Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dgse\nNameError: name 'dgse' is not defined\nCommand exited with non-zero status 1",
+            "stdout": "",
+            "success": false,
+            "timetaken": 0.0,
+            "status": "runtime_error",
+            "message": "Runtime Error: Traceback (most recent call last):\n  File \"/sandbox/temp/solution.py\", line 1, in <module>\n    dgse\nNameError: name 'dgse' is not defined\nCommand exited with non-zero status 1"
+        }
+    ]
+}
