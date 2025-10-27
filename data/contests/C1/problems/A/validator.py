@@ -32,7 +32,7 @@ def main():
     expected_out = "prime" if is_prime(num) else "not prime"
 
     if user_out == expected_out:
-        print("PASS: Correct output")
+        print("Accepted")
         sys.exit(0)
     else:
         print(f"FAIL: Expected '{expected_out}', got '{user_out}'")
