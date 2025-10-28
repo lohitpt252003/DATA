@@ -15,5 +15,6 @@ For each integer, print the number of its divisors on a separate line.
 
 ### Constraints
 
-$1 \le n \le 10^5$
-$1 \le x \le 10^6$
+- $1 \le n \le 10^5$
+- $1 \le x \le 10^6$
+This is the latest update 
