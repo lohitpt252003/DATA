@@ -22,22 +22,3 @@ For each integer, print the number of its divisors on a separate line.
 
 1 <= n <= 10^5
 1 <= x <= 10^6
-
-### Example
-
-Input:
-
-```
-3
-16
-17
-18
-```
-
-Output:
-
-```
-5
-2
-6
-```
