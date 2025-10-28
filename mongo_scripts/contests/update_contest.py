@@ -62,6 +62,8 @@ def main():
         "name": meta_data.get("name"),
         "authors": meta_data.get("authors", []),
         "problems": meta_data.get("problems", []),
+        "startTime": meta_data.get("startTime"),
+        "endTime": meta_data.get("endTime"),
     }
 
     try:
