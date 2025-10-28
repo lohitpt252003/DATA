@@ -4,6 +4,6 @@
     "description": "A brief description of the contest.",
     "startTime": "2025-10-26T18:00:00Z",
     "endTime": "2025-11-02T18:00:00Z",
-    "problems": ["C2A", "C2B", "C2C", "C2D", "C2E", "C2F", "C2G"],
+    "problems": ["C2A", "C2B", "C2C", "C2D", "C2E", "C2F"],
     "authors": ["Lohit", "Sriramchandher"]
 }
