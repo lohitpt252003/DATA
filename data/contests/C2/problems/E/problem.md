@@ -15,3 +15,7 @@ For each testcase, print a single integer — the maximum possible `gcd(a, b)` f
 
 - There will be $t$ testcases, where $1 \le t \le 2 \cdot 10^4$.
 - For each testcase, there will be an integer $n$, where $1 \le n \le 10^{18}$.
+
+### Notes
+
+There are no notes for this problem.
