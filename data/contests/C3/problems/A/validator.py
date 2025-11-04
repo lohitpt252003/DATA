@@ -1,0 +1,1 @@
+# This is a placeholder for the solution validator script.
