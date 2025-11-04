@@ -1,9 +1,9 @@
 {
-    "id": "P_id",
-    "title": "Problem Title",
+    "id": "C3A",
+    "title": "Random Number Generator",
     "timeLimit": 1000,
     "memoryLimit": 256,
-    "tags": ["tag1", "tag2"],
-    "authors": ["author1", "author2"],
-    "difficulty": "Easy | Medium | Hard"
+    "tags": ["Random", "Math"],
+    "authors": ["Lohit", "Sriramchandher"],
+    "difficulty": "Easy"
 }

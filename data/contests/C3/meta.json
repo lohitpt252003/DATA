@@ -1,9 +1,9 @@
 {
     "id": "C3",
-    "name": "Basic Conding Contest",
+    "name": "Basic Coding Contest",
     "description": "We will cover basic problems related to the languages",
     "startTime": "2025-10-01T00:00:00Z",
     "endTime": "2025-10-07T23:59:59Z",
-    "problems": [""],
+    "problems": ["C3A", "C3B"],
     "authors": ["Lohit", "Sriramchandher"]
 }
