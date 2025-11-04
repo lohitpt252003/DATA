@@ -82,3 +82,20 @@ This script acts as a **custom judge** for the problem. Its role is to:
 4.  Print a verdict, such as "Accepted" or "Wrong Answer".
 
 This problem-specific validator is used by the judging system to grade submissions.
+
+## Testcase Generators
+
+For convenience when bootstrapping problems, a generic testcase generator is provided at `scripts/generators/generate_cp_cases.py`.
+
+Usage (from the DATA root or repo root):
+
+```bash
+python -m scripts.generators.generate_cp_cases ../DATA/data/contests/<ContestId>/problems/<Letter>/testcases --seed 42 --cap 100000 --val-lo -1000000000 --val-hi 1000000000
+```
+
+It emits five `.in` files with common competitive programming shapes:
+- 1–2: random packs with total `sum(n)` ≤ `--cap`
+- 3: single large case (`n=1e5`) for TLE stress
+- 4–5: curated edge/corner patterns (including negatives and zeros if the range spans them)
+
+Problems can also include a bespoke generator script under their own `testcases/` directory if their input format differs from the default.

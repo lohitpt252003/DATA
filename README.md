@@ -97,3 +97,20 @@ Its role is to:
 ### Test Cases
 
 Test cases for each problem are now stored as `.in` files (e.g., `1.in`, `2.in`). The `judge_service` will run the user's code with the content of these `.in` files and then use the problem's `validator.py` to determine the correctness of the output.
+
+#### Generating Testcases
+
+- A reusable generator is available at `DATA/scripts/generators/generate_cp_cases.py`.
+- Default format: first line `t`; for each test, a line with `n` then a line with `n` integers.
+- By default it creates:
+  - `1.in`, `2.in`: random packs with sum of all `n` ≤ 1e5
+  - `3.in`: stress/TLE case with `t=1`, `n=100000`
+  - `4.in`, `5.in`: curated corner cases
+
+Run (from repo root):
+
+```bash
+python -m DATA.scripts.generators.generate_cp_cases DATA/data/contests/<ContestId>/problems/<Letter>/testcases --seed 42 --val-lo -1000000000 --val-hi 1000000000
+```
+
+Per‑problem scripts may also exist under a problem’s `testcases/` folder (for example, `DATA/data/contests/C3/problems/B/testcases/a.py`) to tailor generators to problem‑specific formats or value ranges.

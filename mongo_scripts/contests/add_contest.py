@@ -102,8 +102,9 @@ def main():
                 print(f"Error reading meta.json for '{problem_id}': {e}")
                 return
 
-    startTime = datetime.now() + timedelta(days=7)
-    endTime = startTime + timedelta(hours=4)
+    # Set contest window from now to 1 week
+    startTime = datetime.utcnow()
+    endTime = startTime + timedelta(days=7)
 
     contest_document = {
         "id": args.id,
