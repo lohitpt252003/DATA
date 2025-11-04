@@ -1,0 +1,1 @@
+It doesn't matter gcd(1, 2) = gcd(2, 3) = gcd(1, 3) = 1
