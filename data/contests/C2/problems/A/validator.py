@@ -14,51 +14,50 @@ def count_divisors(x: int) -> int:
 
 
 def main():
-    if len(sys.argv) < 3:
-        print("Usage: validator.py <user_output_file> <test_input_file>")
+    if len(sys.argv) != 3:
+        print("Usage: python validator.py <user_output_file> <test_input_file>")
         sys.exit(1)
 
-    user_output_file = sys.argv[1]
-    test_input_file = sys.argv[2]
-
-    # --- Read user output ---
-    with open(user_output_file, 'r') as f:
-        user_out_lines = [line.strip() for line in f if line.strip()]
-
-    # --- Read test input ---
-    with open(test_input_file, 'r') as f:
-        data = f.read().strip().split()
-    
-    if not data:
-        print("FAIL: Empty test input")
-        sys.exit(1)
+    user_output_filename = sys.argv[1]
+    correct_input_filename = sys.argv[2]
 
     try:
-        n = int(data[0])
-        nums = list(map(int, data[1:]))
-    except ValueError:
-        print("FAIL: Invalid input format (expected integers)")
-        sys.exit(1)
+        with open(correct_input_filename, 'r') as f:
+            input_lines = f.read().strip().split('\n')
+        
+        with open(user_output_filename, 'r') as f:
+            user_lines = f.read().strip().split('\n')
 
-    if len(nums) != n:
-        print(f"FAIL: Expected {n} numbers, got {len(nums)}")
-        sys.exit(1)
+        if not input_lines or not input_lines[0]:
+            print("Wrong Answer") # Handles empty input file
+            sys.exit(0)
 
-    # --- Compute expected output ---
-    expected_out = [str(count_divisors(x)) for x in nums]
+        n = int(input_lines[0])
+        
+        if len(input_lines) != n + 1:
+            print("Wrong Answer") # Incorrect number of lines in input
+            sys.exit(0)
 
-    # --- Validate ---
-    if len(user_out_lines) != len(expected_out):
-        print(f"FAIL: Expected {len(expected_out)} lines, got {len(user_out_lines)}")
-        sys.exit(1)
+        numbers = [int(line) for line in input_lines[1:]]
 
-    for i, (user_line, correct_line) in enumerate(zip(user_out_lines, expected_out), start=1):
-        if user_line != correct_line:
-            print(f"FAIL: Line {i}: expected '{correct_line}', got '{user_line}'")
-            sys.exit(1)
+        if len(user_lines) != n:
+            print("Wrong Answer") # User output has wrong number of lines
+            sys.exit(0)
 
-    print("Accepted")
-    sys.exit(0)
+        for i in range(n):
+            expected_divisors = count_divisors(numbers[i])
+            user_divisors = int(user_lines[i])
+            if user_divisors != expected_divisors:
+                print("Wrong Answer")
+                sys.exit(0)
+                
+        print("Accepted")
+        sys.exit(0)
+
+    except (IOError, ValueError):
+        # If file reading fails or int conversion fails, it's a Wrong Answer
+        print("Wrong Answer")
+        sys.exit(0)
 
 
 if __name__ == "__main__":

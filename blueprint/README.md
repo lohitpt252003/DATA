@@ -32,6 +32,12 @@ The `solution` blueprint provides templates for writing problem solutions in var
 -   `solution.md`: A Markdown template for a detailed explanation of the solution, including the approach, complexity analysis, and code snippets.
 -   `solution.tex`: A LaTeX template for creating a high-quality PDF version of the solution explanation.
 
+## Validator Blueprint (`validator/`)
+
+The `validator` blueprint provides a template for creating a custom judge for a problem.
+
+-   `validator.py`: A generic Python script that reads the user's output and the test case input, and then compares them. It provides a basic structure for writing custom validation logic.
+
 ## Content Guidelines
 
 ### Mathematical Notation

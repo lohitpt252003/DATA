@@ -92,7 +92,7 @@ Its role is to:
 
 1.  Take a user's output (as a string) and the path to the input file as command-line arguments.
 2.  Compare the user's output with the correct answer (which it derives from the input).
-3.  Print a verdict, such as "Accepted" or "Wrong Answer".
+3.  Print a verdict, such as "Accepted" or "Wrong Answer". This script is executed by the `judge_service` (part of the backend) which communicates with the code execution engine's `/api/validate` endpoint.
 
 ### Test Cases
 
